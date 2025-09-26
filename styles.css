@@ -138,6 +138,10 @@ body {
 */
 }
 
+.long {
+    font-size: 0.9em;
+}
+
 .rules-hcentered {
     text-align: center;
 }

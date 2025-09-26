@@ -1,108 +1,111 @@
-▶▷↻★∞ထ🔵🔴•→✔½
+_Order: **Standard**, Custom._
 
-  ┌──────────┐
-  │ Standard │
-  └──────────┘
+## Free Actions (▷)
 
-    Effects  ────────────────────────────────────────  (19)
+| Card | Status |
+| :-: | :-: |
+| **Regenerate** | ? |
+| **Stand Up** | need icon |
+| Custom Free Action 1 | ? |
 
-        Afflicted   — take specified damage at EoET (in combat) -or- every 10s + whenever someone attempts to remove the condition  *(stacks)*
-      ✔ Determined  — fail:  may add 🔵  *(then remove condition)*
-        Disoriented — can't react + senses count as obscured + disadv → Perception
-        Empowered   — adv → all + IP refills at SoET  *(remove condition at EoS)*
-      ✔ Enhanced x6 — \<bonus\> → \<attribute\>  *(doesn't affect: defenses / HP / FP / IP)*  *(stacks if different attributes)*
-            Strength
-            Speed
-            Intellect
-            Willpower
-            Awareness
-            Presence
-        Exhausted   — \<penalty\> → all tests;  long rest reduces penalty by 1  *(stacks)*
-        Focused     — FP costs reduced by 1
-        Immobilized — can't move or be moved by other effects
-        Prone       — Slowed + melee vs you gain adv + can Brace wo/cover;  stand as ▷ then -5 movement until SoNT
-        Restrained  — movement = 0 + disadv → all other than to escape
-        Slowed      — 1/2 movement  *(rounded up)*
-        Stunned     — lose ↻ + next turn gain 2 fewer ▶ and no ↻
-        Surprised   — lose ↻ + no ↻ at SoC + first turn = slow w/1 fewer ▶ and no ↻
-      ✔ Unconscious — can't do anything except Breathe Stormlight | Regenerate;  can regain consciousness at end of any turn (HP 0 → 1)
+## Costly Actions (▶)
 
-    Actions  ──────────────────────────────────  (16)
+_Order: Combat, Stormlight, Surge_
 
-        ▶   Brace
-        ▶   Disengage
-        ▶   Gain Advantage
-        ▶   Interact            (multiple)
-        ▶   Move                (multiple)
-        ▶+  Ready
-        ▶   Strike              (2x primary, 1x offhand)
-        ▶   Use a Skill
+| Card | Status |
+| :-: | :-: |
+| **Brace** | ? |
+| **Disengage** | ? |
+| **Gain Advantage** | ? |
+| **Grapple** | ? |
+| **Interact** | ? |
+| **Move** | ? |
+| **Ready** | ? |
+| **Recover** | ? |
+| **Reload** | ? |
+| **Shove** | ? |
+| **Strike** | ? |
+| **Use a Skill** | ? |
+| **Breathe Stormlight** | ? |
+| **Enhance** | ? |
+| **Abrasion** | ? |
+| **Adhesion** | ? |
+| **Cohesion** | ? |
+| **Division** | ? |
+| **Gravitation** | ? |
+| **Illumination** | ? |
+| **Progression** | ? |
+| **Tension** | ? |
+| **Transformation** | ? |
+| **Transportation** | ? |
+| Custom Costly Action 1 | ? |
 
-        ▶▶  Grapple
-        ▶▶  Recover
-        ▶▶  Shove
+## Reactions (↻)
 
-        ↻   Aid
-        ↻   Avoid Danger
-        ↻   Dodge
-        ↻   Reactive Strike
+| Card | Status |
+| :-: | :-: |
+| **Aid** | ? |
+| **Avoid Danger** | ? |
+| **Dodge** | ? |
+| **Reactive Strike** | ? |
+| Custom Reaction 1 | ? |
 
-        ▶   reload weapon w/Loaded [X] trait
+## Effects
 
-    Actions (Radiant)  ────────────────────────────────  (13)
+| Card | Status |
+| :-: | :-: |
+| **Afflicted** | ? |
+| **Determined** | ? |
+| **Disoriented** | ? |
+| **Empowered** | ? |
+| **Enhanced Strength** | ? |
+| **Enhanced Speed** | ? |
+| **Enhanced Intellect** | ? |
+| **Enhanced Willpower** | ? |
+| **Enhanced Awareness** | ? |
+| **Enhanced Presence** | ? |
+| **Exhausted** | ? |
+| **Focused** | ? |
+| **Immobilized** | ? |
+| **Prone** | ? |
+| **Restrained** | ? |
+| **Slowed** | ? |
+| **Stunned** | ? |
+| **Surprised** | ? |
+| **Unconscious** | ? |
+| Custom Effect 1 | ? |
 
-        ▶▶  Breathe Stormlight
-        ▶/▷ Enhance
-        ▷   Regenerate
+## Items
 
-        ▶   Abrasion
-        ▶   Adhesion
-        ▶   Cohesion
-        ▶▶  Division
-        ▶   Gravitation
-        ▶   Illumination
-        ▶▶  Progression
-        ▶   Tension
-        ▶▶  Transformation
-        ▶   Transportation
+_Order: Light Weaponry, Heavy Weaponry, Special Weapons_
 
-    Weapons  ───────────────────────────────────────────
+| Card | Status |
+| :-: | :-: |
+| **Axe** | ? |
+| **Crossbow** | ? |
+| **Greatsword** | ? |
+| **Hammer** | ? |
+| **Javelin** | ? |
+| **Knife** | ? |
+| **Longbow** | ? |
+| **Longspear** | ? |
+| **Mace** | ? |
+| **Poleaxe** | ? |
+| **Rapier** | ? |
+| **Shield** | ? |
+| **Shortbow** | ? |
+| **Shortspear** | ? |
+| **Sidesword** | ? |
+| **Sling** | ? |
+| **Staff** | ? |
+| **Improvised Weapon** | ? |
+| **Unarmed Attack** | ? |
+| **Grandbow** | need icon |
+| **Half-Shard** | need icon |
+| **Shardblade** | need icon |
+| **Shardblade (Radiant)** | need icon |
+| **Warhammer** | need icon |
 
-        axe
-        crossbow
-        greatsword
-        hammer
-        javelin
-        knife
-        longbow
-     ?  longspear
-        mace
-        poleaxe
-        rapier
-        shield
-        shortbow
-     ?  shortspear
-        sidesword
-        sling
-        staff
+## Special Characters
 
-        improvised weapon
-        unarmed attack
-
-     ?  half-shard
-     ?  shardblade
-     ?  shardblade (Radiant)
-     ?  warhammer
-     ?  grandbow
-
-
-  ┌────────┐
-  │ Custom │
-  └────────┘
-
-
-
-
-
-
-
+▶▷↻★ထ🔵🔴•➡✔
