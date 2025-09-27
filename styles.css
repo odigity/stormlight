@@ -62,7 +62,7 @@ body {
     color: #999;
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: 20px;
 }
 
 .source {
@@ -71,7 +71,7 @@ body {
     text-align: right;
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
 }
 
 .circles {
@@ -80,7 +80,7 @@ body {
     right: 10px;
     display: flex;
     gap: 5px;
-    align-cards: center;
+    align-items: center;
 }
 
 .circle-cost {
@@ -88,7 +88,7 @@ body {
     height: 30px;
     border-radius: 50%;
     display: flex;
-    align-cards: center;
+    align-items: center;
     justify-content: center;
     font-size: 1.4rem;
     font-weight: bold;
