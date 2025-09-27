@@ -6,21 +6,21 @@ _Order: Combat, Stormlight, Surge_
 
 | Card | Status |
 | :-: | :-: |
-| **Brace** | ? |
-| **Disengage** | ? |
-| **Gain Advantage** | ? |
-| **Grapple** | ? |
-| **Interact** | ? |
-| **Move** | ? |
-| **Ready** | ? |
-| **Recover** | ? |
-| **Reload** | ? |
-| **Shove** | ? |
-| **Strike (Primary)** | need hand-specific icon? |
-| **Strike (Offhand)** | need hand-specific icon? |
-| **Use a Skill** | ? |
-| **Breathe Stormlight** | ? |
-| **Enhance** | ? |
+| **Brace** | DONE |
+| **Disengage** | DONE |
+| **Gain Advantage** | DONE |
+| **Grapple** | DONE |
+| **Interact** | DONE |
+| **Move** | DONE |
+| **Ready** | DONE |
+| **Recover** | DONE |
+| **Reload** | DONE |
+| **Shove** | DONE |
+| **Strike (Primary)** | DONE |
+| **Strike (Offhand)** | DONE |
+| **Use a Skill** | DONE |
+| **Breathe Stormlight** | DONE |
+| **Enhance** | DONE |
 | **Abrasion** | ? |
 | **Adhesion** | ? |
 | **Cohesion** | ? |
@@ -63,6 +63,7 @@ TODO:
 | **Determined** | ? |
 | **Disoriented** | ? |
 | **Empowered** | ? |
+| **Enhanced** | ? |
 | **Enhanced Strength** | ? |
 | **Enhanced Speed** | ? |
 | **Enhanced Intellect** | ? |

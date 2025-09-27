@@ -129,6 +129,10 @@ body {
     font-size: 0.9rem;
 }
 
+.watermark.mirrored {
+    transform: translate(-50%, -50%) scaleX(-1);
+}
+
 .rules-hcentered {
     text-align: center;
 }
