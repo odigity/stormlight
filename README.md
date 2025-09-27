@@ -1,14 +1,6 @@
 _Order: **Standard**, Custom._
 
-## Free Actions (▷)
-
-| Card | Status |
-| :-: | :-: |
-| **Regenerate** | ? |
-| **Stand Up** | need icon |
-| Custom Free Action 1 | ? |
-
-## Costly Actions (▶)
+## Costly Actions ▶
 
 _Order: Combat, Stormlight, Surge_
 
@@ -24,7 +16,8 @@ _Order: Combat, Stormlight, Surge_
 | **Recover** | ? |
 | **Reload** | ? |
 | **Shove** | ? |
-| **Strike** | ? |
+| **Strike (Primary)** | need hand-specific icon? |
+| **Strike (Offhand)** | need hand-specific icon? |
 | **Use a Skill** | ? |
 | **Breathe Stormlight** | ? |
 | **Enhance** | ? |
@@ -40,7 +33,17 @@ _Order: Combat, Stormlight, Surge_
 | **Transportation** | ? |
 | Custom Costly Action 1 | ? |
 
-## Reactions (↻)
+## Free Actions ▷
+
+| Card | Status |
+| :-: | :-: |
+| **End Grapple** | need specific icon (instead of Grapple) |
+| **Enhance** | ? |
+| **Regenerate** | ? |
+| **Stand Up** | need icon |
+| Custom Free Action 1 | ? |
+
+## Reactions ↻
 
 | Card | Status |
 | :-: | :-: |
@@ -48,6 +51,8 @@ _Order: Combat, Stormlight, Surge_
 | **Avoid Danger** | ? |
 | **Dodge** | ? |
 | **Reactive Strike** | ? |
+TODO:
+| **Painrial (Amplifying/Numbing)** | need icon |
 | Custom Reaction 1 | ? |
 
 ## Effects
@@ -105,6 +110,8 @@ _Order: Light Weaponry, Heavy Weaponry, Special Weapons_
 | **Shardblade** | need icon |
 | **Shardblade (Radiant)** | need icon |
 | **Warhammer** | need icon |
+TODO:
+| **Painrial (Amplifying/Numbing)** | need icon |
 
 ## Special Characters
 
