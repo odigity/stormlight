@@ -1,3 +1,13 @@
+@font-face {
+    font-family: CosmereDingbats;
+    src: url('./CosmereDingbats-Regular.otf') format("opentype");
+}
+
+.dingbats {
+    font-family: CosmereDingbats !important;
+}
+
+
 /* Reset and base styles */
 * {
     margin: 0;
