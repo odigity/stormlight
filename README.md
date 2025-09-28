@@ -37,17 +37,17 @@ _Order: Combat, Stormlight, Surge_
 
 | Card | Status |
 | :-: | :-: |
-| **End Grapple** | need specific icon (instead of Grapple) |
-| **Enhance** | ? |
-| **Regenerate** | ? |
-| **Stand Up** | need icon |
+| **End Grapple** | DONE |
+| **Maintain Enhance** | DONE |
+| **Regenerate** | DONE |
+| **Stand Up** | DONE |
 | Custom Free Action 1 | ? |
 
 ## Reactions ↻
 
 | Card | Status |
 | :-: | :-: |
-| **Aid** | ? |
+| **Aid** | DONE |
 | **Avoid Danger** | ? |
 | **Dodge** | ? |
 | **Reactive Strike** | ? |
