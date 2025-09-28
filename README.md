@@ -48,7 +48,7 @@ _Order: Combat, Stormlight, Surge_
 | Card | Status |
 | :-: | :-: |
 | **Aid** | DONE |
-| **Avoid Danger** | ? |
+| **Avoid Danger** | DONE |
 | **Dodge** | ? |
 | **Reactive Strike** | ? |
 TODO:
