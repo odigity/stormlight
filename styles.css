@@ -49,10 +49,10 @@ body {
 }
 
 .card h2 {
-    color: #2c3e50;
+    color: black;
     margin-bottom: 10px;
     font-size: 1.25rem;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #666;
     padding-bottom: 5px;
     position: relative;
 }
@@ -200,7 +200,7 @@ body {
     .card {
         page-break-inside: avoid;
         box-shadow: none;
-        border: 6px solid black;
+        border: 10px solid black;
         margin: 0;
         padding: 20px;
     }
