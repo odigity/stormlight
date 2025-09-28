@@ -48,6 +48,10 @@ body {
 .card.double-wide {
     width: calc(66.666% - 0px); /* 8 units out of 12 = 66.666% */
 }
+/* Double-wide card */
+.card.triple-wide {
+    width: 100%; /* 8 units out of 12 = 66.666% */
+}
 
 .card:hover {
     transform: none;
