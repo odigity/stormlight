@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-10.0 -10.0 120.0 120.0">
-    <title>Javelin</title>
-    <path
-        d="m0.019531 96.531c0.78906-7.0781 3.9922-13.75 9.0312-18.789l68.691-68.695c5.0352-5.0312 11.711-8.2422 18.789-9.0273 1.9883-0.21875 3.6719 1.4609 3.4531 3.4531-0.78906 7.0781-3.9922 13.75-9.0312 18.789 0.019531 0 0.17969-0.17969-68.691 68.691-5.0391 5.0391-11.711 8.2422-18.789 9.0312-1.9961 0.21875-3.6719-1.4688-3.4531-3.4531zm92.879-89.43c-4.0312 1.1875-7.7461 3.375-10.738 6.3672l-68.691 68.691c-2.9922 2.9922-5.1797 6.707-6.3672 10.738 4.0312-1.1875 7.7461-3.375 10.738-6.3672l68.691-68.691c2.9922-2.9922 5.1797-6.707 6.3672-10.738zm-4.1562 12.949z" />
-    <path
-        d="m43.945 64.844-8.7891-8.7891c-1.2188-1.2188-1.2188-3.1992 0-4.4219l16.484-16.484c1.2188-1.2188 3.1992-1.2188 4.4219 0l8.7891 8.7891c1.2188 1.2188 1.2188 3.1992 0 4.4219l-16.484 16.484c-1.2188 1.2188-3.1992 1.2188-4.4219 0zm-2.1641-11 4.3711 4.3711 12.062-12.062-4.3711-4.3711z" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve"
+    style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
+    viewBox="0 0 17.083 10.5503875" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
+   
+    .fil0 {fill:black}
+   
+  </style></defs><g><path class="fil0" d="M17.083 0c-6.07223,2.44923 -11.6483,5.22095 -17.083,8.44031 5.89535,-2.44528 11.4787,-5.21761 17.083,-8.44031z"/></g><text x="0" y="23.44031" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by sarah</text><text x="0" y="28.44031" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+  

@@ -77,22 +77,13 @@ body {
     position: relative;
 }
 
-.reusability {
+.note {
     font-size: 0.75rem;
-    color: #999;
+    color: #666;
     position: absolute;
     bottom: 10px;
     left: 20px;
     font-weight: bold;
-}
-
-.subtype {
-    font-size: 0.75rem;
-    color: #999;
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-style: italic;
 }
 
 .source {
