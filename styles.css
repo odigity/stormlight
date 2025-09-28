@@ -116,13 +116,18 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -37%) scale(0.8);
     width: 80%;
     height: 80%;
     object-fit: contain;
     opacity: 0.2;
     pointer-events: none;
 }
+
+.watermark.mirrored {
+    transform: translate(-50%, -37%) scale(-.8, .8);
+}
+
 
 .rules {
 /*
@@ -136,10 +141,6 @@ body {
 
 .long {
     font-size: 0.9rem;
-}
-
-.watermark.mirrored {
-    transform: translate(-50%, -50%) scaleX(-1);
 }
 
 .rules-hcentered {
