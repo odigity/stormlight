@@ -25,7 +25,7 @@ body {
 /* Individual cards */
 .card {
     background-color: white;
-    border-radius: 8px;
+    border-radius: 16px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: calc(33.333% - 0px); /* 4 units out of 12 = 33.333% */
@@ -111,7 +111,7 @@ body {
     width: 80%;
     height: 80%;
     object-fit: contain;
-    opacity: 0.1;
+    opacity: 0.2;
     pointer-events: none;
 }
 
@@ -200,7 +200,7 @@ body {
     .card {
         page-break-inside: avoid;
         box-shadow: none;
-        border: 1px solid #ddd;
+        border: 6px solid #757575;
         margin: 0;
         padding: 15px;
     }
@@ -208,18 +208,6 @@ body {
     .card:hover {
         transform: none;
         box-shadow: none;
-    }
-    
-    .watermark {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        width: 80% !important;
-        height: 80% !important;
-        object-fit: contain !important;
-        opacity: 0.1 !important;
-        pointer-events: none !important;
     }
 
     .investiture {
