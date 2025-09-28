@@ -6,21 +6,21 @@ _Order: Combat, Stormlight, Surge_
 
 | Card | Status |
 | :-: | :-: |
-| **Brace** | DONE |
-| **Disengage** | DONE |
-| **Gain Advantage** | DONE |
-| **Grapple** | DONE |
-| **Interact** | DONE |
-| **Move** | DONE |
-| **Ready** | DONE |
-| **Recover** | DONE |
-| **Reload** | DONE |
-| **Shove** | DONE |
-| **Strike (Primary)** | DONE |
-| **Strike (Offhand)** | DONE |
-| **Use a Skill** | DONE |
-| **Breathe Stormlight** | DONE |
-| **Enhance** | DONE |
+| **Brace** | ✔ |
+| **Disengage** | ✔ |
+| **Gain Advantage** | ✔ |
+| **Grapple** | ✔ |
+| **Interact** | ✔ |
+| **Move** | ✔ |
+| **Ready** | ✔ |
+| **Recover** | ✔ |
+| **Reload** | ✔ |
+| **Shove** | ✔ |
+| **Strike (Primary)** | ✔ |
+| **Strike (Offhand)** | ✔ |
+| **Use a Skill** | ✔ |
+| **Breathe Stormlight** | ✔ |
+| **Enhance** | ✔ |
 | **Abrasion** | ? |
 | **Adhesion** | ? |
 | **Cohesion** | ? |
@@ -37,22 +37,21 @@ _Order: Combat, Stormlight, Surge_
 
 | Card | Status |
 | :-: | :-: |
-| **End Grapple** | DONE |
-| **Maintain Enhance** | DONE |
-| **Regenerate** | DONE |
-| **Stand Up** | DONE |
+| **End Grapple** | ✔ |
+| **Maintain Enhance** | ✔ |
+| **Regenerate** | ✔ |
+| **Stand Up** | ✔ |
 | Custom Free Action 1 | ? |
 
 ## Reactions ↻
 
 | Card | Status |
 | :-: | :-: |
-| **Aid** | DONE |
-| **Avoid Danger** | DONE |
-| **Dodge** | ? |
-| **Reactive Strike** | ? |
-TODO:
-| **Painrial (Amplifying/Numbing)** | need icon |
+| **Aid** | ✔ |
+| **Avoid Danger** | ✔ |
+| **Dodge** | ✔ |
+| **Reactive Strike** | ✔ |
+| **Painrial (Amplifying/Numbing)** | TODO |
 | Custom Reaction 1 | ? |
 
 ## Effects
