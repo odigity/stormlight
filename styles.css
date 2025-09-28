@@ -152,6 +152,13 @@ body {
     transform: translate(-50%, -37%) scale(-.8, .8);
 }
 
+.watermark.rot90 {
+    transform: translate(-50%, -37%) rotate(90deg);
+}
+.watermark.rot-90 {
+    transform: translate(-50%, -37%) rotate(-90deg);
+}
+
 
 .rules {
 /*
