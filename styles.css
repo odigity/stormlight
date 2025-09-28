@@ -221,3 +221,36 @@ body {
 }
 
 
+/* EASY COSMERE DINGBATS */
+
+.act0, .act1, .act2, .act3, .react, .op, .comp, .inf, .star {
+    display: inline;
+    font-family: CosmereDingbats, sans-serif;
+}
+.act0::after {
+    content: "0";
+}
+.act1::after {
+    content: "1";
+}
+.act2::after {
+    content: "2";
+}
+.act3::after {
+    content: "3";
+}
+.react::after {
+    content: "r";
+}
+.op::after {
+    content: "O";
+}
+.comp::after {
+    content: "C";
+}
+.inf::after {
+    content: "8";
+}
+.star::after {
+    content: "*";
+}
