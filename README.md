@@ -58,8 +58,8 @@ _Order: Combat, Stormlight, Surge_
 
 | Card | Status |
 | :-: | :-: |
-| **Afflicted** | ? |
-| **Determined** | ? |
+| **Afflicted** | ✔ |
+| **Determined** | ✔ |
 | **Disoriented** | ? |
 | **Empowered** | ? |
 | **Enhanced** | ? |
