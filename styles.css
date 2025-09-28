@@ -200,9 +200,9 @@ body {
     .card {
         page-break-inside: avoid;
         box-shadow: none;
-        border: 6px solid #757575;
+        border: 6px solid black;
         margin: 0;
-        padding: 15px;
+        padding: 20px;
     }
     
     .card:hover {
