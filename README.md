@@ -40,6 +40,7 @@ _Order: Combat, Stormlight, Surge_
 | **End Grapple** | ✔ |
 | **Maintain Enhance** | ✔ |
 | **Regenerate** | ✔ |
+| **Sense Emotions** | TODO |
 | **Stand Up** | ✔ |
 | Custom Free Action 1 | ? |
 
@@ -105,13 +106,16 @@ _Order: Light Weaponry, Heavy Weaponry, Special Weapons_
 | **Staff** | ? |
 | **Improvised Weapon** | ? |
 | **Unarmed Attack** | ? |
-| **Grandbow** | need icon |
-| **Half-Shard** | need icon |
-| **Shardblade** | need icon |
-| **Shardblade (Radiant)** | need icon |
-| **Warhammer** | need icon |
+| **Grandbow** | TODO |
+| **Half-Shard** | TODO |
+| **Shardblade** | TODO |
+| **Shardblade (Radiant)** | TODO |
+| **Warhammer** | TODO |
 TODO:
-| **Painrial (Amplifying/Numbing)** | need icon |
+| **Emotion Bracelet** | TODO |
+| **Painrial (Amplifying)** | TODO |
+| **Painrial (Numbing)** | TODO |
+| **Painrial (Hybrid)** | TODO |
 
 ## Special Characters
 
