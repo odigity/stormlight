@@ -40,6 +40,18 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
+        name: "Breathe Stormlight",
+        type: ItemType.COSTLY_ACTION,
+        actions: 2,
+        rulesCentered: false,
+        icon: IconBreatheStormlight,
+        rules: <>
+            <p>Refill IP from spheres within 5'.<br/><i>(1 IP / infused mark or broam)</i></p>
+            <p>Can use when Unconcscious or prevented from using free_actions.</p>
+        </>,
+        source: "p.124",
+    },
+    {
         name: "Disengage",
         type: ItemType.COSTLY_ACTION,
         actions: 1,
@@ -47,6 +59,22 @@ const costly_actions: CardData[] = [
         icon: IconDisengage,
         rules: <>Move 5' without provoking a Reactive Strike.</>,
         source: "p.303",
+    },
+    {
+        name: "Enhance",
+        type: ItemType.COSTLY_ACTION,
+        actions: 1,
+        rulesCentered: false,
+        icon: IconEnhance,
+        ip: 1,
+        rules: <>
+            Until end of next turn:<br/>
+            • Enhanced [Str +1]<br/>
+            • Enhanced [Spd +1]<br/>
+            <br/>
+            <i>To renew, see reverse side.</i>
+        </>,
+        source: "p.124",
     },
     {
         name: "Gain Advantage",
@@ -143,19 +171,6 @@ const costly_actions: CardData[] = [
         source: "p.304",
     },
     {
-        name: "Strike (Primary)",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
-        rulesCentered: true,
-        icon: IconStrike,
-        rules: <>
-            <div>
-                <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
-            </div>
-        </>,
-        source: "p.303",
-    },
-    {
         name: "Strike (Offhand)",
         type: ItemType.COSTLY_ACTION,
         actions: 1,
@@ -173,6 +188,19 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
+        name: "Strike (Primary)",
+        type: ItemType.COSTLY_ACTION,
+        actions: 1,
+        rulesCentered: true,
+        icon: IconStrike,
+        rules: <>
+            <div>
+                <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+            </div>
+        </>,
+        source: "p.303",
+    },
+    {
         name: "Use a Skill",
         type: ItemType.COSTLY_ACTION,
         actions: 1,
@@ -181,35 +209,9 @@ const costly_actions: CardData[] = [
         rules: <>Perform challenging task around battlefield.</>,
         source: "p.303",
     },
-    // Stormlight
-    {
-        name: "Breathe Stormlight",
-        type: ItemType.COSTLY_ACTION,
-        actions: 2,
-        rulesCentered: false,
-        icon: IconBreatheStormlight,
-        rules: <>
-            <p>Refill IP from spheres within 5'.<br/><i>(1 IP / infused mark or broam)</i></p>
-            <p>Can use when Unconcscious or prevented from using free_actions.</p>
-        </>,
-        source: "p.124",
-    },
-    {
-        name: "Enhance",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
-        rulesCentered: false,
-        icon: IconEnhance,
-        ip: 1,
-        rules: <>
-            Until end of next turn:<br/>
-            • Enhanced [Str +1]<br/>
-            • Enhanced [Spd +1]<br/>
-            <br/>
-            <i>To renew, see reverse side.</i>
-        </>,
-        source: "p.124",
-    },
+
+    // TODO
+
     // Surges
     { name: "Abrasion", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeAbrasion, rules: <>?</>, source: "p.212" },
     { name: "Adhesion", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeAdhesion, rules: <>?</>, source: "p.215" },
@@ -221,6 +223,8 @@ const costly_actions: CardData[] = [
     { name: "Tension", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTension, rules: <>?</>, source: "p.231" },
     { name: "Transformation", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTransformation, rules: <>?</>, source: "p.234" },
     { name: "Transportation", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTransportation, rules: <>?</>, source: "p.237" },
+
+
 ];
 
 export default costly_actions;
