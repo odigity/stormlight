@@ -1,33 +1,6 @@
 import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
-// Icons
-import IconBrace from "../assets/art/Brace.svg";
-import IconDisengage from "../assets/art/Disengage.svg";
-import IconGainAdvantage from "../assets/art/GainAdvantage.svg";
-import IconGrapple from "../assets/art/Grapple.svg";
-import IconInteract from "../assets/art/Interact.svg";
-import IconMove from "../assets/art/Move.svg";
-import IconReady from "../assets/art/Ready.svg";
-import IconRecover from "../assets/art/Recover.svg";
-import IconReload from "../assets/art/Reload.svg";
-import IconShove from "../assets/art/Shove.svg";
-import IconStrike from "../assets/art/Strike.svg";
-import IconUseASkill from "../assets/art/UseASkill.svg";
-import IconBreatheStormlight from "../assets/art/BreatheStormlight.svg";
-import IconEnhance from "../assets/art/Enhance.svg";
-
-import IconSurgeAbrasion from "../assets/art/Abrasion.svg";
-import IconSurgeAdhesion from "../assets/art/Adhesion.svg";
-import IconSurgeCohesion from "../assets/art/Cohesion.svg";
-import IconSurgeDivision from "../assets/art/Division.svg";
-import IconSurgeGravitation from "../assets/art/Gravitation.svg";
-import IconSurgeIllumination from "../assets/art/Illumination.svg";
-import IconSurgeProgression from "../assets/art/Progression.svg";
-import IconSurgeTension from "../assets/art/Tension.svg";
-import IconSurgeTransformation from "../assets/art/Transformation.svg";
-import IconSurgeTransportation from "../assets/art/Transportation.svg";
-import {rules} from "eslint-plugin-react-hooks";
 
 const costly_actions: CardData[] = [
     {
@@ -35,8 +8,10 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconBrace,
-        rules        : <>Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.</>,
+        icon         : "Brace.svg",
+        rules        : <>
+            Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.
+        </>,
         source       : "p.303",
     },
     {
@@ -44,7 +19,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 2,
         rulesCentered: false,
-        icon         : IconBreatheStormlight,
+        icon         : "BreatheStormlight.svg",
         rules        : <>
             <p>Refill IP from spheres within 5'.<br/><i>(1 IP / infused mark or broam)</i></p>
             <p>Can use when Unconcscious or prevented from using free_actions.</p>
@@ -56,8 +31,10 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconDisengage,
-        rules        : <>Move 5' without provoking a Reactive Strike.</>,
+        icon         : "Disengage.svg",
+        rules        : <>
+            Move 5' without provoking a Reactive Strike.
+        </>,
         source       : "p.303",
     },
     {
@@ -65,7 +42,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconEnhance,
+        icon         : "Enhance.svg",
         ip           : 1,
         rules        : <>
             Until end of next turn:<br/>
@@ -81,7 +58,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconGainAdvantage,
+        icon         : "GainAdvantage.svg",
         rules        : <>
             <i>Any skill vs enemy's corresponding defense:</i>
             <br/>Gain an Advantage on next test using a different skill vs that enemy.
@@ -89,11 +66,11 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
-        name         : "Grapple",
+        name         : "Grapple.svg",
         type         : ItemType.COSTLY_ACTION,
         actions      : 2,
         rulesCentered: false,
-        icon         : IconGrapple,
+        icon         : "Grapple.svg",
         rules        : <>
             <i>Athletics vs Physical:</i> Restrained until...
             <br/>• you become Unconcscious
@@ -107,7 +84,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconInteract,
+        icon         : "Interact.svg",
         rules        : <>
             • draw / sheath weapon
             <br/>• open / close door
@@ -122,9 +99,11 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconMove,
-        rules        : <>Slowed if crawling, climbing, swimming, or stealthy.</>,
-        note         : "Reusable",
+        icon         : "Move.svg",
+        rules        : <>
+            Slowed if crawling, climbing, swimming, or stealthy.
+        </>,
+        note         : "Reusable.svg",
         source       : "p.303",
     },
     {
@@ -132,7 +111,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconReady,
+        icon         : "Ready.svg",
         rules        : <>
             Choose trigger and action.
             <br/>Pay the action cost up front.
@@ -144,8 +123,10 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 2,
         rulesCentered: false,
-        icon         : IconRecover,
-        rules        : <>Recovery die ➡ HP and/or FP.</>,
+        icon         : "Recover.svg",
+        rules        : <>
+            Recovery die ➡ HP and/or FP.
+        </>,
         note         : "Once per scene",
         source       : "p.304",
     },
@@ -154,8 +135,10 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconReload,
-        rules        : <>Reload weapon to full ammunition.</>,
+        icon         : "Reload.svg",
+        rules        : <>
+            Reload weapon to full ammunition.
+        </>,
         source       : "p.245",
     },
     {
@@ -163,7 +146,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 2,
         rulesCentered: false,
-        icon         : IconShove,
+        icon         : "Shove.svg",
         rules        : <>
             <p><i>Athletics vs Physical:</i> Push or pull target 5' horizontally.</p>
             <p>Also breaks Grapple.</p>
@@ -175,7 +158,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: true,
-        icon         : IconStrike,
+        icon         : "Strike.svg",
         mirrorIcon   : true,
         fp           : 2,
         rules        : <>
@@ -192,7 +175,7 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: true,
-        icon         : IconStrike,
+        icon         : "Strike.svg",
         rules        : <>
             <div>
                 <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
@@ -205,26 +188,127 @@ const costly_actions: CardData[] = [
         type         : ItemType.COSTLY_ACTION,
         actions      : 1,
         rulesCentered: false,
-        icon         : IconUseASkill,
-        rules        : <>Perform challenging task around battlefield.</>,
+        icon         : "UseASkill.svg",
+        rules        : <>
+            Perform challenging task around battlefield.
+        </>,
         source       : "p.303",
     },
 
     // TODO
 
     // Surges
-    { name: "Abrasion", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeAbrasion, rules: <>?</>, source: "p.212" },
-    { name: "Adhesion", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeAdhesion, rules: <>?</>, source: "p.215" },
-    { name: "Cohesion", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeCohesion, rules: <>?</>, source: "p.217" },
-    { name: "Division", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeDivision, rules: <>?</>, source: "p.220" },
-    { name: "Gravitation", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeGravitation, rules: <>?</>, source: "p.223" },
-    { name: "Illumination", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeIllumination, rules: <>?</>, source: "p.226" },
-    { name: "Progression", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeProgression, rules: <>?</>, source: "p.229" },
-    { name: "Tension", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTension, rules: <>?</>, source: "p.231" },
-    { name: "Transformation", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTransformation, rules: <>?</>, source: "p.234" },
-    { name: "Transportation", type: ItemType.COSTLY_ACTION, actions: 1, rulesCentered: false, icon: IconSurgeTransportation, rules: <>?</>, source: "p.237" },
-
-
+    {
+        name         : "Abrasion",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Abrasion.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.212",
+    },
+    {
+        name         : "Adhesion",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Adhesion.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.215",
+    },
+    {
+        name         : "Cohesion",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "SurgeCohesion.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.217",
+    },
+    {
+        name         : "Division",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Division.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.220",
+    },
+    {
+        name         : "Gravitation",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Gravitation.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.223",
+    },
+    {
+        name         : "Illumination",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Illumination.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.226",
+    },
+    {
+        name         : "Progression",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Progression.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.229",
+    },
+    {
+        name         : "Tension",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Tension.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.231",
+    },
+    {
+        name         : "Transformation",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Transformation.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.234",
+    },
+    {
+        name         : "Transportation",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
+        rulesCentered: false,
+        icon         : "Transportation.svg",
+        rules        : <>
+            ?
+        </>,
+        source       : "p.237",
+    },
 ];
+
 
 export default costly_actions;

@@ -1,35 +1,13 @@
 import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
-// Icons
-import IconAfflicted from "../assets/art/Afflicted.svg";
-import IconDetermined from "../assets/art/Determined.svg";
-import IconDisoriented from "../assets/art/Disoriented.svg";
-import IconEmpowered from "../assets/art/Empowered.svg";
-import IconEnhanced from "../assets/art/Enhanced.svg";
-import IconEnhancedStrength from "../assets/art/EnhancedStrength.svg";
-import IconEnhancedSpeed from "../assets/art/EnhancedSpeed.svg";
-import IconEnhancedIntellect from "../assets/art/EnhancedIntellect.svg";
-import IconEnhancedWillpower from "../assets/art/EnhancedWillpower.svg";
-import IconEnhancedAwareness from "../assets/art/EnhancedAwareness.svg";
-import IconEnhancedPresence from "../assets/art/EnhancedPresence.svg";
-import IconExhausted from "../assets/art/Exhausted.svg";
-import IconFocused from "../assets/art/Focused.svg";
-import IconImmobilized from "../assets/art/Immobilized.svg";
-import IconProne from "../assets/art/Prone.svg";
-import IconRestrained from "../assets/art/Restrained.svg";
-import IconSlowed from "../assets/art/Slowed.svg";
-import IconStunned from "../assets/art/Stunned.svg";
-import IconSurprised from "../assets/art/Surprised.svg";
-import IconUnconscious from "../assets/art/Unconscious.svg";
-import {rules} from "eslint-plugin-react-hooks";
 
 const conditions: CardData[] = [
     {
         name         : "Afflicted",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconAfflicted,
+        icon         : "Afflicted.svg",
         rules        : <>
             Take specified damage...
             <br/>• <b>combat:</b> ...at end of turn.
@@ -41,15 +19,17 @@ const conditions: CardData[] = [
         name         : "Determined",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconDetermined,
-        rules        : <>May add <span className="dingbats">o</span> to 1 failed test.</>,
+        icon         : "Determined.svg",
+        rules        : <>
+            May add <span className="dingbats">o</span> to 1 failed test.
+        </>,
         source       : "p.293",
     },
     {
         name         : "Disoriented",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconDisoriented,
+        icon         : "Disoriented.svg",
         rules        : <>
             • Can't use <span className="dingbats">r</span>.
             <br/>• Senses are obscured.
@@ -61,7 +41,7 @@ const conditions: CardData[] = [
         name         : "Empowered",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEmpowered,
+        icon         : "Empowered.svg",
         rules        : <>
             Until end of scene:
             <br/>• All tests gain an Advantage.
@@ -73,7 +53,7 @@ const conditions: CardData[] = [
         name         : "Enhanced",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhanced,
+        icon         : "Enhanced.svg",
         rules        : <>
             • Enhanced [Str +1]<br/>
             • Enhanced [Spd +1]<br/>
@@ -87,8 +67,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Strength",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedStrength,
-        rules        : <>Doesn't affect Physical Defense or HP.</>,
+        icon         : "EnhancedStrength.svg",
+        rules        : <>
+            Doesn't affect Physical Defense or HP.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -96,8 +78,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Speed",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedSpeed,
-        rules        : <>Doesn't affect Physical Defense.</>,
+        icon         : "EnhancedSpeed.svg",
+        rules        : <>
+            Doesn't affect Physical Defense.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -105,8 +89,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Intellect",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedIntellect,
-        rules        : <>Doesn't affect Cognitive Defense.</>,
+        icon         : "EnhancedIntellect.svg",
+        rules        : <>
+            Doesn't affect Cognitive Defense.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -114,8 +100,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Willpower",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedWillpower,
-        rules        : <>Doesn't affect Cognitive Defense or FP.</>,
+        icon         : "EnhancedWillpower.svg",
+        rules        : <>
+            Doesn't affect Cognitive Defense or FP.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -123,8 +111,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Awareness",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedAwareness,
-        rules        : <>Doesn't affect Spiritual Defense or IP.</>,
+        icon         : "EnhancedAwareness.svg",
+        rules        : <>
+            Doesn't affect Spiritual Defense or IP.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -132,8 +122,10 @@ const conditions: CardData[] = [
         name         : "Enhanced Presence",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconEnhancedPresence,
-        rules        : <>Doesn't affect Spiritual Defense or IP.</>,
+        icon         : "EnhancedPresence.svg",
+        rules        : <>
+            Doesn't affect Spiritual Defense or IP.
+        </>,
         note         : "Stacking",
         source       : "p.294",
     },
@@ -141,7 +133,7 @@ const conditions: CardData[] = [
         name         : "Exhausted",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconExhausted,
+        icon         : "Exhausted.svg",
         rules        : <>
             Apply penalty to all tests. (Stacks)
             <br/>• stacks
@@ -154,15 +146,17 @@ const conditions: CardData[] = [
         name         : "Focused",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconFocused,
-        rules        : <>FP costs reduced by 1.</>,
+        icon         : "Focused.svg",
+        rules        : <>
+            FP costs reduced by 1.
+        </>,
         source       : "p.294",
     },
     {
         name         : "Immobilized",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconImmobilized,
+        icon         : "Immobilized.svg",
         rules        : <>
             • Movement becomes 0'.
             <br/>• can't move or be moved
@@ -173,7 +167,7 @@ const conditions: CardData[] = [
         name         : "Prone",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconProne,
+        icon         : "Prone.svg",
         rules        : <>
             • Slowed
             <br/>• adv ➡ melee against you
@@ -186,7 +180,7 @@ const conditions: CardData[] = [
         name         : "Restrained",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconRestrained,
+        icon         : "Restrained.svg",
         rules        : <>
             • movement = 0'
             <br/>• disadv ➡ tests other than to escape
@@ -197,15 +191,17 @@ const conditions: CardData[] = [
         name         : "Slowed",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconSlowed,
-        rules        : <>Half movement, rounded up.</>,
+        icon         : "Slowed.svg",
+        rules        : <>
+            Half movement, rounded up.
+        </>,
         source       : "p.295",
     },
     {
         name         : "Stunned",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconStunned,
+        icon         : "Stunned.svg",
         rules        : <>
             • lose all ↻
             <br/>• next turn: gain -2 ▶ and -1 ↻
@@ -216,7 +212,7 @@ const conditions: CardData[] = [
         name         : "Surprised",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconSurprised,
+        icon         : "Surprised.svg",
         rules        : <>
             <p>
                 • lose all ↻
@@ -234,7 +230,7 @@ const conditions: CardData[] = [
         name         : "Unconscious",
         type         : ItemType.CONDITION,
         rulesCentered: false,
-        icon         : IconUnconscious,
+        icon         : "Unconscious.svg",
         rules        : <>
             Can only:
             <br/>• Breathe Stormlight
@@ -244,5 +240,6 @@ const conditions: CardData[] = [
         source: "p.295",
     },
 ];
+
 
 export default conditions;

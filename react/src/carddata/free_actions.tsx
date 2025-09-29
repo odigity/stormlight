@@ -1,20 +1,17 @@
 import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
-// Icons
-import IconEndGrapple from "../assets/art/EndGrapple.svg";
-import IconMaintainEnhance from "../assets/art/MaintainEnhance.svg";
-import IconRegenerate from "../assets/art/Regenerate.svg";
-import IconStandUp from "../assets/art/StandUp.svg";
 
 const free_actions: CardData[] = [
     {
         name         : "End Grapple",
         type         : ItemType.FREE_ACTION,
-        actions      : 2, // double-wide
+        actions      : 2,
         rulesCentered: true,
-        icon         : IconEndGrapple,
-        rules        : <><br/><i>This space intentionally left blank.</i></>,
+        icon         : "EndGrapple.svg",
+        rules        : <>
+            <br/><i>This space intentionally left blank.</i>
+        </>,
         source       : "p.304",
     },
     {
@@ -22,9 +19,11 @@ const free_actions: CardData[] = [
         type         : ItemType.FREE_ACTION,
         actions      : 0,
         rulesCentered: false,
-        icon         : IconMaintainEnhance,
+        icon         : "MaintainEnhance.svg",
         ip           : 1,
-        rules        : <>Maintain existing Enhance effect until end of next turn.</>,
+        rules        : <>
+            Maintain existing Enhance effect until end of next turn.
+        </>,
         source       : "p.125",
     },
     {
@@ -32,7 +31,7 @@ const free_actions: CardData[] = [
         type         : ItemType.FREE_ACTION,
         actions      : 0,
         rulesCentered: false,
-        icon         : IconRegenerate,
+        icon         : "Regenerate.svg",
         ip           : 1,
         rules        : <>
             <p>HP += 1d6 + tier.</p>
@@ -45,10 +44,13 @@ const free_actions: CardData[] = [
         type         : ItemType.FREE_ACTION,
         actions      : 0,
         rulesCentered: false,
-        icon         : IconStandUp,
-        rules        : <>Movement reduced by 5' until next turn.</>,
+        icon         : "StandUp.svg",
+        rules        : <>
+            Movement reduced by 5' until next turn.
+        </>,
         source       : "p.294",
     },
 ];
+
 
 export default free_actions;

@@ -7,8 +7,10 @@ const effects: CardData[] = [
         name          : "?",
         type          : ItemType.EFFECT,
         rulesCentered : false,
-        icon          : ?,
-        rules         : <>?</>,
+        icon          : "?.svg",
+        rules         : <>
+            ?
+        </>,
         source        : "p.?",
     },
 ];

@@ -7,8 +7,10 @@ const magic_items: CardData[] = [
         name          : "?",
         type          : ItemType.MAGIC_ITEM,
         rulesCentered : false,
-        icon          : ?,
-        rules         : <>?</>,
+        icon          : "?.svg",
+        rules         : <>
+            ?
+        </>,
         source        : "p.?",
     },
 ];

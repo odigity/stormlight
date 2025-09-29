@@ -7,8 +7,10 @@ const infusions: CardData[] = [
         name          : "?",
         type          : ItemType.INFUSION,
         rulesCentered : false,
-        icon          : ?,
-        rules         : <>?</>,
+        icon          : "?.svg",
+        rules         : <>
+            ?
+        </>,
         source        : "p.?",
     },
 ];

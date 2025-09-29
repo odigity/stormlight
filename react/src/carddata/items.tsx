@@ -1,40 +1,16 @@
 import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
-// Icons
-import IconJavelin from "../assets/art/Javelin.svg";
-import IconKnife from "../assets/art/Knife.svg";
-import IconMace from "../assets/art/Mace.svg";
-import IconRapier from "../assets/art/Rapier.svg";
-import IconShortbow from "../assets/art/Shortbow.svg";
-import IconShortspear from "../assets/art/Shortspear.svg";
-import IconSidesword from "../assets/art/Sidesword.svg";
-import IconStaff from "../assets/art/Staff.svg";
-import IconSling from "../assets/art/Sling.svg";
-
-import IconAxe from "../assets/art/Axe.svg";
-import IconCrossbow from "../assets/art/Crossbow.svg";
-import IconGreatsword from "../assets/art/Greatsword.svg";
-import IconHammer from "../assets/art/Hammer.svg";
-import IconLongbow from "../assets/art/Longbow.svg";
-import IconLongspear from "../assets/art/Longspear.svg";
-import IconLongsword from "../assets/art/Longsword.svg";
-import IconPoleaxe from "../assets/art/Poleaxe.svg";
-import IconShield from "../assets/art/Shield.svg";
-
-import IconImprovisedWeapon from "../assets/art/ImprovisedWeapon.svg";
-import IconUnarmedAttack from "../assets/art/UnarmedAttack.svg";
-import IconWarhammer from "../assets/art/Warhammer.svg";
-import IconGrandbow from "../assets/art/Grandbow.svg";
-import {rules} from "eslint-plugin-react-hooks";
 
 const items: CardData[] = [
     {
         name         : "Javelin",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconJavelin,
-        rules        : <><b>1d6 keen</b><br/>30'/120'<br/><i>Indirect</i></>,
+        icon         : "Javelin.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>30'/120'<br/><i>Indirect</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -42,8 +18,10 @@ const items: CardData[] = [
         name         : "Knife",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconKnife,
-        rules        : <><b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i></>,
+        icon         : "Knife.svg",
+        rules        : <>
+            <b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
         mirrorIcon   : true,
@@ -52,8 +30,10 @@ const items: CardData[] = [
         name         : "Mace",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconMace,
-        rules        : <><b>1d6 impact</b><br/><i>Momentum</i></>,
+        icon         : "Mace.svg",
+        rules        : <>
+            <b>1d6 impact</b><br/><i>Momentum</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -61,8 +41,10 @@ const items: CardData[] = [
         name         : "Rapier",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconRapier,
-        rules        : <><b>1d6 keen</b><br/>Quickdraw<br/><i>Defensive</i></>,
+        icon         : "Rapier.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>Quickdraw<br/><i>Defensive</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -70,8 +52,10 @@ const items: CardData[] = [
         name         : "Shortbow",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconShortbow,
-        rules        : <><b>1d6 keen</b><br/>80'/320', 2🖐️<br/><i>Quickdraw</i></>,
+        icon         : "Shortbow.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>80'/320', 2🖐️<br/><i>Quickdraw</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -79,8 +63,10 @@ const items: CardData[] = [
         name         : "Shortspear",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconShortspear,
-        rules        : <><b>1d8 keen</b><br/>2🖐️<br/><i>not 2🖐️</i></>,
+        icon         : "Shortspear.svg",
+        rules        : <>
+            <b>1d8 keen</b><br/>2🖐️<br/><i>not 2🖐️</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
         mirrorIcon   : true,
@@ -89,8 +75,10 @@ const items: CardData[] = [
         name         : "Sidesword",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconSidesword,
-        rules        : <><b>1d6 keen</b><br/>Quickdraw<br/><i>Offhand</i></>,
+        icon         : "Sidesword.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>Quickdraw<br/><i>Offhand</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -98,8 +86,10 @@ const items: CardData[] = [
         name         : "Staff",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconStaff,
-        rules        : <><b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i></>,
+        icon         : "Staff.svg",
+        rules        : <>
+            <b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -107,8 +97,10 @@ const items: CardData[] = [
         name         : "Sling",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconSling,
-        rules        : <><b>1d4 impact</b><br/>Discrete<br/><i>Indirect</i></>,
+        icon         : "Sling.svg",
+        rules        : <>
+            <b>1d4 impact</b><br/>Discrete<br/><i>Indirect</i>
+        </>,
         note         : "Light Weaponry",
         source       : "p.246",
     },
@@ -117,8 +109,10 @@ const items: CardData[] = [
         name         : "Axe",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconAxe,
-        rules        : <><b>1d6 keen</b><br/>20'/60'<br/><i>Offhand</i></>,
+        icon         : "Axe.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>20'/60'<br/><i>Offhand</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -126,8 +120,10 @@ const items: CardData[] = [
         name         : "Crossbow",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconCrossbow,
-        rules        : <><b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i></>,
+        icon         : "Crossbow.svg",
+        rules        : <>
+            <b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -135,8 +131,10 @@ const items: CardData[] = [
         name         : "Greatsword",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconGreatsword,
-        rules        : <><b>1d10 keen</b><br/>2🖐️<br/><i>Deadly</i></>,
+        icon         : "Greatsword.svg",
+        rules        : <>
+            <b>1d10 keen</b><br/>2🖐️<br/><i>Deadly</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -144,8 +142,10 @@ const items: CardData[] = [
         name         : "Hammer",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconHammer,
-        rules        : <><b>1d10 impact</b><br/>2🖐️<br/><i>Momentum</i></>,
+        icon         : "Hammer.svg",
+        rules        : <>
+            <b>1d10 impact</b><br/>2🖐️<br/><i>Momentum</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -153,8 +153,10 @@ const items: CardData[] = [
         name         : "Longbow",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconLongbow,
-        rules        : <><b>1d6 keen</b><br/>150'/600', 2🖐️<br/><i>Indirect</i></>,
+        icon         : "Longbow.svg",
+        rules        : <>
+            <b>1d6 keen</b><br/>150'/600', 2🖐️<br/><i>Indirect</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -162,8 +164,10 @@ const items: CardData[] = [
         name         : "Longspear",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconLongspear,
-        rules        : <><b>1d8 keen</b><br/>2🖐️<br/><i>Defensive</i></>,
+        icon         : "Longspear.svg",
+        rules        : <>
+            <b>1d8 keen</b><br/>2🖐️<br/><i>Defensive</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -171,8 +175,10 @@ const items: CardData[] = [
         name         : "Longsword",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconLongsword,
-        rules        : <><b>1d8 keen</b><br/>Quickdraw, 2🖐️<br/><i>not 2🖐️</i></>,
+        icon         : "Longsword.svg",
+        rules        : <>
+            <b>1d8 keen</b><br/>Quickdraw, 2🖐️<br/><i>not 2🖐️</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -180,8 +186,10 @@ const items: CardData[] = [
         name         : "Poleaxe",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconPoleaxe,
-        rules        : <><b>1d10 keen</b><br/>2🖐️<br/><i>+5'</i></>,
+        icon         : "Poleaxe.svg",
+        rules        : <>
+            <b>1d10 keen</b><br/>2🖐️<br/><i>+5'</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -189,8 +197,10 @@ const items: CardData[] = [
         name         : "Shield",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconShield,
-        rules        : <><b>1d4 impact</b><br/>Defensive<br/><i>Offhand</i></>,
+        icon         : "Shield.svg",
+        rules        : <>
+            <b>1d4 impact</b><br/>Defensive<br/><i>Offhand</i>
+        </>,
         note         : "Heavy Weaponry",
         source       : "p.247",
     },
@@ -199,7 +209,7 @@ const items: CardData[] = [
         name         : "Improvised Weapon",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconImprovisedWeapon,
+        icon         : "ImprovisedWeapon.svg",
         rules        : <>
             <b>Skill: same as similar<br/>Dmg: same as similar</b><br/>Fragile
         </>,
@@ -210,7 +220,7 @@ const items: CardData[] = [
         name         : "Unarmed Attack",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconUnarmedAttack,
+        icon         : "UnarmedAttack.svg",
         rules        : <>
             <p>Athletics</p>
             <div className="rules-table" style={{ fontSize: ".7rem" }}>
@@ -240,7 +250,7 @@ const items: CardData[] = [
         name         : "Half-Shard",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : "", // TODO: missing icon
+        icon         : "?.svg",
         rules        : <>
             <b>Skill: Heavy Weaponry<br/>2d4 impact</b><br/>Defensive, 2🖐️, *<br/><i>Momentum</i>
         </>,
@@ -251,7 +261,7 @@ const items: CardData[] = [
         name         : "Shardblade",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : "", // TODO: missing icon
+        icon         : "Shardblade.svg",
         rules        : <>
             <b>Skill: Heavy Weaponry<br/>2d8 spirit</b><br/>Dangerous, Deadly, *<br/><i>not Dangerous</i>
         </>,
@@ -262,7 +272,7 @@ const items: CardData[] = [
         name         : "Shardblade (Radiant)",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : "", // TODO: missing icon
+        icon         : "ShardbladeRadiant",
         rules        : <>
             <b>Skill: *<br/>2d* spirit</b><br/>Deadly, *
         </>,
@@ -273,7 +283,7 @@ const items: CardData[] = [
         name         : "Warhammer",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconWarhammer,
+        icon         : "Warhammer.svg",
         rules        : <>
             <b>Heavy Weaponry<br/>2d10 impact</b><br/>Cumbersome [5], 2🖐️<br/><i>Expert: *</i>
         </>,
@@ -284,7 +294,7 @@ const items: CardData[] = [
         name         : "Grandbow",
         type         : ItemType.ITEM,
         rulesCentered: true,
-        icon         : IconGrandbow,
+        icon         : "Grandbow.svg",
         rules        : <>
             <b>Heavy Weaponry<br/>2d6 keen</b><br/>200'/800', Cumbersome [5], 2🖐️<br/><i>Pierce</i>
         </>,
@@ -292,5 +302,6 @@ const items: CardData[] = [
         source: "p.248",
     },
 ];
+
 
 export default items;
