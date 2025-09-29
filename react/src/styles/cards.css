@@ -113,6 +113,7 @@
     align-items: center;
 }
 .cost {
+    font-family: "Times New Roman", sans-serif;
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -135,6 +136,29 @@
     border-radius: 0;
     background-color: #333 !important;
     color: white !important;
+}
+
+/* Charge boxes container: flex layout with wrapping and gap.
+   Support both legacy .charges and current .charge-boxes class names. */
+.charges {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/* Each charge box remains square and can shrink to fit more boxes. */
+.chargebox {
+    flex: 1 0 12px;          /* min size ~12px, shrink as needed */
+    aspect-ratio: 1 / 1;     /* keep square */
+    height: auto;            /* height follows width due to aspect-ratio */
+    box-sizing: border-box;
+    border: 2px solid #333;
+    max-height: 28px;
+    max-width: 28px;
 }
 
 /* Watermark */
