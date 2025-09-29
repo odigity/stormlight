@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    xml:space="preserve"
-    style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
-    viewBox="0 0 17.083 10.5503875" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
-   
-    .fil0 {fill:black}
-   
-  </style></defs><g><path class="fil0" d="M17.083 0c-6.07223,2.44923 -11.6483,5.22095 -17.083,8.44031 5.89535,-2.44528 11.4787,-5.21761 17.083,-8.44031z"/></g><text x="0" y="23.44031" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by sarah</text><text x="0" y="28.44031" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
-  
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+    x="0px" y="0px" viewBox="0 3 100 103" enable-background="new 0 0 100 100" xml:space="preserve">
+    <g>
+        <title>Layer 1</title>
+        <path d="M82.56,14.33c0.358,0.914,0.438,1.708,0.264,2.421c5.554-6.075,10.105-9.29,10.105-9.29s-2.431,3.532-8.853,10.492   c0.702-0.203,1.622-0.054,2.542,0.251C92.438,11.637,95.99,4.25,95.99,4.25S88.8,8.161,82.56,14.33z"/>
+    </g>
+    <g>
+        <path d="M92.381,8.017l-3.007,2.707c0,0-1.884,1.813-4.141,4.157c-4.318,4.482-1.644,1.835-10.707,10.966L4.182,96.884   c-0.916,0.401,2.782-0.508,4.402-2.015l66.83-68.288c0,0,7.347-7.444,10.37-11.196l3.954-4.329L92.381,8.017z"/>
+    </g>
+</svg>
