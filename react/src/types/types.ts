@@ -9,6 +9,7 @@ export interface CardData {
     fp?             : number;     // focus cost
     ch?             : number;     // charge cost
     rules           : ReactNode;  // JSX preferred
+    charges?        : number;
     icon            : string;     // resolved at import time in data files
     rulesCentered   : boolean;    // center entire rules block when true
     note?           : string;
