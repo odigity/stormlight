@@ -5,15 +5,17 @@
 
 ## Commands
 
-### Getting Started
+#### Getting Started
 
-`cd react`
+```
+$ cd react
+$ npm install
+$ npm run dev
+```
 
-`npm install`
+## How-Tos
 
-`npm run dev`
-
-## Making a Sheet
+#### Making a Sheet
 
 1. Define a component (e.g. Foo.tsx) in the "pages" dir.
 2. Create an array with the list of cards you want to show
@@ -25,7 +27,6 @@
 ## TODO
 
 - print lines
-- can we prettify strings in `react/src/types/ItemType.ts`?
 - add support for:
     - Whiteboard element
     - Charge Boxes element
