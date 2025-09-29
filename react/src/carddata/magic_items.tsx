@@ -6,7 +6,6 @@ const magic_items: CardData[] = [
     {
         name          : "?",
         type          : ItemType.MAGIC_ITEM,
-        actions       : 1,
         rulesCentered : false,
         icon          : ?,
         rules         : <>?</>,

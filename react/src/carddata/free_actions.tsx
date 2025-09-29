@@ -20,7 +20,7 @@ const free_actions: CardData[] = [
     {
         name: "Maintain Enhance",
         type: ItemType.FREE_ACTION,
-        actions: 1,
+        actions: 0,
         rulesCentered: false,
         icon: IconMaintainEnhance,
         ip: 1,
@@ -30,7 +30,7 @@ const free_actions: CardData[] = [
     {
         name: "Regenerate",
         type: ItemType.FREE_ACTION,
-        actions: 1,
+        actions: 0,
         rulesCentered: false,
         icon: IconRegenerate,
         ip: 1,
@@ -43,7 +43,7 @@ const free_actions: CardData[] = [
     {
         name: "Stand Up",
         type: ItemType.FREE_ACTION,
-        actions: 1,
+        actions: 0,
         rulesCentered: false,
         icon: IconStandUp,
         rules: <>Movement reduced by 5' until next turn.</>,

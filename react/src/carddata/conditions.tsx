@@ -28,7 +28,6 @@ const conditions: CardData[] = [
     {
         name: "Afflicted",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconAfflicted,
         rules: <>
@@ -41,7 +40,6 @@ const conditions: CardData[] = [
     {
         name: "Determined",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconDetermined,
         rules: <>May add <span className="dingbats">o</span> to 1 failed test.</>,
@@ -50,7 +48,6 @@ const conditions: CardData[] = [
     {
         name: "Disoriented",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconDisoriented,
         rules: <>
@@ -63,7 +60,6 @@ const conditions: CardData[] = [
     {
         name: "Empowered",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEmpowered,
         rules: <>
@@ -76,7 +72,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhanced,
         rules: <>
@@ -91,7 +86,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Strength",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedStrength,
         rules: <>Doesn't affect Physical Defense or HP.</>,
@@ -101,7 +95,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Speed",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedSpeed,
         rules: <>Doesn't affect Physical Defense.</>,
@@ -111,7 +104,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Intellect",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedIntellect,
         rules: <>Doesn't affect Cognitive Defense.</>,
@@ -121,7 +113,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Willpower",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedWillpower,
         rules: <>Doesn't affect Cognitive Defense or FP.</>,
@@ -131,7 +122,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Awareness",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedAwareness,
         rules: <>Doesn't affect Spiritual Defense or IP.</>,
@@ -141,7 +131,6 @@ const conditions: CardData[] = [
     {
         name: "Enhanced Presence",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconEnhancedPresence,
         rules: <>Doesn't affect Spiritual Defense or IP.</>,
@@ -151,7 +140,6 @@ const conditions: CardData[] = [
     {
         name: "Exhausted",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconExhausted,
         rules: <>
@@ -165,7 +153,6 @@ const conditions: CardData[] = [
     {
         name: "Focused",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconFocused,
         rules: <>FP costs reduced by 1.</>,
@@ -174,7 +161,6 @@ const conditions: CardData[] = [
     {
         name: "Immobilized",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconImmobilized,
         rules: <>
@@ -186,7 +172,6 @@ const conditions: CardData[] = [
     {
         name: "Prone",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconProne,
         rules: <>
@@ -200,7 +185,6 @@ const conditions: CardData[] = [
     {
         name: "Restrained",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconRestrained,
         rules: <>
@@ -212,7 +196,6 @@ const conditions: CardData[] = [
     {
         name: "Slowed",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconSlowed,
         rules: <>Half movement, rounded up.</>,
@@ -221,7 +204,6 @@ const conditions: CardData[] = [
     {
         name: "Stunned",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconStunned,
         rules: <>
@@ -233,7 +215,6 @@ const conditions: CardData[] = [
     {
         name: "Surprised",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconSurprised,
         rules: <>
@@ -252,7 +233,6 @@ const conditions: CardData[] = [
     {
         name: "Unconscious",
         type: ItemType.CONDITION,
-        actions: 1,
         rulesCentered: false,
         icon: IconUnconscious,
         rules: <>

@@ -32,7 +32,6 @@ const items: CardData[] = [
     {
         name: "Javelin",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconJavelin,
         rules: <><b>1d6 keen</b><br/>30'/120'<br/><i>Indirect</i></>,
@@ -42,7 +41,6 @@ const items: CardData[] = [
     {
         name: "Knife",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconKnife,
         rules: <><b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i></>,
@@ -53,7 +51,6 @@ const items: CardData[] = [
     {
         name: "Mace",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconMace,
         rules: <><b>1d6 impact</b><br/><i>Momentum</i></>,
@@ -63,7 +60,6 @@ const items: CardData[] = [
     {
         name: "Rapier",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconRapier,
         rules: <><b>1d6 keen</b><br/>Quickdraw<br/><i>Defensive</i></>,
@@ -73,7 +69,6 @@ const items: CardData[] = [
     {
         name: "Shortbow",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconShortbow,
         rules: <><b>1d6 keen</b><br/>80'/320', 2🖐️<br/><i>Quickdraw</i></>,
@@ -83,7 +78,6 @@ const items: CardData[] = [
     {
         name: "Shortspear",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconShortspear,
         rules: <><b>1d8 keen</b><br/>2🖐️<br/><i>not 2🖐️</i></>,
@@ -94,7 +88,6 @@ const items: CardData[] = [
     {
         name: "Sidesword",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconSidesword,
         rules: <><b>1d6 keen</b><br/>Quickdraw<br/><i>Offhand</i></>,
@@ -104,7 +97,6 @@ const items: CardData[] = [
     {
         name: "Staff",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconStaff,
         rules: <><b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i></>,
@@ -114,7 +106,6 @@ const items: CardData[] = [
     {
         name: "Sling",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconSling,
         rules: <><b>1d4 impact</b><br/>Discrete<br/><i>Indirect</i></>,
@@ -125,7 +116,6 @@ const items: CardData[] = [
     {
         name: "Axe",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconAxe,
         rules: <><b>1d6 keen</b><br/>20'/60'<br/><i>Offhand</i></>,
@@ -135,7 +125,6 @@ const items: CardData[] = [
     {
         name: "Crossbow",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconCrossbow,
         rules: <><b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i></>,
@@ -145,7 +134,6 @@ const items: CardData[] = [
     {
         name: "Greatsword",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconGreatsword,
         rules: <><b>1d10 keen</b><br/>2🖐️<br/><i>Deadly</i></>,
@@ -155,7 +143,6 @@ const items: CardData[] = [
     {
         name: "Hammer",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconHammer,
         rules: <><b>1d10 impact</b><br/>2🖐️<br/><i>Momentum</i></>,
@@ -165,7 +152,6 @@ const items: CardData[] = [
     {
         name: "Longbow",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconLongbow,
         rules: <><b>1d6 keen</b><br/>150'/600', 2🖐️<br/><i>Indirect</i></>,
@@ -175,7 +161,6 @@ const items: CardData[] = [
     {
         name: "Longspear",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconLongspear,
         rules: <><b>1d8 keen</b><br/>2🖐️<br/><i>Defensive</i></>,
@@ -185,7 +170,6 @@ const items: CardData[] = [
     {
         name: "Longsword",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconLongsword,
         rules: <><b>1d8 keen</b><br/>Quickdraw, 2🖐️<br/><i>not 2🖐️</i></>,
@@ -195,7 +179,6 @@ const items: CardData[] = [
     {
         name: "Poleaxe",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconPoleaxe,
         rules: <><b>1d10 keen</b><br/>2🖐️<br/><i>+5'</i></>,
@@ -205,7 +188,6 @@ const items: CardData[] = [
     {
         name: "Shield",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconShield,
         rules: <><b>1d4 impact</b><br/>Defensive<br/><i>Offhand</i></>,
@@ -216,7 +198,6 @@ const items: CardData[] = [
     {
         name: "Improvised Weapon",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconImprovisedWeapon,
         rules: <>
@@ -228,7 +209,6 @@ const items: CardData[] = [
     {
         name: "Unarmed Attack",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconUnarmedAttack,
         rules: <>
@@ -259,7 +239,6 @@ const items: CardData[] = [
     {
         name: "Half-Shard",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: "", // TODO: missing icon
         rules: <>
@@ -271,7 +250,6 @@ const items: CardData[] = [
     {
         name: "Shardblade",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: "", // TODO: missing icon
         rules: <>
@@ -283,7 +261,6 @@ const items: CardData[] = [
     {
         name: "Shardblade (Radiant)",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: "", // TODO: missing icon
         rules: <>
@@ -295,7 +272,6 @@ const items: CardData[] = [
     {
         name: "Warhammer",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconWarhammer,
         rules: <>
@@ -307,7 +283,6 @@ const items: CardData[] = [
     {
         name: "Grandbow",
         type: ItemType.ITEM,
-        actions: 1,
         rulesCentered: true,
         icon: IconGrandbow,
         rules: <>
