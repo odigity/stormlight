@@ -17,6 +17,25 @@
     src: url('./assets/fonts/LaskiSansBold.otf') format("opentype");
     font-weight: bold;
 }
+@font-face {
+    font-family: Penumbra;
+    src: url('./assets/fonts/PenumbraSerifStdSemibold.otf') format("opentype");
+}
+@font-face {
+    font-family: GoodOT;
+    src: url('./assets/fonts/GoodOT.otf') format("opentype");
+}
+
+@font-face {
+    font-family: Plantin;
+    src: url('./assets/fonts/PlantinRegular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: Plantin;
+    src: url('./assets/fonts/PlantinSemibold.otf') format("opentype");
+    font-weight: bold;
+}
 
 
 #root {
@@ -67,4 +86,14 @@
 .bold {
     display: inline;
     font-weight: bold;
+}
+
+.italic-block {
+    font-style: italic;
+    display: block;
+}
+
+.bold-block {
+    font-weight: bold;
+    display: block;
 }

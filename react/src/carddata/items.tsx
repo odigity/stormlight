@@ -48,6 +48,7 @@ const items: CardData[] = [
         rules: <><b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i></>,
         note: "Light Weaponry",
         source: "p.246",
+        mirrorIcon: true,
     },
     {
         name: "Mace",

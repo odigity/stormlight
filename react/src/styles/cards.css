@@ -49,6 +49,7 @@
     margin: 0;
     box-sizing: border-box;
     text-align: left;
+    font-family: LaskiSans;
 }
 
 /* Wide variants for actions only */

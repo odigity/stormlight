@@ -149,7 +149,9 @@ const costly_actions: CardData[] = [
         rulesCentered: true,
         icon: IconStrike,
         rules: <>
-            <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+            <div>
+                <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+            </div>
         </>,
         source: "p.303",
     },
@@ -162,7 +164,9 @@ const costly_actions: CardData[] = [
         mirrorIcon: true,
         fp: 2,
         rules: <>
-            <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+            <div>
+                <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+            </div>
             <b>Tip:</b>
             <br/>Offhand trait = 1 FP discount.
         </>,
