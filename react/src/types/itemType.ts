@@ -1,0 +1,9 @@
+export enum ItemType {
+    ITEM = "ITEM",
+    COSTLY_ACTION = "COSTLY_ACTION",
+    FREE_ACTION = "FREE_ACTION",
+    REACTION = "REACTION",
+    CONDITION = "CONDITION",
+    EFFECT = "EFFECT",
+    INFUSION = "INFUSION"
+}
