@@ -12,6 +12,7 @@ TODO
 ## TODO
 
 - Populate README#Commands.
+- print lines
 - can we prettify strings in `react/src/types/ItemType.ts`?
 - add support for:
     - Charge cost square bubble
