@@ -11,25 +11,25 @@ const cards = [
     //     fontFamily:'Penumbra'
     // }),
     makeCardWithStyles({
-        fontFamily:'LaskiSans'
+        fontFamily: 'LaskiSans'
     }),
     makeCardWithStyles({
-        fontFamily:'Plantin'
+        fontFamily: 'Plantin'
     }),
     makeCardWithStyles({
-        fontFamily:'GoodOT'
+        fontFamily: 'GoodOT'
     }),
 ];
 
 
 function makeCardWithStyles(styles) {
     return {
-        name: 'Gain Advantage',
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : 'Gain Advantage',
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: "asdf",
-        rules: <>
+        icon         : "asdf",
+        rules        : <>
             <div style={styles}>
                 {styles.fontFamily}
                 <br/>

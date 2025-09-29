@@ -31,43 +31,43 @@ import {rules} from "eslint-plugin-react-hooks";
 
 const costly_actions: CardData[] = [
     {
-        name: "Brace",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Brace",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconBrace,
-        rules: <>Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.</>,
-        source: "p.303",
+        icon         : IconBrace,
+        rules        : <>Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.</>,
+        source       : "p.303",
     },
     {
-        name: "Breathe Stormlight",
-        type: ItemType.COSTLY_ACTION,
-        actions: 2,
+        name         : "Breathe Stormlight",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 2,
         rulesCentered: false,
-        icon: IconBreatheStormlight,
-        rules: <>
+        icon         : IconBreatheStormlight,
+        rules        : <>
             <p>Refill IP from spheres within 5'.<br/><i>(1 IP / infused mark or broam)</i></p>
             <p>Can use when Unconcscious or prevented from using free_actions.</p>
         </>,
         source: "p.124",
     },
     {
-        name: "Disengage",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Disengage",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconDisengage,
-        rules: <>Move 5' without provoking a Reactive Strike.</>,
-        source: "p.303",
+        icon         : IconDisengage,
+        rules        : <>Move 5' without provoking a Reactive Strike.</>,
+        source       : "p.303",
     },
     {
-        name: "Enhance",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Enhance",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconEnhance,
-        ip: 1,
-        rules: <>
+        icon         : IconEnhance,
+        ip           : 1,
+        rules        : <>
             Until end of next turn:<br/>
             • Enhanced [Str +1]<br/>
             • Enhanced [Spd +1]<br/>
@@ -77,24 +77,24 @@ const costly_actions: CardData[] = [
         source: "p.124",
     },
     {
-        name: "Gain Advantage",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Gain Advantage",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconGainAdvantage,
-        rules: <>
+        icon         : IconGainAdvantage,
+        rules        : <>
             <i>Any skill vs enemy's corresponding defense:</i>
             <br/>Gain an Advantage on next test using a different skill vs that enemy.
         </>,
         source: "p.303",
     },
     {
-        name: "Grapple",
-        type: ItemType.COSTLY_ACTION,
-        actions: 2,
+        name         : "Grapple",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 2,
         rulesCentered: false,
-        icon: IconGrapple,
-        rules: <>
+        icon         : IconGrapple,
+        rules        : <>
             <i>Athletics vs Physical:</i> Restrained until...
             <br/>• you become Unconcscious
             <br/>• they exit your reach somehow
@@ -103,82 +103,82 @@ const costly_actions: CardData[] = [
         source: "p.304",
     },
     {
-        name: "Interact",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Interact",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconInteract,
-        rules: <>
+        icon         : IconInteract,
+        rules        : <>
             • draw / sheath weapon
             <br/>• open / close door
             <br/>• pick up / fetch item
             <br/>• hand item to ally
         </>,
-        note: "Reusable",
+        note  : "Reusable",
         source: "p.303",
     },
     {
-        name: "Move",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Move",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconMove,
-        rules: <>Slowed if crawling, climbing, swimming, or stealthy.</>,
-        note: "Reusable",
-        source: "p.303",
+        icon         : IconMove,
+        rules        : <>Slowed if crawling, climbing, swimming, or stealthy.</>,
+        note         : "Reusable",
+        source       : "p.303",
     },
     {
-        name: "Ready",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Ready",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconReady,
-        rules: <>
+        icon         : IconReady,
+        rules        : <>
             Choose trigger and action.
             <br/>Pay the action cost up front.
         </>,
         source: "p.304",
     },
     {
-        name: "Recover",
-        type: ItemType.COSTLY_ACTION,
-        actions: 2,
+        name         : "Recover",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 2,
         rulesCentered: false,
-        icon: IconRecover,
-        rules: <>Recovery die ➡ HP and/or FP.</>,
-        note: "Once per scene",
-        source: "p.304",
+        icon         : IconRecover,
+        rules        : <>Recovery die ➡ HP and/or FP.</>,
+        note         : "Once per scene",
+        source       : "p.304",
     },
     {
-        name: "Reload",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Reload",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconReload,
-        rules: <>Reload weapon to full ammunition.</>,
-        source: "p.245",
+        icon         : IconReload,
+        rules        : <>Reload weapon to full ammunition.</>,
+        source       : "p.245",
     },
     {
-        name: "Shove",
-        type: ItemType.COSTLY_ACTION,
-        actions: 2,
+        name         : "Shove",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 2,
         rulesCentered: false,
-        icon: IconShove,
-        rules: <>
+        icon         : IconShove,
+        rules        : <>
             <p><i>Athletics vs Physical:</i> Push or pull target 5' horizontally.</p>
             <p>Also breaks Grapple.</p>
         </>,
         source: "p.304",
     },
     {
-        name: "Strike (Offhand)",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Strike (Offhand)",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: true,
-        icon: IconStrike,
-        mirrorIcon: true,
-        fp: 2,
-        rules: <>
+        icon         : IconStrike,
+        mirrorIcon   : true,
+        fp           : 2,
+        rules        : <>
             <div>
                 <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
             </div>
@@ -188,12 +188,12 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
-        name: "Strike (Primary)",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Strike (Primary)",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: true,
-        icon: IconStrike,
-        rules: <>
+        icon         : IconStrike,
+        rules        : <>
             <div>
                 <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
             </div>
@@ -201,13 +201,13 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
-        name: "Use a Skill",
-        type: ItemType.COSTLY_ACTION,
-        actions: 1,
+        name         : "Use a Skill",
+        type         : ItemType.COSTLY_ACTION,
+        actions      : 1,
         rulesCentered: false,
-        icon: IconUseASkill,
-        rules: <>Perform challenging task around battlefield.</>,
-        source: "p.303",
+        icon         : IconUseASkill,
+        rules        : <>Perform challenging task around battlefield.</>,
+        source       : "p.303",
     },
 
     // TODO
