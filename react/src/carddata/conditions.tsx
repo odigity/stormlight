@@ -2,26 +2,26 @@ import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
 // Icons
-import IconAfflicted from "../assets/icons/effects/Afflicted.svg";
-import IconDetermined from "../assets/icons/effects/Determined.svg";
-import IconDisoriented from "../assets/icons/effects/Disoriented.svg";
-import IconEmpowered from "../assets/icons/effects/Empowered.svg";
-import IconEnhanced from "../assets/icons/effects/Enhanced.svg";
-import IconEnhancedStrength from "../assets/icons/effects/EnhancedStrength.svg";
-import IconEnhancedSpeed from "../assets/icons/effects/EnhancedSpeed.svg";
-import IconEnhancedIntellect from "../assets/icons/effects/EnhancedIntellect.svg";
-import IconEnhancedWillpower from "../assets/icons/effects/EnhancedWillpower.svg";
-import IconEnhancedAwareness from "../assets/icons/effects/EnhancedAwareness.svg";
-import IconEnhancedPresence from "../assets/icons/effects/EnhancedPresence.svg";
-import IconExhausted from "../assets/icons/effects/Exhausted.svg";
-import IconFocused from "../assets/icons/effects/Focused.svg";
-import IconImmobilized from "../assets/icons/effects/Immobilized.svg";
-import IconProne from "../assets/icons/effects/Prone.svg";
-import IconRestrained from "../assets/icons/effects/Restrained.svg";
-import IconSlowed from "../assets/icons/effects/Slowed.svg";
-import IconStunned from "../assets/icons/effects/Stunned.svg";
-import IconSurprised from "../assets/icons/effects/Surprised.svg";
-import IconUnconscious from "../assets/icons/effects/Unconscious.svg";
+import IconAfflicted from "../assets/art/Afflicted.svg";
+import IconDetermined from "../assets/art/Determined.svg";
+import IconDisoriented from "../assets/art/Disoriented.svg";
+import IconEmpowered from "../assets/art/Empowered.svg";
+import IconEnhanced from "../assets/art/Enhanced.svg";
+import IconEnhancedStrength from "../assets/art/EnhancedStrength.svg";
+import IconEnhancedSpeed from "../assets/art/EnhancedSpeed.svg";
+import IconEnhancedIntellect from "../assets/art/EnhancedIntellect.svg";
+import IconEnhancedWillpower from "../assets/art/EnhancedWillpower.svg";
+import IconEnhancedAwareness from "../assets/art/EnhancedAwareness.svg";
+import IconEnhancedPresence from "../assets/art/EnhancedPresence.svg";
+import IconExhausted from "../assets/art/Exhausted.svg";
+import IconFocused from "../assets/art/Focused.svg";
+import IconImmobilized from "../assets/art/Immobilized.svg";
+import IconProne from "../assets/art/Prone.svg";
+import IconRestrained from "../assets/art/Restrained.svg";
+import IconSlowed from "../assets/art/Slowed.svg";
+import IconStunned from "../assets/art/Stunned.svg";
+import IconSurprised from "../assets/art/Surprised.svg";
+import IconUnconscious from "../assets/art/Unconscious.svg";
 import {rules} from "eslint-plugin-react-hooks";
 
 const conditions: CardData[] = [

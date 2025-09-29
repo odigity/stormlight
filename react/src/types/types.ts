@@ -4,7 +4,7 @@ import {ItemType} from "./itemType.ts";
 export interface CardData {
     name: string;
     type: ItemType;
-    actions: number; // 1 default; 2=double-wide, 3=triple-wide for actions; -1=reaction (single-wide)
+    actions?: number; // 1 default; 2=double-wide, 3=triple-wide for actions; -1=reaction (single-wide)
     ip?: number; // investiture cost
     fp?: number; // focus cost
     rules: ReactNode; // JSX preferred

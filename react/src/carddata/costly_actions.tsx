@@ -2,31 +2,31 @@ import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
 // Icons
-import IconBrace from "../assets/icons/costly/Brace.svg";
-import IconDisengage from "../assets/icons/costly/Disengage.svg";
-import IconGainAdvantage from "../assets/icons/costly/GainAdvantage.svg";
-import IconGrapple from "../assets/icons/costly/Grapple.svg";
-import IconInteract from "../assets/icons/costly/Interact.svg";
-import IconMove from "../assets/icons/costly/Move.svg";
-import IconReady from "../assets/icons/costly/Ready.svg";
-import IconRecover from "../assets/icons/costly/Recover.svg";
-import IconReload from "../assets/icons/costly/Reload.svg";
-import IconShove from "../assets/icons/costly/Shove.svg";
-import IconStrike from "../assets/icons/costly/Strike.svg";
-import IconUseASkill from "../assets/icons/costly/UseASkill.svg";
-import IconBreatheStormlight from "../assets/icons/costly/BreatheStormlight.svg";
-import IconEnhance from "../assets/icons/costly/Enhance.svg";
+import IconBrace from "../assets/art/Brace.svg";
+import IconDisengage from "../assets/art/Disengage.svg";
+import IconGainAdvantage from "../assets/art/GainAdvantage.svg";
+import IconGrapple from "../assets/art/Grapple.svg";
+import IconInteract from "../assets/art/Interact.svg";
+import IconMove from "../assets/art/Move.svg";
+import IconReady from "../assets/art/Ready.svg";
+import IconRecover from "../assets/art/Recover.svg";
+import IconReload from "../assets/art/Reload.svg";
+import IconShove from "../assets/art/Shove.svg";
+import IconStrike from "../assets/art/Strike.svg";
+import IconUseASkill from "../assets/art/UseASkill.svg";
+import IconBreatheStormlight from "../assets/art/BreatheStormlight.svg";
+import IconEnhance from "../assets/art/Enhance.svg";
 
-import IconSurgeAbrasion from "../assets/icons/costly/SurgeAbrasion.svg";
-import IconSurgeAdhesion from "../assets/icons/costly/SurgeAdhesion.svg";
-import IconSurgeCohesion from "../assets/icons/costly/SurgeCohesion.svg";
-import IconSurgeDivision from "../assets/icons/costly/SurgeDivision.svg";
-import IconSurgeGravitation from "../assets/icons/costly/SurgeGravitation.svg";
-import IconSurgeIllumination from "../assets/icons/costly/SurgeIllumination.svg";
-import IconSurgeProgression from "../assets/icons/costly/SurgeProgression.svg";
-import IconSurgeTension from "../assets/icons/costly/SurgeTension.svg";
-import IconSurgeTransformation from "../assets/icons/costly/SurgeTransformation.svg";
-import IconSurgeTransportation from "../assets/icons/costly/SurgeTransportation.svg";
+import IconSurgeAbrasion from "../assets/art/Abrasion.svg";
+import IconSurgeAdhesion from "../assets/art/Adhesion.svg";
+import IconSurgeCohesion from "../assets/art/Cohesion.svg";
+import IconSurgeDivision from "../assets/art/Division.svg";
+import IconSurgeGravitation from "../assets/art/Gravitation.svg";
+import IconSurgeIllumination from "../assets/art/Illumination.svg";
+import IconSurgeProgression from "../assets/art/Progression.svg";
+import IconSurgeTension from "../assets/art/Tension.svg";
+import IconSurgeTransformation from "../assets/art/Transformation.svg";
+import IconSurgeTransportation from "../assets/art/Transportation.svg";
 import {rules} from "eslint-plugin-react-hooks";
 
 const costly_actions: CardData[] = [
@@ -149,7 +149,7 @@ const costly_actions: CardData[] = [
         rulesCentered: true,
         icon: IconStrike,
         rules: <>
-            <i>Unarmed Attack or Weapon<br/>vs<br/>Physical</i>
+            <div className='italic'>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
         </>,
         source: "p.303",
     },
@@ -162,9 +162,7 @@ const costly_actions: CardData[] = [
         mirrorIcon: true,
         fp: 2,
         rules: <>
-            <br/>
-            <i>Unarmed Attack or Weapon<br/>vs<br/>Physical</i>
-            <br/><br/>
+            <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
             <b>Tip:</b>
             <br/>Offhand trait = 1 FP discount.
         </>,

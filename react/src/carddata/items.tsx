@@ -2,30 +2,30 @@ import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
 // Icons
-import IconJavelin from "../assets/icons/items/Javelin.svg";
-import IconKnife from "../assets/icons/items/Knife.svg";
-import IconMace from "../assets/icons/items/Mace.svg";
-import IconRapier from "../assets/icons/items/Rapier.svg";
-import IconShortbow from "../assets/icons/items/Shortbow.svg";
-import IconShortspear from "../assets/icons/items/Shortspear.svg";
-import IconSidesword from "../assets/icons/items/Sidesword.svg";
-import IconStaff from "../assets/icons/items/Staff.svg";
-import IconSling from "../assets/icons/items/Sling.svg";
+import IconJavelin from "../assets/art/Javelin.svg";
+import IconKnife from "../assets/art/Knife.svg";
+import IconMace from "../assets/art/Mace.svg";
+import IconRapier from "../assets/art/Rapier.svg";
+import IconShortbow from "../assets/art/Shortbow.svg";
+import IconShortspear from "../assets/art/Shortspear.svg";
+import IconSidesword from "../assets/art/Sidesword.svg";
+import IconStaff from "../assets/art/Staff.svg";
+import IconSling from "../assets/art/Sling.svg";
 
-import IconAxe from "../assets/icons/items/Axe.svg";
-import IconCrossbow from "../assets/icons/items/Crossbow.svg";
-import IconGreatsword from "../assets/icons/items/Greatsword.svg";
-import IconHammer from "../assets/icons/items/Hammer.svg";
-import IconLongbow from "../assets/icons/items/Longbow.svg";
-import IconLongspear from "../assets/icons/items/Longspear.svg";
-import IconLongsword from "../assets/icons/items/Longsword.svg";
-import IconPoleaxe from "../assets/icons/items/Poleaxe.svg";
-import IconShield from "../assets/icons/items/Shield.svg";
+import IconAxe from "../assets/art/Axe.svg";
+import IconCrossbow from "../assets/art/Crossbow.svg";
+import IconGreatsword from "../assets/art/Greatsword.svg";
+import IconHammer from "../assets/art/Hammer.svg";
+import IconLongbow from "../assets/art/Longbow.svg";
+import IconLongspear from "../assets/art/Longspear.svg";
+import IconLongsword from "../assets/art/Longsword.svg";
+import IconPoleaxe from "../assets/art/Poleaxe.svg";
+import IconShield from "../assets/art/Shield.svg";
 
-import IconImprovisedWeapon from "../assets/icons/items/ImprovisedWeapon.svg";
-import IconUnarmedAttack from "../assets/icons/items/UnarmedAttack.svg";
-import IconWarhammer from "../assets/icons/items/Warhammer.svg";
-import IconGrandbow from "../assets/icons/items/Grandbow.svg";
+import IconImprovisedWeapon from "../assets/art/ImprovisedWeapon.svg";
+import IconUnarmedAttack from "../assets/art/UnarmedAttack.svg";
+import IconWarhammer from "../assets/art/Warhammer.svg";
+import IconGrandbow from "../assets/art/Grandbow.svg";
 import {rules} from "eslint-plugin-react-hooks";
 
 const items: CardData[] = [

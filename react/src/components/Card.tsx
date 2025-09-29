@@ -23,7 +23,7 @@ function Card({ data }: CardProps) {
     return (
         <div className={`card ${widthClass}`}>
             {data.icon ? (
-                <img className={watermarkClasses} src={data.icon} alt="watermark" />
+                <img className={watermarkClasses} src={`src/assets/art/${normalizeNameForSvg(data.name)}.svg`} alt="watermark" />
             ) : null}
 
             <div className="cardhead">
@@ -37,13 +37,13 @@ function Card({ data }: CardProps) {
                 )}
             </div>
 
-            {/*<h2>{data.name}</h2>*/}
-
-            {data.rulesCentered ? (
-                <div className="rules-centered">{data.rules}</div>
-            ) : (
-                <div className="rules">{data.rules}</div>
-            )}
+            <div className="cardBody">
+                {data.rulesCentered ? (
+                    <div className="rules-centered">{data.rules}</div>
+                ) : (
+                    <div className="rules">{data.rules}</div>
+                )}
+            </div>
 
             {data.note && <div className="note">{data.note}</div>}
             <div className="source">{data.source}</div>
@@ -51,7 +51,7 @@ function Card({ data }: CardProps) {
     );
 }
 
-function getCardWidthByActionCost(actionCost) {
+function getCardWidthByActionCost(actionCost: number | undefined) {
     if (!actionCost || actionCost < 2) {
         return ''
     } else if (actionCost === 2) {
@@ -61,5 +61,8 @@ function getCardWidthByActionCost(actionCost) {
     }
 }
 
+function normalizeNameForSvg(name){
+    return name.split(" ").join("");
+}
 
 export default Card;

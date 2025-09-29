@@ -62,10 +62,12 @@
 .cardhead {
     border-bottom: 2px solid #666;
     margin-bottom: 10px;
+    height: 32px;
+    position: relative;
 }
 
 .card .name {
-    color: black;
+    color: #444;
     margin-top: 0;
     font-size: 1.25rem;
     /*padding-bottom: 5px;*/
@@ -73,6 +75,12 @@
     font-family: LaskiSans;
     font-weight: bold;
     text-align: left;
+    display: inline-block;
+}
+
+.cardBody {
+    /*Height is total height of card, minus (height of name + card paddingTop + card paddingBot)*/
+    height: calc(266px - 32px - 40px);
 }
 
 /* Notes and sources pinned to bottom corners */
@@ -97,15 +105,15 @@
 /* Cost circles */
 .costs {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 3px;
+    right: 0;
     display: flex;
     gap: 5px;
     align-items: center;
 }
 .cost {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     display: flex;
     align-items: center;

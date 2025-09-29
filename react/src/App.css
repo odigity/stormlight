@@ -57,3 +57,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.italic {
+    font-style: italic;
+    display: inline;
+}
+
+.bold {
+    display: inline;
+    font-weight: bold;
+}

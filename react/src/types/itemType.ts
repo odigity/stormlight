@@ -5,5 +5,7 @@ export enum ItemType {
     REACTION = "REACTION",
     CONDITION = "CONDITION",
     EFFECT = "EFFECT",
-    INFUSION = "INFUSION"
+    INFUSION = "INFUSION",
+    MAGIC_ITEM = "MAGIC_ITEM",
+    SKILL = "SKILL"
 }

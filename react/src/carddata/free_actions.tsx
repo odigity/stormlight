@@ -2,10 +2,10 @@ import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
 // Icons
-import IconEndGrapple from "../assets/icons/free/EndGrapple.svg";
-import IconMaintainEnhance from "../assets/icons/free/MaintainEnhance.svg";
-import IconRegenerate from "../assets/icons/free/Regenerate.svg";
-import IconStandUp from "../assets/icons/free/StandUp.svg";
+import IconEndGrapple from "../assets/art/EndGrapple.svg";
+import IconMaintainEnhance from "../assets/art/MaintainEnhance.svg";
+import IconRegenerate from "../assets/art/Regenerate.svg";
+import IconStandUp from "../assets/art/StandUp.svg";
 
 const free_actions: CardData[] = [
     {

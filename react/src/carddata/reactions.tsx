@@ -2,10 +2,10 @@ import type {CardData} from "../types/types.ts";
 import {ItemType} from "../types/itemType.ts";
 
 // Icons
-import IconAid from "../assets/icons/reactions/Aid.svg";
-import IconAvoidDanger from "../assets/icons/reactions/AvoidDanger.svg";
-import IconDodge from "../assets/icons/reactions/Dodge.svg";
-import IconReactiveStrike from "../assets/icons/reactions/ReactiveStrike.svg";
+import IconAid from "../assets/art/Aid.svg";
+import IconAvoidDanger from "../assets/art/AvoidDanger.svg";
+import IconDodge from "../assets/art/Dodge.svg";
+import IconReactiveStrike from "../assets/art/ReactiveStrike.svg";
 import {rules} from "eslint-plugin-react-hooks";
 
 const reactions: CardData[] = [
