@@ -6,7 +6,6 @@ const skills: CardData[] = [
     {
         name          : "?",
         type          : ItemType.SKILL,
-        actions       : 1,
         rulesCentered : false,
         icon          : ?,
         rules         : <>?</>,

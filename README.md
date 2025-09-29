@@ -5,19 +5,31 @@
 
 ## Commands
 
-```
-TODO
-```
+### Getting Started
+
+`cd react`
+
+`npm install`
+
+`npm run dev`
+
+## Making a Sheet
+
+1. Define a component (e.g. Foo.tsx) in the "pages" dir.
+2. Create an array with the list of cards you want to show
+3. Map over the array, returning a `<Card />` element for each card, passing in the associated data
+	* Note: Each one will need a unique 'key' attribute (typically the index) per React standards.
+4. in "App.tsx", import your component and replace the `<Library />` component with your component
+	* TODO: improve support for pages by determining the rendered component via URL instead of hardcoding it
 
 ## TODO
 
-- Populate README#Commands.
 - can we prettify strings in `react/src/types/ItemType.ts`?
 - add support for:
-    - Charge cost square bubble
     - Whiteboard element
     - Charge Boxes element
-- how to produce sheets?
 - how to produce sheet of full-opacity watermarks?
-- why "actions: 1" for non-action cards?
+- NOTE: "end grapple" is a free action, but has action cost 2 to define card width.
+  - Should we use a separate "width" option (1 by default, or set to 2 or 3) to define width, or just accept that some 
+    "action" costs are not necessarily the same as the actual cost?
 

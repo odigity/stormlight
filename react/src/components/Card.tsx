@@ -19,6 +19,7 @@ function Card({ data }: CardProps) {
 
     const showFP = typeof data.fp === "number" && (data.fp ?? 0) > 0;
     const showIP = typeof data.ip === "number" && (data.ip ?? 0) > 0;
+    const showCH = typeof data.ch === "number" && (data.ch ?? 0) > 0;
 
     return (
         <div className={`card ${widthClass}`}>
@@ -29,10 +30,11 @@ function Card({ data }: CardProps) {
             <div className="cardhead">
                 <div className="name">{data.name}</div>
 
-                {(showFP || showIP) && (
+                {(showFP || showIP || showCH) && (
                     <div className="costs">
                         {showFP && <div className="focus cost">{data.fp}</div>}
                         {showIP && <div className="investiture cost">{data.ip}</div>}
+                        {showCH && <div className="charge cost">{data.ch}</div>}
                     </div>
                 )}
             </div>
