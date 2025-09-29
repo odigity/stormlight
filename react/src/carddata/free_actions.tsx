@@ -9,45 +9,45 @@ import IconStandUp from "../assets/art/StandUp.svg";
 
 const free_actions: CardData[] = [
     {
-        name: "End Grapple",
-        type: ItemType.FREE_ACTION,
-        actions: 2, // double-wide
+        name         : "End Grapple",
+        type         : ItemType.FREE_ACTION,
+        actions      : 2, // double-wide
         rulesCentered: true,
-        icon: IconEndGrapple,
-        rules: <><br/><i>This space intentionally left blank.</i></>,
-        source: "p.304",
+        icon         : IconEndGrapple,
+        rules        : <><br/><i>This space intentionally left blank.</i></>,
+        source       : "p.304",
     },
     {
-        name: "Maintain Enhance",
-        type: ItemType.FREE_ACTION,
-        actions: 0,
+        name         : "Maintain Enhance",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
         rulesCentered: false,
-        icon: IconMaintainEnhance,
-        ip: 1,
-        rules: <>Maintain existing Enhance effect until end of next turn.</>,
-        source: "p.125",
+        icon         : IconMaintainEnhance,
+        ip           : 1,
+        rules        : <>Maintain existing Enhance effect until end of next turn.</>,
+        source       : "p.125",
     },
     {
-        name: "Regenerate",
-        type: ItemType.FREE_ACTION,
-        actions: 0,
+        name         : "Regenerate",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
         rulesCentered: false,
-        icon: IconRegenerate,
-        ip: 1,
-        rules: <>
+        icon         : IconRegenerate,
+        ip           : 1,
+        rules        : <>
             <p>HP += 1d6 + tier.</p>
             <p>Can use even when Unconscious or prevented from using free_actions.</p>
         </>,
         source: "p.125",
     },
     {
-        name: "Stand Up",
-        type: ItemType.FREE_ACTION,
-        actions: 0,
+        name         : "Stand Up",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
         rulesCentered: false,
-        icon: IconStandUp,
-        rules: <>Movement reduced by 5' until next turn.</>,
-        source: "p.294",
+        icon         : IconStandUp,
+        rules        : <>Movement reduced by 5' until next turn.</>,
+        source       : "p.294",
     },
 ];
 
