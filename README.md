@@ -1,37 +1,34 @@
-_Order: **Standard**, Custom._
+Standard items (the ones with art) are in **bold.**
 
-## Costly Actions ▶
+## Cards
 
-_Order: Combat, Stormlight, Surge_
-
-| Card | Status |
-| :-: | :-: |
-| **Brace** | ✔ |
-| **Disengage** | ✔ |
-| **Gain Advantage** | ✔ |
-| **Grapple** | ✔ |
-| **Interact** | ✔ |
-| **Move** | ✔ |
-| **Ready** | ✔ |
-| **Recover** | ✔ |
-| **Reload** | ✔ |
-| **Shove** | ✔ |
-| **Strike (Primary)** | ✔ |
-| **Strike (Offhand)** | ✔ |
-| **Use a Skill** | ✔ |
-| **Breathe Stormlight** | ✔ |
-| **Enhance** | ✔ |
-| **Abrasion** | ? |
-| **Adhesion** | ? |
-| **Cohesion** | ? |
-| **Division** | ? |
-| **Gravitation** | ? |
-| **Illumination** | ? |
-| **Progression** | ? |
-| **Tension** | ? |
-| **Transformation** | ? |
-| **Transportation** | ? |
-| Custom Costly Action 1 | ? |
+| Card | Type | Back | Status |
+| :-: | :-: | :-: | :-: |
+| **Abrasion** | Costly Action | | TODO |
+| **Adhesion** | Costly Action | | TODO |
+| **Brace** | Costly Action | | ✔ |
+| **Breathe Stormlight** | Costly Action | | ✔ |
+| **Cohesion** | Costly Action | | TODO |
+| **Disengage** | Costly Action | | ✔ |
+| **Division** | Costly Action | | TODO |
+| **Enhance** | Costly Action | | ✔ |
+| **Gain Advantage** | Costly Action | | ✔ |
+| **Grapple** | Costly Action | | ✔ |
+| **Gravitation** | Costly Action | | TODO |
+| **Illumination** | Costly Action | | TODO |
+| **Interact** | Costly Action | | ✔ |
+| **Move** | Costly Action | | ✔ |
+| **Progression** | Costly Action | | TODO |
+| **Ready** | Costly Action | | ✔ |
+| **Recover** | Costly Action | | ✔ |
+| **Reload** | Costly Action | watermark | ✔ |
+| **Shove** | Costly Action | watermark | ✔ |
+| **Strike (Primary)** | Costly Action | watermark | ✔ |
+| **Strike (Offhand)** | Costly Action | watermark | ✔ |
+| **Tension** | Costly Action | watermark | TODO |
+| **Transformation** | Costly Action | watermark | TODO |
+| **Transportation** | Costly Action | watermark | TODO |
+| **Use a Skill** | Costly Action | watermark | ✔ |
 
 ## Free Actions ▷
 
@@ -55,7 +52,7 @@ _Order: Combat, Stormlight, Surge_
 | **Painrial (Amplifying/Numbing)** | TODO |
 | Custom Reaction 1 | ? |
 
-## Effects
+## Conditions
 
 | Card | Status |
 | :-: | :-: |
@@ -79,7 +76,14 @@ _Order: Combat, Stormlight, Surge_
 | **Stunned** | ? |
 | **Surprised** | ? |
 | **Unconscious** | ? |
-| Custom Effect 1 | ? |
+
+## Infusions
+
+TODO
+
+## Effects
+
+TODO
 
 ## Items
 
@@ -116,6 +120,10 @@ TODO:
 | **Painrial (Amplifying)** | TODO |
 | **Painrial (Numbing)** | TODO |
 | **Painrial (Hybrid)** | TODO |
+
+### Fabrials
+
+TODO
 
 ## Special Characters
 
