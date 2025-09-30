@@ -1,19 +1,19 @@
-$CosmicOrange     : #fe7b25;
-$FireballFuchsia  : #ff13fc;
-$LiftoffLemon     : #f0ff0c;
-$OutrageousOrchid : #e54eff;
-$SolarWhite       : #ffffff;
-$StardustWhite    : #dddddd;
-$TerraGreen       : #9cfc00;
-$TerrestrialTeal  : #05db8f;
-$VenusViolet      : #6868fc;
+$CelestialBlue    : #3697AE;    // Magic Items
+$FireballFuchsia  : #FF3C9C;    // Infusions 
+$GalaxyGold       : #FFAC00;    // Free Actions
+$GravityGrape     : #8A6C9E;    // Skills
+$LunarBlue        : #64B9BC;    // Items
+$OrbitOrange      : #F86129;    // Costly Actions
+$OutrageousOrchid : #D573AF;    // Conditions
+$RocketRed        : #FF5E63;    // Reactions
+$TerrestrialTeal  : #27A89A;    // Effects
 
-$color-action     : $TerraGreen;
-$color-freeaction : $LiftoffLemon;
-$color-reaction   : $CosmicOrange;
-$color-condition  : $VenusViolet;
+$color-action     : $OrbitOrange;
+$color-freeaction : $GalaxyGold;
+$color-reaction   : $RocketRed;
+$color-condition  : $OutrageousOrchid;
 $color-effect     : $TerrestrialTeal;
 $color-infusion   : $FireballFuchsia;
-$color-item       : $SolarWhite;
-$color-magicitem  : $StardustWhite;
-$color-skill      : $OutrageousOrchid;
+$color-item       : $LunarBlue;
+$color-magicitem  : $CelestialBlue;
+$color-skill      : $GravityGrape;

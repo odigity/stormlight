@@ -54,7 +54,17 @@ const conditions: CardData[] = [
         </>,
     },
     {
-        name     : "Enhanced",
+        name   : "Enhanced",
+        status : "TODO",
+        source : "p.294",
+        art    : "?.svg",
+        keyProps : "Stacking",
+        rules  : <>
+            Doesn't affect Defenses or HP / FP / IP.
+        </>,
+    },
+    {
+        name     : "Enhanced Physical",
         status   : "PROOF",
         source   : "p.294",
         art      : "Enhanced.svg",
@@ -64,66 +74,6 @@ const conditions: CardData[] = [
             • Enhanced [Spd +1]<br/>
             <br/>
             Doesn't affect Physical Defense or HP.
-        </>,
-    },
-    {
-        name   : "Enhanced Strength",
-        status : "PROOF",
-        source : "p.294",
-        art    : "EnhancedStrength.svg",
-        keyProps : "Stacking",
-        rules  : <>
-            Doesn't affect Physical Defense or HP.
-        </>,
-    },
-    {
-        name     : "Enhanced Speed",
-        status   : "PROOF",
-        source   : "p.294",
-        art      : "EnhancedSpeed.svg",
-        keyProps : "Stacking",
-        rules    : <>
-            Doesn't affect Physical Defense.
-        </>,
-    },
-    {
-        name     : "Enhanced Intellect",
-        status   : "PROOF",
-        source   : "p.294",
-        art      : "EnhancedIntellect.svg",
-        keyProps : "Stacking",
-        rules    : <>
-            Doesn't affect Cognitive Defense.
-        </>,
-    },
-    {
-        name     : "Enhanced Willpower",
-        status   : "PROOF",
-        source   : "p.294",
-        art      : "EnhancedWillpower.svg",
-        keyProps : "Stacking",
-        rules    : <>
-            Doesn't affect Cognitive Defense or FP.
-        </>,
-    },
-    {
-        name     : "Enhanced Awareness",
-        status   : "PROOF",
-        source   : "p.294",
-        art      : "EnhancedAwareness.svg",
-        keyProps : "Stacking",
-        rules    : <>
-            Doesn't affect Spiritual Defense or IP.
-        </>,
-    },
-    {
-        name     : "Enhanced Presence",
-        status   : "PROOF",
-        source   : "p.294",
-        art      : "EnhancedPresence.svg",
-        keyProps : "Stacking",
-        rules    : <>
-            Doesn't affect Spiritual Defense or IP.
         </>,
     },
     {
