@@ -59,16 +59,13 @@ Lint:
  - Items with charges
 
 
-
-
-
 ## Nick's Items
  
  - Sorting
    - Alphabetical
    - Type
      - +alpha
-     - 
+ - Bold card names in data view if it has an icon
 
 ### Views
  

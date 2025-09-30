@@ -1,4 +1,4 @@
-@import './vars';
+@import './vars.scss';
 
 /* Flexbox container for cards */
 .flexbox-container {
@@ -87,7 +87,7 @@
 .card .name {
     color: #444;
     margin-top: 0;
-    font-size: 1.25rem;
+    font-size: 22px;
     /*padding-bottom: 5px;*/
     position: relative;
     font-family: LaskiSans;
@@ -144,6 +144,7 @@
 .focus {
     border: 2px solid #333;
 }
+
 .investiture {
     background-color: #333 !important;
     color: white !important;
@@ -223,9 +224,9 @@
 
 @media print {
 
-    .library-topnav {
-      display: none;
-    }
+  .library-topnav {
+    display: none;
+  }
   .section-title {
     display: none;
   }
@@ -233,6 +234,13 @@
         border: 1px dashed black;
     }
     .card {
-        background-color: white !important;
+        background-color: white;
+
+      .cost {
+        .investiture {
+          background-color: #333 !important;
+          color: white !important;
+        }
+      }
     }
 }

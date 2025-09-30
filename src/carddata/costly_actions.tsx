@@ -101,7 +101,7 @@ const costly_actions: CardData[] = [
         source: "p.303",
     },
     {
-        name   : "Grapple.svg",
+        name   : "Grapple",
         type   : ItemType.COSTLY_ACTION,
         actions: 2,
         icon   : "Grapple.svg",
