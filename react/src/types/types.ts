@@ -21,3 +21,8 @@ export interface CardData {
     reverseCard?    : string;     // should match "name" property of target card
     parentCard?     : string;     // should match "name" property of target card
 }
+
+export interface SheetData {
+    name  : string;
+    cards : string[];
+}

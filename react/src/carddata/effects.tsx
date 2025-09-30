@@ -6,7 +6,6 @@ const effects: CardData[] = [
     {
         name         : "?",
         type         : ItemType.EFFECT,
-        rulesCentered: false,
         icon         : "?.svg",
         rules        : <>
             ?

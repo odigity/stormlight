@@ -7,7 +7,6 @@ const reactions: CardData[] = [
         name         : "Absorb Pain",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "?.svg",
         rules        : <>
             TODO
@@ -18,7 +17,6 @@ const reactions: CardData[] = [
         name         : "Aid",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "Aid.svg",
         fp           : 1,
         rules        : <>
@@ -30,7 +28,6 @@ const reactions: CardData[] = [
         name         : "Avoid Danger",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "AvoidDanger.svg",
         rules        : <>
             <i>Agility vs DC15 or enemy's instigating test:</i><br/>
@@ -42,7 +39,6 @@ const reactions: CardData[] = [
         name         : "Dodge",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "Dodge.svg",
         fp           : 1,
         rules        : <>
@@ -54,7 +50,6 @@ const reactions: CardData[] = [
         name         : "Numb Pain",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "?.svg",
         rules        : <>
             TODO
@@ -65,7 +60,6 @@ const reactions: CardData[] = [
         name         : "Reactive Strike",
         type         : ItemType.REACTION,
         actions      : -1,
-        rulesCentered: false,
         icon         : "ReactiveStrike.svg",
         fp           : 1,
         rules        : <>
