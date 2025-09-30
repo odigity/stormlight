@@ -11,8 +11,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>20'/60'<br/><i>Offhand</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Crossbow",
@@ -22,8 +23,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Grandbow",
@@ -33,8 +35,9 @@ const items: CardData[] = [
         rules        : <>
             <b>Heavy Weaponry<br/>2d6 keen</b><br/>200'/800', Cumbersome [5], 2🖐️<br/><i>Pierce</i>
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
+        note         : "Special Weapon",
+        source       : "p.248",
+        status       : "PROOF",
     },
     {
         name         : "Greatsword",
@@ -44,8 +47,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d10 keen</b><br/>2🖐️<br/><i>Deadly</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Hammer",
@@ -55,8 +59,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d10 impact</b><br/>2🖐️<br/><i>Momentum</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Improvised Weapon",
@@ -66,8 +71,9 @@ const items: CardData[] = [
         rules        : <>
             <b>Skill: same as similar<br/>Dmg: same as similar</b><br/>Fragile
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
+        note         : "Special Weapon",
+        source       : "p.248",
+        status       : "PROOF",
     },
     {
         name         : "Javelin",
@@ -77,8 +83,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>30'/120'<br/><i>Indirect</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Knife",
@@ -88,9 +95,10 @@ const items: CardData[] = [
         rules        : <>
             <b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i>
         </>,
-        note      : "Light Weaponry",
-        source    : "p.246",
-        mirrorIcon: true,
+        note         : "Light Weaponry",
+        source       : "p.246",
+        mirrorIcon   : true,
+        status       : "PROOF",
     },
     {
         name         : "Longbow",
@@ -100,8 +108,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>150'/600', 2🖐️<br/><i>Indirect</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Longspear",
@@ -111,8 +120,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d8 keen</b><br/>2🖐️<br/><i>Defensive</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Longsword",
@@ -122,8 +132,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d8 keen</b><br/>Quickdraw, 2🖐️<br/><i>not 2🖐️</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Mace",
@@ -133,8 +144,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 impact</b><br/><i>Momentum</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Poleaxe",
@@ -144,8 +156,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d10 keen</b><br/>2🖐️<br/><i>+5'</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Rapier",
@@ -155,8 +168,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>Quickdraw<br/><i>Defensive</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Shield",
@@ -166,8 +180,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d4 impact</b><br/>Defensive<br/><i>Offhand</i>
         </>,
-        note  : "Heavy Weaponry",
-        source: "p.247",
+        note         : "Heavy Weaponry",
+        source       : "p.247",
+        status       : "PROOF",
     },
     {
         name         : "Shortbow",
@@ -177,8 +192,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>80'/320', 2🖐️<br/><i>Quickdraw</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Shortspear",
@@ -188,9 +204,10 @@ const items: CardData[] = [
         rules        : <>
             <b>1d8 keen</b><br/>2🖐️<br/><i>not 2🖐️</i>
         </>,
-        note      : "Light Weaponry",
-        source    : "p.246",
-        mirrorIcon: true,
+        note         : "Light Weaponry",
+        source       : "p.246",
+        mirrorIcon   : true,
+        status       : "PROOF",
     },
     {
         name         : "Sidesword",
@@ -200,19 +217,9 @@ const items: CardData[] = [
         rules        : <>
             <b>1d6 keen</b><br/>Quickdraw<br/><i>Offhand</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
-    },
-    {
-        name         : "Staff",
-        type         : ItemType.ITEM,
-        rulesCentered: true,
-        icon         : "Staff.svg",
-        rules        : <>
-            <b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i>
-        </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Sling",
@@ -222,8 +229,21 @@ const items: CardData[] = [
         rules        : <>
             <b>1d4 impact</b><br/>Discrete<br/><i>Indirect</i>
         </>,
-        note  : "Light Weaponry",
-        source: "p.246",
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
+    },
+    {
+        name         : "Staff",
+        type         : ItemType.ITEM,
+        rulesCentered: true,
+        icon         : "Staff.svg",
+        rules        : <>
+            <b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i>
+        </>,
+        note         : "Light Weaponry",
+        source       : "p.246",
+        status       : "PROOF",
     },
     {
         name         : "Unarmed Attack",
@@ -252,8 +272,9 @@ const items: CardData[] = [
             </div>
             <p><i>Momentum, Offhand</i></p>
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
+        note         : "Special Weapon",
+        source       : "p.248",
+        status       : "PROOF",
     },
     {
         name         : "Warhammer",
@@ -263,8 +284,9 @@ const items: CardData[] = [
         rules        : <>
             <b>Heavy Weaponry<br/>2d10 impact</b><br/>Cumbersome [5], 2🖐️<br/><i>Expert: *</i>
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
+        note         : "Special Weapon",
+        source       : "p.248",
+        status       : "TODO",
     },
 ];
 

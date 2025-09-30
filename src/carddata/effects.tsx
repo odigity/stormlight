@@ -11,6 +11,7 @@ const effects: CardData[] = [
             ?
         </>,
         source: "p.?",
+        status: "TODO",
     },
 ];
 

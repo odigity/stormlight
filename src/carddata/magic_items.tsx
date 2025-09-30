@@ -12,6 +12,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 5,
         source : "p.262",
+        status : "TODO",
     },
     {
         name : "Attractor",
@@ -22,6 +23,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 5,
         source : "p.262",
+        status : "TODO",
     },
     {
         name : "Clock Fabrial",
@@ -32,6 +34,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 3,
         source : "p.262",
+        status : "TODO",
     },
     {
         name : "Drainer",
@@ -42,6 +45,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 2,
         source : "p.262",
+        status : "TODO",
     },
     {
         name : "Emotion Bracelet",
@@ -50,8 +54,10 @@ const magic_items: CardData[] = [
         rules: <>
             TODO
         </>,
-        charges: 3,
-        source : "p.263",
+        charges     : 3,
+        source      : "p.263",
+        reverseCard : "Sense Emotions",
+        status      : "TODO",
     },
     {
         name : "Half-Shard",
@@ -63,6 +69,7 @@ const magic_items: CardData[] = [
         </>,
         note  : "Special Weapon",
         source: "p.248",
+        status : "TODO",
     },
     {
         name : "Heatrial",
@@ -73,6 +80,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 5,
         source : "p.263",
+        status : "TODO",
     },
     {
         name : "Painrial (amplifying)",
@@ -83,6 +91,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 3,
         source : "p.263",
+        status : "TODO",
     },
     {
         name : "Painrial (hybrid)",
@@ -93,6 +102,8 @@ const magic_items: CardData[] = [
         </>,
         charges: 3,
         source : "p.273",
+        reverseCard: "Absorb Pain",
+        status : "TODO",
     },
     {
         name : "Painrial (numbing)",
@@ -103,6 +114,8 @@ const magic_items: CardData[] = [
         </>,
         charges: 3,
         source : "p.263",
+        reverseCard: "Numb Pain",
+        status : "TODO",
     },
     {
         name : "Repeller",
@@ -113,6 +126,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 5,
         source : "p.263",
+        status : "TODO",
     },
     {
         name : "Shardblade",
@@ -124,6 +138,7 @@ const magic_items: CardData[] = [
         </>,
         note  : "Special Weapon",
         source: "p.248",
+        status : "TODO",
     },
     {
         name : "Shardblade (Radiant)",
@@ -135,6 +150,7 @@ const magic_items: CardData[] = [
         </>,
         note  : "Special Weapon",
         source: "p.248",
+        status : "TODO",
     },
     {
         name : "Shardplate",
@@ -144,6 +160,7 @@ const magic_items: CardData[] = [
             TODO
         </>,
         source: "p.254",
+        status : "TODO",
     },
     {
         name : "Shardplate (Radiant)",
@@ -153,6 +170,7 @@ const magic_items: CardData[] = [
             TODO
         </>,
         source: "p.254",
+        status : "TODO",
     },
     {
         name : "Soulcaster",
@@ -163,6 +181,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 5,
         source : "p.264",
+        status : "TODO",
     },
     {
         name : "Spanreed",
@@ -173,6 +192,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 3,
         source : "p.264",
+        status : "TODO",
     },
     {
         name : "Suppressor",
@@ -183,6 +203,7 @@ const magic_items: CardData[] = [
         </>,
         charges: 2,
         source : "p.264",
+        status : "TODO",
     },
 ];
 

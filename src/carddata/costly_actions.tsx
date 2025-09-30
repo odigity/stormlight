@@ -12,6 +12,18 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.212",
+        status: "TODO",
+    },
+    {
+        name   : "Add to Infusion",
+        type   : ItemType.COSTLY_ACTION,
+        actions: 1,
+        icon   : "?.svg",
+        rules  : <>
+            TODO
+        </>,
+        source: "p.210",
+        status: "TODO",
     },
     {
         name   : "Adhesion",
@@ -22,6 +34,18 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.215",
+        status: "TODO",
+    },
+    {
+        name   : "Apply Poison",
+        type   : ItemType.COSTLY_ACTION,
+        actions: 1,
+        icon   : "?.svg",
+        rules  : <>
+            TODO
+        </>,
+        source: "p.259",
+        status: "TODO",
     },
     {
         name   : "Brace",
@@ -32,6 +56,8 @@ const costly_actions: CardData[] = [
             Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.
         </>,
         source: "p.303",
+        reverseCard: "Braced",
+        status: "PROOF",
     },
     {
         name   : "Breathe Stormlight",
@@ -43,6 +69,7 @@ const costly_actions: CardData[] = [
             <p>Can use when Unconcscious or prevented from using free_actions.</p>
         </>,
         source: "p.124",
+        status: "PROOF",
     },
     {
         name   : "Cohesion",
@@ -53,6 +80,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.217",
+        status: "TODO",
     },
     {
         name   : "Disengage",
@@ -63,6 +91,7 @@ const costly_actions: CardData[] = [
             Move 5' without provoking a Reactive Strike.
         </>,
         source: "p.303",
+        status: "PROOF",
     },
     {
         name   : "Division",
@@ -73,6 +102,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.220",
+        status: "TODO",
     },
     {
         name   : "Enhance",
@@ -88,6 +118,8 @@ const costly_actions: CardData[] = [
             <i>To renew, see reverse side.</i>
         </>,
         source: "p.124",
+        reverseCard: "Maintain Enhance",
+        status: "PROOF",
     },
     {
         name   : "Gain Advantage",
@@ -99,6 +131,7 @@ const costly_actions: CardData[] = [
             <br/>Gain an Advantage on next test using a different skill vs that enemy.
         </>,
         source: "p.303",
+        status: "PROOF",
     },
     {
         name   : "Grapple",
@@ -112,6 +145,8 @@ const costly_actions: CardData[] = [
             <br/>• you end as ▷
         </>,
         source: "p.304",
+        reverseCard: "End Grapple",
+        status: "PROOF",
     },
     {
         name   : "Gravitation",
@@ -122,6 +157,18 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.223",
+        status: "TODO",
+    },
+    {
+        name   : "Ignite",
+        type   : ItemType.COSTLY_ACTION,
+        actions: 1,
+        icon   : "?.svg",
+        rules  : <>
+            TODO
+        </>,
+        source: "p.258",
+        status: "TODO",
     },
     {
         name   : "Illumination",
@@ -132,6 +179,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.226",
+        status: "TODO",
     },
     {
         name   : "Interact",
@@ -146,6 +194,19 @@ const costly_actions: CardData[] = [
         </>,
         note  : "Reusable",
         source: "p.303",
+        reverseCard  : "Quickdraw",
+        status: "PROOF",
+    },
+    {
+        name   : "Mount / Dismount",
+        type   : ItemType.COSTLY_ACTION,
+        actions: 1,
+        icon   : "?.svg",
+        rules  : <>
+            TODO
+        </>,
+        source: "p.313",
+        status: "TODO",
     },
     {
         name   : "Move",
@@ -157,6 +218,7 @@ const costly_actions: CardData[] = [
         </>,
         note  : "Reusable.svg",
         source: "p.303",
+        status: "PROOF",
     },
     {
         name   : "Progression",
@@ -167,6 +229,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.229",
+        status: "TODO",
     },
     {
         name   : "Ready",
@@ -178,6 +241,7 @@ const costly_actions: CardData[] = [
             <br/>Pay the action cost up front.
         </>,
         source: "p.304",
+        status: "PROOF",
     },
     {
         name   : "Recover",
@@ -189,6 +253,7 @@ const costly_actions: CardData[] = [
         </>,
         note  : "Once per scene",
         source: "p.304",
+        status: "PROOF",
     },
     {
         name   : "Reload",
@@ -199,6 +264,7 @@ const costly_actions: CardData[] = [
             Reload weapon to full ammunition.
         </>,
         source: "p.245",
+        status: "PROOF",
     },
     {
         name   : "Shove",
@@ -210,6 +276,7 @@ const costly_actions: CardData[] = [
             <p>Also breaks Grapple.</p>
         </>,
         source: "p.304",
+        status: "PROOF",
     },
     {
         name      : "Strike (Offhand)",
@@ -226,6 +293,7 @@ const costly_actions: CardData[] = [
             <br/>Offhand trait = 1 FP discount.
         </>,
         source: "p.303",
+        status: "PROOF",
     },
     {
         name   : "Strike (Primary)",
@@ -238,6 +306,7 @@ const costly_actions: CardData[] = [
             </div>
         </>,
         source: "p.303",
+        status: "PROOF",
     },
     {
         name   : "Tension",
@@ -248,6 +317,18 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.231",
+        status: "TODO",
+    },
+    {
+        name   : "Throw Net",
+        type   : ItemType.COSTLY_ACTION,
+        actions: 1,
+        icon   : "?.svg",
+        rules  : <>
+            TODO
+        </>,
+        source: "p.259",
+        status: "TODO",
     },
     {
         name   : "Transformation",
@@ -258,6 +339,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.234",
+        status: "TODO",
     },
     {
         name   : "Transportation",
@@ -268,6 +350,7 @@ const costly_actions: CardData[] = [
             ?
         </>,
         source: "p.237",
+        status: "TODO",
     },
     {
         name   : "Use a Skill",
@@ -278,6 +361,7 @@ const costly_actions: CardData[] = [
             Perform challenging task around battlefield.
         </>,
         source: "p.303",
+        status: "PROOF",
     },
 ];
 

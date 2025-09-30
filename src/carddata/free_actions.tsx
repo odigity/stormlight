@@ -12,41 +12,68 @@ const free_actions: CardData[] = [
         rules        : <>
             <br/><i>This space intentionally left blank.</i>
         </>,
-        source: "p.304",
-        inset : true,
+        source       : "p.304",
+        inset        : true,
+        status       : "PROOF",
     },
     {
-        name   : "Maintain Enhance",
-        type   : ItemType.FREE_ACTION,
-        actions: 0,
-        icon   : "MaintainEnhance.svg",
-        ip     : 1,
-        rules  : <>
+        name         : "Maintain Enhance",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
+        icon         : "MaintainEnhance.svg",
+        ip           : 1,
+        rules        : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
-        source: "p.125",
+        source       : "p.125",
+        status       : "PROOF",
     },
     {
-        name   : "Regenerate",
-        type   : ItemType.FREE_ACTION,
-        actions: 0,
-        icon   : "Regenerate.svg",
-        ip     : 1,
-        rules  : <>
+        name         : "Quickdraw",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
+        icon         : "Quickdraw.svg",
+        rules        : <>
+            TODO<br/>
+            (include text: "counts as Interact action")
+        </>,
+        source       : "p.245",
+        status       : "TODO",
+    },
+    {
+        name         : "Regenerate",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
+        icon         : "Regenerate.svg",
+        ip           : 1,
+        rules        : <>
             <p>HP += 1d6 + tier.</p>
             <p>Can use even when Unconscious or prevented from using free_actions.</p>
         </>,
-        source: "p.125",
+        source       : "p.125",
+        status       : "PROOF",
     },
     {
-        name   : "Stand Up",
-        type   : ItemType.FREE_ACTION,
-        actions: 0,
-        icon   : "StandUp.svg",
-        rules  : <>
+        name         : "Sense Emotions",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
+        icon         : "SenseEmotions.svg",
+        rules        : <>
+            TODO
+        </>,
+        source       : "p.263",
+        status       : "TODO",
+    },
+    {
+        name         : "Stand Up",
+        type         : ItemType.FREE_ACTION,
+        actions      : 0,
+        icon         : "StandUp.svg",
+        rules        : <>
             Movement reduced by 5' until next turn.
         </>,
-        source: "p.294",
+        source       : "p.294",
+        status       : "PROOF",
     },
 ];
 

@@ -13,6 +13,17 @@ const conditions: CardData[] = [
             <br/>• <b>!combat:</b> ...every 10s and when someone attempts to remove it.
         </>,
         source: "p.293",
+        status: "PROOF",
+    },
+    {
+        name : "Braced",
+        type : ItemType.CONDITION,
+        icon : "?.svg",
+        rules: <>
+            TODO
+        </>,
+        source: "p.303",
+        status: "PROOF",
     },
     {
         name : "Determined",
@@ -22,6 +33,7 @@ const conditions: CardData[] = [
             May add <span className="dingbats">o</span> to 1 failed test.
         </>,
         source: "p.293",
+        status: "PROOF",
     },
     {
         name : "Disoriented",
@@ -33,6 +45,7 @@ const conditions: CardData[] = [
             <br/>• Perception tests gain a Disadvantage.
         </>,
         source: "p.293",
+        status: "PROOF",
     },
     {
         name : "Empowered",
@@ -44,6 +57,7 @@ const conditions: CardData[] = [
             <br/>• IP refills each turn.
         </>,
         source: "p.293",
+        status: "PROOF",
     },
     {
         name : "Enhanced",
@@ -57,6 +71,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Strength",
@@ -67,6 +82,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Speed",
@@ -77,6 +93,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Intellect",
@@ -87,6 +104,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Willpower",
@@ -97,6 +115,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Awareness",
@@ -107,6 +126,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Enhanced Presence",
@@ -117,6 +137,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Exhausted",
@@ -129,6 +150,7 @@ const conditions: CardData[] = [
         </>,
         note  : "Stacking",
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Focused",
@@ -138,6 +160,7 @@ const conditions: CardData[] = [
             FP costs reduced by 1.
         </>,
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Immobilized",
@@ -148,6 +171,7 @@ const conditions: CardData[] = [
             <br/>• can't move or be moved
         </>,
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Prone",
@@ -160,6 +184,8 @@ const conditions: CardData[] = [
             <br/>• stand up as ▷, then movement -= 5' until next turn
         </>,
         source: "p.294",
+        reverseCard: "Stand Up",
+        status: "PROOF",
     },
     {
         name : "Restrained",
@@ -170,6 +196,7 @@ const conditions: CardData[] = [
             <br/>• disadv ➡ tests other than to escape
         </>,
         source: "p.294",
+        status: "PROOF",
     },
     {
         name : "Slowed",
@@ -179,6 +206,7 @@ const conditions: CardData[] = [
             Half movement, rounded up.
         </>,
         source: "p.295",
+        status: "PROOF",
     },
     {
         name : "Stunned",
@@ -189,6 +217,7 @@ const conditions: CardData[] = [
             <br/>• next turn: gain -2 ▶ and -1 ↻
         </>,
         source: "p.295",
+        status: "PROOF",
     },
     {
         name : "Surprised",
@@ -206,6 +235,7 @@ const conditions: CardData[] = [
             </p>
         </>,
         source: "p.295",
+        status: "PROOF",
     },
     {
         name : "Unconscious",
@@ -218,6 +248,7 @@ const conditions: CardData[] = [
             <br/>• regain consciousness at end of any turn (HP 0 ➡ 1)
         </>,
         source: "p.295",
+        status: "PROOF",
     },
 ];
 

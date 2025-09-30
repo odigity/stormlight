@@ -12,6 +12,7 @@ const reactions: CardData[] = [
             TODO
         </>,
         source: "p.273",
+        status: "TODO",
     },
     {
         name   : "Aid",
@@ -23,6 +24,7 @@ const reactions: CardData[] = [
             Grant an ally an Advantage on their current test.
         </>,
         source: "p.305",
+        status: "PROOF",
     },
     {
         name   : "Avoid Danger",
@@ -34,6 +36,7 @@ const reactions: CardData[] = [
             Avoid harm (within reason).
         </>,
         source: "p.305",
+        status: "PROOF",
     },
     {
         name   : "Dodge",
@@ -45,6 +48,7 @@ const reactions: CardData[] = [
             Add a Disadvantage to attacker's test.
         </>,
         source: "p.305",
+        status: "PROOF",
     },
     {
         name   : "Numb Pain",
@@ -55,6 +59,7 @@ const reactions: CardData[] = [
             TODO
         </>,
         source: "p.263",
+        status: "TODO",
     },
     {
         name   : "Reactive Strike",
@@ -67,6 +72,7 @@ const reactions: CardData[] = [
             <i>Melee vs Physical</i>
         </>,
         source: "p.305",
+        status: "PROOF",
     },
 ];
 

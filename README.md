@@ -8,7 +8,6 @@
 #### Getting Started
 
 ```
-$ cd react
 $ npm install
 $ npm run dev
 
@@ -28,6 +27,7 @@ $ npm run lint
 
 ## TODO
 
+- design QueryBar
 - add flip icon to indicate card on back?
 - how to support two-page cards
 - add support for:
@@ -36,10 +36,6 @@ $ npm run lint
             Enhanced* (+qty)
             Infusions (qty + target)
     - Charge Boxes element  (charged items)
-- how to produce sheet of full-opacity watermarks?
-- NOTE: "end grapple" is a free action, but has action cost 2 to define card width.
-  - Should we use a separate "width" option (1 by default, or set to 2 or 3) to define width, or just accept that some 
-    "action" costs are not necessarily the same as the actual cost?
 
 Design
 - since we're allowing text to flow to the back side on Skills, should we just make that an option across the board, when appropriate?  (a very complicated action or magic item)
@@ -47,7 +43,7 @@ Design
 Lint:
 - tsx files: in object definitions, add a space between key and colon
 
-### Filters / Search queries
+### QueryBar
 
  - Cards by name
  - Cards with reverse
@@ -57,7 +53,7 @@ Lint:
    - focus
    - investiture
  - Items with charges
-
+ - text search (vs card name)
 
 ## Nick's Items
  

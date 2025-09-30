@@ -22,7 +22,7 @@ export interface CardData {
     parentCard?     : string;     // should match "name" property of target card
 
     // METADATA ONLY
-    status?: 'TODO' | 'PROOF' | 'DONE';
+    status          : 'TODO' | 'PROOF' | 'DONE';
 }
 
 export interface SheetData {

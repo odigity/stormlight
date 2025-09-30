@@ -11,6 +11,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.60",
+        status: "TODO",
     },
     {
         name : "Athletics",
@@ -20,6 +21,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.60",
+        status: "TODO",
     },
     {
         name : "Crafting",
@@ -29,6 +31,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.61",
+        status: "TODO",
     },
     {
         name : "Deception",
@@ -38,6 +41,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.61",
+        status: "TODO",
     },
     {
         name : "Deduction",
@@ -47,6 +51,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.61",
+        status: "TODO",
     },
     {
         name : "Discipline",
@@ -56,6 +61,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.61",
+        status: "TODO",
     },
     {
         name : "Heavy Weaponry",
@@ -65,6 +71,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.62",
+        status: "TODO",
     },
     {
         name : "Insight",
@@ -74,6 +81,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.62",
+        status: "TODO",
     },
     {
         name : "Intimidation",
@@ -83,6 +91,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.62",
+        status: "TODO",
     },
     {
         name : "Leadership",
@@ -92,6 +101,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.62",
+        status: "TODO",
     },
     {
         name : "Light Weaponry",
@@ -101,6 +111,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.63",
+        status: "TODO",
     },
     {
         name : "Lore",
@@ -110,6 +121,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.63",
+        status: "TODO",
     },
     {
         name : "Medicine",
@@ -119,6 +131,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.63",
+        status: "TODO",
     },
     {
         name : "Perception",
@@ -128,6 +141,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.64",
+        status: "TODO",
     },
     {
         name : "Persuasion",
@@ -137,6 +151,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.64",
+        status: "TODO",
     },
     {
         name : "Stealth",
@@ -146,6 +161,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.64",
+        status: "TODO",
     },
     {
         name : "Survival",
@@ -155,6 +171,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.65",
+        status: "TODO",
     },
     {
         name : "Thievery",
@@ -164,6 +181,7 @@ const skills: CardData[] = [
             ?
         </>,
         source: "p.66",
+        status: "TODO",
     },
 ];
 
