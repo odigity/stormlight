@@ -5,7 +5,7 @@ import LivePreview from "./pages/LivePreview.tsx";
 import Foo from "./pages/Foo.tsx";
 
 function App() {
-  return <Foo />;
+  return <LivePreview />;
 }
 
 export default App;
