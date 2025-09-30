@@ -1,12 +1,13 @@
 Standard items (the ones with art) are in **bold.**
 
-✔
+TODO -> PROOF -> ✔
 
 audited:
  - infusions
  - items
  - magic items
  - reactions
+
 
 | Card                      | Type          | Back                  | Status |
 | :-----------------------: | :-----------: | :-------------------: | :----: |

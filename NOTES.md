@@ -2,18 +2,18 @@
 
 | Type           | Paper Color       | Hex    |
 | :------------: | :---------------: | :----: |
-| Conditions     | Venus Violet      | ? |
-| Costly Actions | Terra Green       | ? |
-| Effects        | Terrestrial Teal  | ? |
-| Infusions      | Fireball Fuchsia  | ? |
-| Items          | Solar White       | ? |
-| Magic Items    | Stardust White    | ? |
-| Free Actions   | Lift-Off Lemon    | ? |
-| Reactions      | Cosmic Orange     | ? |
-| Skills         | Outrageous Orchid | ? |
+| Conditions     | Venus Violet      | #6868fc |
+| Costly Actions | Terra Green       | #9cfc00 |
+| Effects        | Terrestrial Teal  | #05db8f |
+| Infusions      | Fireball Fuchsia  | #ff13fc |
+| Items          | Solar White       | #ffffff |
+| Magic Items    | Stardust White    | #ffffff |
+| Free Actions   | Lift-Off Lemon    | #f0ff0c |
+| Reactions      | Cosmic Orange     | #fe7b25 |
+| Skills         | Outrageous Orchid | #e54eff |
 
 
-# Design
+## Design
 
 - cards are mostly for combat  (scene-specific information)
 - what goes where and why?
@@ -29,11 +29,32 @@
 - fabrial effects are classified like path talents - custom, not standard
 
 
-Terminology
-    cover vs reverse
+## Terminology
 
-double-card:  double-wide
-two-page card:  card with two pages of text
-twin card:  Malignant
-    add flip icon to indicate content on back?
+- front vs back (aka cover, aka reverse)
+- double-card:  double-wide
+- two-page card:  card with two pages of text
+- twin card:  Malignant
+
+
+## App Structure
+
+NavBar component at top of each page.
+
+Structure:
+- Page
+  - Component
+
+**Pages**
+
+- DashboardPage
+  - Stats
+  - SheetList
+- CardsPage
+  - Query Bar
+      - Source: All, Sheet1, Sheet2...
+  - Mode Selector  (data | preview | front | back)
+  - Body
+    - CardDataTable
+    - CardPreviewer
 

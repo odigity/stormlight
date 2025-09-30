@@ -28,6 +28,8 @@ $ npm run lint
 
 ## TODO
 
+- add flip icon to indicate card on back?
+- how to support two-page cards
 - add support for:
     - Whiteboard element
             Exhausted (-qty)
