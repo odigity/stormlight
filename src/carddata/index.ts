@@ -13,23 +13,23 @@ import {CardType} from "../types/types.ts";
 export { conditions, costly_actions, effects, free_actions, items, magic_items, reactions, skills };
 
 export const allCardsByType = [
-    { id: "conditions",     title: "Conditions",     cards: conditions     },
-    { id: "costly-actions", title: "Costly Actions", cards: costly_actions },
-    { id: "free-actions",   title: "Free Actions",   cards: free_actions   },
-    { id: "infusions",      title: "Infusions",      cards: infusions      },
-    { id: "items",          title: "Items",          cards: items          },
-    { id: "magic-items",    title: "Magic Items",    cards: magic_items    },
-    { id: "reactions",      title: "Reactions",      cards: reactions      },
-    { id: "skills",         title: "Skills",         cards: skills         },
+    { id : "conditions",     title : "Conditions",     cards : conditions     },
+    { id : "costly-actions", title : "Costly Actions", cards : costly_actions },
+    { id : "free-actions",   title : "Free Actions",   cards : free_actions   },
+    { id : "infusions",      title : "Infusions",      cards : infusions      },
+    { id : "items",          title : "Items",          cards : items          },
+    { id : "magic-items",    title : "Magic Items",    cards : magic_items    },
+    { id : "reactions",      title : "Reactions",      cards : reactions      },
+    { id : "skills",         title : "Skills",         cards : skills         },
 ];
 
 export const allCards = [
-    ..._.map(conditions, (c) => ({...c, type: CardType.CONDITION})),
-    ..._.map(costly_actions, (c) => ({...c, type: CardType.COSTLY_ACTION})),
-    ..._.map(free_actions, (c) => ({...c, type: CardType.FREE_ACTION})),
-    ..._.map(infusions, (c) => ({...c, type: CardType.INFUSION})),
-    ..._.map(items, (c) => ({...c, type: CardType.ITEM})),
-    ..._.map(magic_items, (c) => ({...c, type: CardType.MAGIC_ITEM})),
-    ..._.map(reactions, (c) => ({...c, type: CardType.REACTION})),
-    ..._.map(skills, (c) => ({...c, type: CardType.SKILL})),
+    ..._.map(conditions, (c) => ({...c, type : CardType.CONDITION})),
+    ..._.map(costly_actions, (c) => ({...c, type : CardType.COSTLY_ACTION})),
+    ..._.map(free_actions, (c) => ({...c, type : CardType.FREE_ACTION})),
+    ..._.map(infusions, (c) => ({...c, type : CardType.INFUSION})),
+    ..._.map(items, (c) => ({...c, type : CardType.ITEM})),
+    ..._.map(magic_items, (c) => ({...c, type : CardType.MAGIC_ITEM})),
+    ..._.map(reactions, (c) => ({...c, type : CardType.REACTION})),
+    ..._.map(skills, (c) => ({...c, type : CardType.SKILL})),
 ];

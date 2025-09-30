@@ -3,14 +3,14 @@ import type {SheetData} from "../types/types.ts";
 
 const sheets: SheetData[] = [
     {
-        name : "Foo",
-        cards: [
+        name  : "Foo",
+        cards : [
             "Brace",
         ],
     },
     {
-        name : "PartyItems",
-        cards: [
+        name  : "PartyItems",
+        cards : [
             // Ofer
             "Greatsword",
             "Longbow",

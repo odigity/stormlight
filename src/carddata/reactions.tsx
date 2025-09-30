@@ -1,78 +1,71 @@
 import type {CardData} from "../types/types.ts";
-import {CardType} from "../types/types.ts";
 
 
 const reactions: CardData[] = [
     {
-        name   : "Absorb Pain",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "?.svg",
-        rules  : <>
+        name    : "Absorb Pain",
+        status  : "TODO",
+        source  : "p.273",
+        actions : -1,
+        art     : "?.svg",
+        rules   : <>
             TODO
         </>,
-        source: "p.273",
-        status: "TODO",
     },
     {
-        name   : "Aid",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "Aid.svg",
-        fp     : 1,
-        rules  : <>
+        name    : "Aid",
+        status  : "PROOF",
+        source  : "p.305",
+        actions : -1,
+        fp      : 1,
+        art     : "Aid.svg",
+        rules   : <>
             Grant an ally an Advantage on their current test.
         </>,
-        source: "p.305",
-        status: "PROOF",
     },
     {
-        name   : "Avoid Danger",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "AvoidDanger.svg",
-        rules  : <>
+        name    : "Avoid Danger",
+        status  : "PROOF",
+        source  : "p.305",
+        actions : -1,
+        art     : "AvoidDanger.svg",
+        rules   : <>
             <i>Agility vs DC15 or enemy's instigating test:</i><br/>
             Avoid harm (within reason).
         </>,
-        source: "p.305",
-        status: "PROOF",
     },
     {
-        name   : "Dodge",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "Dodge.svg",
-        fp     : 1,
-        rules  : <>
+        name    : "Dodge",
+        status  : "PROOF",
+        source  : "p.305",
+        actions : -1,
+        fp      : 1,
+        art     : "Dodge.svg",
+        rules   : <>
             Add a Disadvantage to attacker's test.
         </>,
-        source: "p.305",
-        status: "PROOF",
     },
     {
-        name   : "Numb Pain",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "?.svg",
-        rules  : <>
+        name    : "Numb Pain",
+        status  : "TODO",
+        source  : "p.263",
+        actions : -1,
+        art     : "?.svg",
+        rules   : <>
             TODO
         </>,
-        source: "p.263",
-        status: "TODO",
     },
     {
-        name   : "Reactive Strike",
-        type   : CardType.REACTION,
-        actions: -1,
-        icon   : "ReactiveStrike.svg",
-        fp     : 1,
-        rules  : <>
+        name    : "Reactive Strike",
+        status  : "PROOF",
+        source  : "p.305",
+        actions : -1,
+        fp      : 1,
+        art     : "ReactiveStrike.svg",
+        rules   : <>
             When enemy voluntarily exits reach:<br/>
             <i>Melee vs Physical</i>
         </>,
-        source: "p.305",
-        status: "PROOF",
     },
 ];
 

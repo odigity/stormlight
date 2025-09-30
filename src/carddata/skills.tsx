@@ -1,187 +1,168 @@
 import type {CardData} from "../types/types.ts";
-import {CardType} from "../types/types.ts";
 
 
 const skills: CardData[] = [
     {
-        name : "Agility",
-        type : CardType.SKILL,
-        icon : "Agility.svg",
-        rules: <>
+        name  : "Agility",
+        status : "TODO",
+        source : "p.60",
+        art   : "Agility.svg",
+        rules : <>
             ?
         </>,
-        source: "p.60",
-        status: "TODO",
     },
     {
-        name : "Athletics",
-        type : CardType.SKILL,
-        icon : "Athletics.svg",
-        rules: <>
+        name  : "Athletics",
+        status : "TODO",
+        source : "p.60",
+        art   : "Athletics.svg",
+        rules : <>
             ?
         </>,
-        source: "p.60",
-        status: "TODO",
     },
     {
-        name : "Crafting",
-        type : CardType.SKILL,
-        icon : "Crafting.svg",
-        rules: <>
+        name  : "Crafting",
+        status : "TODO",
+        source : "p.61",
+        art   : "Crafting.svg",
+        rules : <>
             ?
         </>,
-        source: "p.61",
-        status: "TODO",
     },
     {
-        name : "Deception",
-        type : CardType.SKILL,
-        icon : "Deception.svg",
-        rules: <>
+        name  : "Deception",
+        status : "TODO",
+        source : "p.61",
+        art   : "Deception.svg",
+        rules : <>
             ?
         </>,
-        source: "p.61",
-        status: "TODO",
     },
     {
-        name : "Deduction",
-        type : CardType.SKILL,
-        icon : "Deduction.svg",
-        rules: <>
+        name  : "Deduction",
+        status : "TODO",
+        source : "p.61",
+        art   : "Deduction.svg",
+        rules : <>
             ?
         </>,
-        source: "p.61",
-        status: "TODO",
     },
     {
-        name : "Discipline",
-        type : CardType.SKILL,
-        icon : "Discipline.svg",
-        rules: <>
+        name   : "Discipline",
+        status : "TODO",
+        source : "p.61",
+        art    : "Discipline.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.61",
-        status: "TODO",
     },
     {
-        name : "Heavy Weaponry",
-        type : CardType.SKILL,
-        icon : "Heavy Weaponry.svg",
-        rules: <>
+        name   : "Heavy Weaponry",
+        status : "TODO",
+        source : "p.62",
+        art    : "Heavy Weaponry.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.62",
-        status: "TODO",
     },
     {
-        name : "Insight",
-        type : CardType.SKILL,
-        icon : "Insight.svg",
-        rules: <>
+        name   : "Insight",
+        status : "TODO",
+        source : "p.62",
+        art    : "Insight.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.62",
-        status: "TODO",
     },
     {
-        name : "Intimidation",
-        type : CardType.SKILL,
-        icon : "Intimidation.svg",
-        rules: <>
+        name   : "Intimidation",
+        status : "TODO",
+        source : "p.62",
+        art    : "Intimidation.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.62",
-        status: "TODO",
     },
     {
-        name : "Leadership",
-        type : CardType.SKILL,
-        icon : "Leadership.svg",
-        rules: <>
+        name   : "Leadership",
+        status : "TODO",
+        source : "p.62",
+        art    : "Leadership.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.62",
-        status: "TODO",
     },
     {
-        name : "Light Weaponry",
-        type : CardType.SKILL,
-        icon : "Light Weaponry.svg",
-        rules: <>
+        name   : "Light Weaponry",
+        status : "TODO",
+        source : "p.63",
+        art    : "Light Weaponry.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.63",
-        status: "TODO",
     },
     {
-        name : "Lore",
-        type : CardType.SKILL,
-        icon : "Lore.svg",
-        rules: <>
+        name   : "Lore",
+        status : "TODO",
+        source : "p.63",
+        art    : "Lore.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.63",
-        status: "TODO",
     },
     {
-        name : "Medicine",
-        type : CardType.SKILL,
-        icon : "Medicine.svg",
-        rules: <>
+        name   : "Medicine",
+        status : "TODO",
+        source : "p.63",
+        art    : "Medicine.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.63",
-        status: "TODO",
     },
     {
-        name : "Perception",
-        type : CardType.SKILL,
-        icon : "Perception.svg",
-        rules: <>
+        name   : "Perception",
+        status : "TODO",
+        source : "p.64",
+        art    : "Perception.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.64",
-        status: "TODO",
     },
     {
-        name : "Persuasion",
-        type : CardType.SKILL,
-        icon : "Persuasion.svg",
-        rules: <>
+        name   : "Persuasion",
+        status : "TODO",
+        source : "p.64",
+        art    : "Persuasion.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.64",
-        status: "TODO",
     },
     {
-        name : "Stealth",
-        type : CardType.SKILL,
-        icon : "Stealth.svg",
-        rules: <>
+        name   : "Stealth",
+        status : "TODO",
+        source : "p.64",
+        art    : "Stealth.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.64",
-        status: "TODO",
     },
     {
-        name : "Survival",
-        type : CardType.SKILL,
-        icon : "Survival.svg",
-        rules: <>
+        name   : "Survival",
+        status : "TODO",
+        source : "p.65",
+        art    : "Survival.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.65",
-        status: "TODO",
     },
     {
-        name : "Thievery",
-        type : CardType.SKILL,
-        icon : "Thievery.svg",
-        rules: <>
+        name   : "Thievery",
+        status : "TODO",
+        source : "p.66",
+        art    : "Thievery.svg",
+        rules  : <>
             ?
         </>,
-        source: "p.66",
-        status: "TODO",
     },
 ];
 

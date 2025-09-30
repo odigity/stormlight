@@ -1,79 +1,72 @@
 import type {CardData} from "../types/types.ts";
-import {CardType} from "../types/types.ts";
 
 
 const free_actions: CardData[] = [
     {
-        name         : "End Grapple",
-        type         : CardType.FREE_ACTION,
-        actions      : 2,
-        rulesCentered: true,
-        icon         : "EndGrapple.svg",
-        rules        : <>
+        name     : "End Grapple",
+        status   : "PROOF",
+        source   : "p.304",
+        inset    : true,
+        actions  : 2,
+        art      : "EndGrapple.svg",
+        centered : true,
+        rules    : <>
             <br/><i>This space intentionally left blank.</i>
         </>,
-        source       : "p.304",
-        inset        : true,
-        status       : "PROOF",
     },
     {
-        name         : "Maintain Enhance",
-        type         : CardType.FREE_ACTION,
-        actions      : 0,
-        icon         : "MaintainEnhance.svg",
-        ip           : 1,
-        rules        : <>
+        name    : "Maintain Enhance",
+        status  : "PROOF",
+        source  : "p.125",
+        actions : 0,
+        ip      : 1,
+        art     : "MaintainEnhance.svg",
+        rules   : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
-        source       : "p.125",
-        status       : "PROOF",
     },
     {
-        name         : "Quickdraw",
-        type         : CardType.FREE_ACTION,
-        actions      : 0,
-        icon         : "Quickdraw.svg",
-        rules        : <>
+        name    : "Quickdraw",
+        status  : "TODO",
+        source  : "p.245",
+        actions : 0,
+        art     : "Quickdraw.svg",
+        rules   : <>
             TODO<br/>
             (include text: "counts as Interact action")
         </>,
-        source       : "p.245",
-        status       : "TODO",
     },
     {
-        name         : "Regenerate",
-        type         : CardType.FREE_ACTION,
-        actions      : 0,
-        icon         : "Regenerate.svg",
-        ip           : 1,
-        rules        : <>
+        name    : "Regenerate",
+        status  : "PROOF",
+        source  : "p.125",
+        actions : 0,
+        ip      : 1,
+        art     : "Regenerate.svg",
+        rules   : <>
             <p>HP += 1d6 + tier.</p>
             <p>Can use even when Unconscious or prevented from using free_actions.</p>
         </>,
-        source       : "p.125",
-        status       : "PROOF",
     },
     {
-        name         : "Sense Emotions",
-        type         : CardType.FREE_ACTION,
-        actions      : 0,
-        icon         : "SenseEmotions.svg",
-        rules        : <>
+        name    : "Sense Emotions",
+        status  : "TODO",
+        source  : "p.263",
+        actions : 0,
+        art     : "SenseEmotions.svg",
+        rules   : <>
             TODO
         </>,
-        source       : "p.263",
-        status       : "TODO",
     },
     {
-        name         : "Stand Up",
-        type         : CardType.FREE_ACTION,
-        actions      : 0,
-        icon         : "StandUp.svg",
-        rules        : <>
+        name    : "Stand Up",
+        status  : "PROOF",
+        source  : "p.294",
+        actions : 0,
+        art     : "StandUp.svg",
+        rules   : <>
             Movement reduced by 5' until next turn.
         </>,
-        source       : "p.294",
-        status       : "PROOF",
     },
 ];
 

@@ -2,12 +2,12 @@ import WatermarkCard from "../components/WatermarkCard.tsx";
 
 const items = [
     {
-        actions: 2,
-        icon   : "Restrained.svg"
+        actions : 2,
+        art     : "Restrained.svg"
     }, {
-        icon: "Slowed.svg"
+        art     : "Slowed.svg"
     }, {
-        icon: "Stunned.svg"
+        art     : "Stunned.svg"
     }
 ]
 

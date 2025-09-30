@@ -16,37 +16,33 @@ export enum CardType {
 
 export interface CardData {
 
-    name            : string;
-    source          : string;
-
-    // Card Specs
-    type?           : CardType;     // determines paper color  (populated by index.ts)
-    actions?        : number;       // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Costly Action)
-    inset?          : boolean;      // determines border color
-
-    // Cost Bubbles
-    ip?             : number;       // investiture
-    fp?             : number;       // focus
-    ch?             : number;       // item charge
-
-    // Art
-    art?            : string;
-    mirrorArt?      : boolean;
-    rotRightArt?    : boolean;
-    rotLeftArt?     : boolean;
-
-    // Rules Content
-    rulesCentered?  : boolean;
-    rules?          : ReactNode;    // JSX preferred
-    charges?        : number;       // -> whiteboard checkboxes
-    note?           : string;       // Examples:  "Stacking", "Once per scene", "Light Weapon"
+    // Essentials
+    name       : string;
+    source     : string;
+    status     : 'TODO' | 'PROOF' | 'DONE';
 
     // Relationships
-    reverseCard?    : string;       // should match "name" property of target card
-    //parentCard?     : string;      // should match "name" property of target card
+    flipCard?  : string;        // should match "name" property of target card
+    inset?     : boolean;       // determines border color
 
-    // Metadata
-    status          : 'TODO' | 'PROOF' | 'DONE';
+    // Card Specs
+    type?      : CardType;      // determines paper color  (populated by index.ts)
+    actions?   : number;        // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Costly Action)
+
+    // Header  (Cost Bubbles)
+    ip?        : number;        // investiture
+    fp?        : number;        // focus
+    ch?        : number;        // item charge
+
+    // Art
+    art?       : string;
+    mirrorArt? : boolean;
+
+    // Rules
+    centered?  : boolean;
+    keyProps?  : string;        // "Stacking", "Once per scene", "Light Weapon"
+    charges?   : number;        // -> whiteboard checkboxes
+    rules?     : ReactNode;     // keep on bottom for visibility (and it breaks the eslint aligner)
 
 }
 

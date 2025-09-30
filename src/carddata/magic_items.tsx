@@ -1,209 +1,190 @@
 import type {CardData} from "../types/types.ts";
-import {CardType} from "../types/types.ts";
 
 
 const magic_items: CardData[] = [
     {
-        name : "Alerter",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Alerter",
+        status  : "TODO",
+        source  : "p.262",
+        art     : "?.svg",
+        charges : 5,
+        rules   : <>
             TODO
         </>,
-        charges: 5,
-        source : "p.262",
-        status : "TODO",
     },
     {
-        name : "Attractor",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Attractor",
+        status  : "TODO",
+        source  : "p.262",
+        art     : "?.svg",
+        charges : 5,
+        rules   : <>
             TODO
         </>,
-        charges: 5,
-        source : "p.262",
-        status : "TODO",
     },
     {
-        name : "Clock Fabrial",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Clock Fabrial",
+        status  : "TODO",
+        source  : "p.262",
+        art     : "?.svg",
+        charges : 3,
+        rules   : <>
             TODO
         </>,
-        charges: 3,
-        source : "p.262",
-        status : "TODO",
     },
     {
-        name : "Drainer",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Drainer",
+        status  : "TODO",
+        source  : "p.262",
+        art     : "?.svg",
+        charges : 2,
+        rules   : <>
             TODO
         </>,
-        charges: 2,
-        source : "p.262",
-        status : "TODO",
     },
     {
-        name : "Emotion Bracelet",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name     : "Emotion Bracelet",
+        status   : "TODO",
+        source   : "p.263",
+        flipCard : "Sense Emotions",
+        art      : "?.svg",
+        charges  : 3,
+        rules    : <>
             TODO
         </>,
-        charges     : 3,
-        source      : "p.263",
-        reverseCard : "Sense Emotions",
-        status      : "TODO",
     },
     {
-        name : "Half-Shard",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name     : "Half-Shard",
+        status   : "TODO",
+        source   : "p.248",
+        art      : "?.svg",
+        keyProps : "Special Weapon",
+        rules    : <>
             TODO<br/>
             <b>Skill: Heavy Weaponry<br/>2d4 impact</b><br/>Defensive, 2🖐️, *<br/><i>Momentum</i>
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
-        status : "TODO",
     },
     {
-        name : "Heatrial",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Heatrial",
+        status  : "TODO",
+        source  : "p.263",
+        art     : "?.svg",
+        charges : 5,
+        rules   : <>
             TODO
         </>,
-        charges: 5,
-        source : "p.263",
-        status : "TODO",
     },
     {
-        name : "Painrial (amplifying)",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Painrial (amplifying)",
+        status  : "TODO",
+        source  : "p.263",
+        art     : "?.svg",
+        charges : 3,
+        rules   : <>
             TODO
         </>,
-        charges: 3,
-        source : "p.263",
-        status : "TODO",
     },
     {
-        name : "Painrial (hybrid)",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name     : "Painrial (hybrid)",
+        status   : "TODO",
+        source   : "p.273",
+        flipCard : "Absorb Pain",
+        art      : "?.svg",
+        charges  : 3,
+        rules    : <>
             TODO
         </>,
-        charges: 3,
-        source : "p.273",
-        reverseCard: "Absorb Pain",
-        status : "TODO",
     },
     {
-        name : "Painrial (numbing)",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name     : "Painrial (numbing)",
+        status   : "TODO",
+        source   : "p.263",
+        flipCard : "Numb Pain",
+        art      : "?.svg",
+        charges  : 3,
+        rules    : <>
             TODO
         </>,
-        charges: 3,
-        source : "p.263",
-        reverseCard: "Numb Pain",
-        status : "TODO",
     },
     {
-        name : "Repeller",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Repeller",
+        status  : "TODO",
+        source  : "p.263",
+        art     : "?.svg",
+        charges : 5,
+        rules   : <>
             TODO
         </>,
-        charges: 5,
-        source : "p.263",
-        status : "TODO",
     },
     {
-        name : "Shardblade",
-        type : CardType.MAGIC_ITEM,
-        icon : "Shardblade.svg",
-        rules: <>
+        name     : "Shardblade",
+        status   : "TODO",
+        source   : "p.248",
+        art      : "Shardblade.svg",
+        keyProps : "Special Weapon",
+        rules    : <>
             TODO<br/>
             <b>Skill: Heavy Weaponry<br/>2d8 spirit</b><br/>Dangerous, Deadly, *<br/><i>not Dangerous</i>
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
-        status : "TODO",
     },
     {
-        name : "Shardblade (Radiant)",
-        type : CardType.MAGIC_ITEM,
-        icon : "ShardbladeRadiant",
-        rules: <>
+        name     : "Shardblade (Radiant)",
+        status   : "TODO",
+        source   : "p.248",
+        art      : "ShardbladeRadiant",
+        keyProps : "Special Weapon",
+        rules    : <>
             TODO<br/>
             <b>Skill: *<br/>2d* spirit</b><br/>Deadly, *
         </>,
-        note  : "Special Weapon",
-        source: "p.248",
-        status : "TODO",
     },
     {
-        name : "Shardplate",
-        type : CardType.MAGIC_ITEM,
-        icon : "Shardplate.svg",
-        rules: <>
+        name   : "Shardplate",
+        status : "TODO",
+        source : "p.254",
+        art    : "Shardplate.svg",
+        rules  : <>
             TODO
         </>,
-        source: "p.254",
-        status : "TODO",
     },
     {
-        name : "Shardplate (Radiant)",
-        type : CardType.MAGIC_ITEM,
-        icon : "ShardplateRadiant",
-        rules: <>
+        name   : "Shardplate (Radiant)",
+        status : "TODO",
+        source : "p.254",
+        art    : "ShardplateRadiant",
+        rules  : <>
             TODO
         </>,
-        source: "p.254",
-        status : "TODO",
     },
     {
-        name : "Soulcaster",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Soulcaster",
+        status  : "TODO",
+        source  : "p.264",
+        art     : "?.svg",
+        charges : 5,
+        rules   : <>
             TODO
         </>,
-        charges: 5,
-        source : "p.264",
-        status : "TODO",
     },
     {
-        name : "Spanreed",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Spanreed",
+        status  : "TODO",
+        source  : "p.264",
+        art     : "?.svg",
+        charges : 3,
+        rules   : <>
             TODO
         </>,
-        charges: 3,
-        source : "p.264",
-        status : "TODO",
     },
     {
-        name : "Suppressor",
-        type : CardType.MAGIC_ITEM,
-        icon : "?.svg",
-        rules: <>
+        name    : "Suppressor",
+        status  : "TODO",
+        source  : "p.264",
+        art     : "?.svg",
+        charges : 2,
+        rules   : <>
             TODO
         </>,
-        charges: 2,
-        source : "p.264",
-        status : "TODO",
     },
 ];
 
