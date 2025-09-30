@@ -4,6 +4,17 @@ import {ItemType} from "../types/itemType.ts";
 
 const reactions: CardData[] = [
     {
+        name         : "Absorb Pain",
+        type         : ItemType.REACTION,
+        actions      : -1,
+        rulesCentered: false,
+        icon         : "?.svg",
+        rules        : <>
+            TODO
+        </>,
+        source: "p.273",
+    },
+    {
         name         : "Aid",
         type         : ItemType.REACTION,
         actions      : -1,
@@ -13,7 +24,7 @@ const reactions: CardData[] = [
         rules        : <>
             Grant an ally an Advantage on their current test.
         </>,
-        source       : "p.305",
+        source: "p.305",
     },
     {
         name         : "Avoid Danger",
@@ -37,7 +48,18 @@ const reactions: CardData[] = [
         rules        : <>
             Add a Disadvantage to attacker's test.
         </>,
-        source       : "p.305",
+        source: "p.305",
+    },
+    {
+        name         : "Numb Pain",
+        type         : ItemType.REACTION,
+        actions      : -1,
+        rulesCentered: false,
+        icon         : "?.svg",
+        rules        : <>
+            TODO
+        </>,
+        source: "p.263",
     },
     {
         name         : "Reactive Strike",

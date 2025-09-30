@@ -8,14 +8,16 @@ export interface CardData {
     ip?             : number;     // investiture cost
     fp?             : number;     // focus cost
     ch?             : number;     // charge cost
-    rules           : ReactNode;  // JSX preferred
+    rules?          : ReactNode;  // JSX preferred
     charges?        : number;
     icon?           : string;     // resolved at import time in data files
-    rulesCentered   : boolean;    // center entire rules block when true
+    rulesCentered?  : boolean;    // center entire rules block when true
     note?           : string;
     source          : string;
     mirrorIcon?     : boolean;
     rotRightIcon?   : boolean;
     rotLeftIcon?    : boolean;
     inset?          : boolean;
+    reverseCard?    : string;     // should match "name" property of target card
+    parentCard?     : string;     // should match "name" property of target card
 }

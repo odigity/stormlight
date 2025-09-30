@@ -23,7 +23,7 @@ const conditions: CardData[] = [
         rules        : <>
             May add <span className="dingbats">o</span> to 1 failed test.
         </>,
-        source       : "p.293",
+        source: "p.293",
     },
     {
         name         : "Disoriented",
@@ -71,8 +71,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Physical Defense or HP.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Enhanced Speed",
@@ -82,8 +82,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Physical Defense.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Enhanced Intellect",
@@ -93,8 +93,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Cognitive Defense.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Enhanced Willpower",
@@ -104,8 +104,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Cognitive Defense or FP.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Enhanced Awareness",
@@ -115,8 +115,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Spiritual Defense or IP.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Enhanced Presence",
@@ -126,8 +126,8 @@ const conditions: CardData[] = [
         rules        : <>
             Doesn't affect Spiritual Defense or IP.
         </>,
-        note         : "Stacking",
-        source       : "p.294",
+        note  : "Stacking",
+        source: "p.294",
     },
     {
         name         : "Exhausted",
@@ -150,7 +150,7 @@ const conditions: CardData[] = [
         rules        : <>
             FP costs reduced by 1.
         </>,
-        source       : "p.294",
+        source: "p.294",
     },
     {
         name         : "Immobilized",
@@ -195,7 +195,7 @@ const conditions: CardData[] = [
         rules        : <>
             Half movement, rounded up.
         </>,
-        source       : "p.295",
+        source: "p.295",
     },
     {
         name         : "Stunned",

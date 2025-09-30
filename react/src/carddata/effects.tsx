@@ -4,14 +4,14 @@ import {ItemType} from "../types/itemType.ts";
 
 const effects: CardData[] = [
     {
-        name          : "?",
-        type          : ItemType.EFFECT,
-        rulesCentered : false,
-        icon          : "?.svg",
-        rules         : <>
+        name         : "?",
+        type         : ItemType.EFFECT,
+        rulesCentered: false,
+        icon         : "?.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.?",
+        source: "p.?",
     },
 ];
 
