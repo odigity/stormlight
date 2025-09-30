@@ -24,3 +24,8 @@ export interface CardData {
     // METADATA ONLY
     status?: 'TODO' | 'PROOF' | 'DONE';
 }
+
+export interface SheetData {
+    name  : string;
+    cards : string[];
+}

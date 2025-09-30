@@ -6,7 +6,6 @@ const skills: CardData[] = [
     {
         name         : "Agility",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Agility.svg",
         rules        : <>
             ?
@@ -16,7 +15,6 @@ const skills: CardData[] = [
     {
         name         : "Athletics",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Athletics.svg",
         rules        : <>
             ?
@@ -26,7 +24,6 @@ const skills: CardData[] = [
     {
         name         : "Crafting",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Crafting.svg",
         rules        : <>
             ?
@@ -36,7 +33,6 @@ const skills: CardData[] = [
     {
         name         : "Deception",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Deception.svg",
         rules        : <>
             ?
@@ -46,7 +42,6 @@ const skills: CardData[] = [
     {
         name         : "Deduction",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Deduction.svg",
         rules        : <>
             ?
@@ -56,7 +51,6 @@ const skills: CardData[] = [
     {
         name         : "Discipline",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Discipline.svg",
         rules        : <>
             ?
@@ -66,7 +60,6 @@ const skills: CardData[] = [
     {
         name         : "Heavy Weaponry",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Heavy Weaponry.svg",
         rules        : <>
             ?
@@ -76,7 +69,6 @@ const skills: CardData[] = [
     {
         name         : "Insight",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Insight.svg",
         rules        : <>
             ?
@@ -86,7 +78,6 @@ const skills: CardData[] = [
     {
         name         : "Intimidation",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Intimidation.svg",
         rules        : <>
             ?
@@ -96,7 +87,6 @@ const skills: CardData[] = [
     {
         name         : "Leadership",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Leadership.svg",
         rules        : <>
             ?
@@ -106,7 +96,6 @@ const skills: CardData[] = [
     {
         name         : "Light Weaponry",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Light Weaponry.svg",
         rules        : <>
             ?
@@ -116,7 +105,6 @@ const skills: CardData[] = [
     {
         name         : "Lore",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Lore.svg",
         rules        : <>
             ?
@@ -126,7 +114,6 @@ const skills: CardData[] = [
     {
         name         : "Medicine",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Medicine.svg",
         rules        : <>
             ?
@@ -136,7 +123,6 @@ const skills: CardData[] = [
     {
         name         : "Perception",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Perception.svg",
         rules        : <>
             ?
@@ -146,7 +132,6 @@ const skills: CardData[] = [
     {
         name         : "Persuasion",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Persuasion.svg",
         rules        : <>
             ?
@@ -156,7 +141,6 @@ const skills: CardData[] = [
     {
         name         : "Stealth",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Stealth.svg",
         rules        : <>
             ?
@@ -166,7 +150,6 @@ const skills: CardData[] = [
     {
         name         : "Survival",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Survival.svg",
         rules        : <>
             ?
@@ -176,7 +159,6 @@ const skills: CardData[] = [
     {
         name         : "Thievery",
         type         : ItemType.SKILL,
-        rulesCentered: false,
         icon         : "Thievery.svg",
         rules        : <>
             ?
