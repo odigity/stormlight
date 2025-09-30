@@ -3,6 +3,7 @@
 - `react/src/assets/art` — watermark SVGs
 - `react/src/carddata` — card data in tsx files
 
+
 ## Commands
 
 #### Getting Started
@@ -13,6 +14,7 @@ $ npm run dev
 
 $ npm run lint
 ```
+
 
 ## How-Tos
 
@@ -25,8 +27,24 @@ $ npm run lint
 4. in "App.tsx", import your component and replace the `<Library />` component with your component
 	* TODO: improve support for pages by determining the rendered component via URL instead of hardcoding it
 
+#### Printing
+
+Margins:
+
+```
+0.50  Top
+0.50  Left
+0.88    Right
+0.50  Bottom
+```
+
+
 ## TODO
 
+- sheets should allow duplicates (two knives on same sheet)
+- "Once per scene"  ->  whiteboard checkbox?
+- replace yellow hands
+- standardize fonts
 - design QueryBar
 - add flip icon to indicate card on back?
 - how to support two-page cards
@@ -43,7 +61,7 @@ Design
 Lint:
 - tsx files: in object definitions, add a space between key and colon
 
-### QueryBar
+#### QueryBar
 
  - Cards by name
  - Cards with reverse
@@ -55,6 +73,7 @@ Lint:
  - Items with charges
  - text search (vs card name)
 
+
 ## Nick's Items
  
  - Sorting
@@ -63,7 +82,7 @@ Lint:
      - +alpha
  - Bold card names in data view if it has an icon
 
-### Views
+#### Views
  
  - Dashboard
  - Library

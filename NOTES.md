@@ -1,23 +1,16 @@
-## Paper Colors
+## Files
 
-| Type           | Paper Color       | Hex    |
-| :------------: | :---------------: | :----: |
-| Conditions     | Venus Violet      | #6868fc |
-| Costly Actions | ~~~Terra Green~~<br/>**Solar Yellow** | ~~~#9cfc00~~~<br/>#fcd402 |
-| Effects        | Terrestrial Teal  | #05db8f |
-| Infusions      | **Fireball Fuchsia**  | #ff13fc |
-| Items          | Solar White       | #ffffff |
-| Magic Items    | Stardust White    | #ffffff |
-| Free Actions   | Lift-Off Lemon    | #f0ff0c |
-| Reactions      | **Cosmic Orange**     | #fe7b25 |
-| Skills         | ~~~Outrageous Orchid~~~<br/>Purple Planetary | ~~#e54eff~~<br/>d249ff |
+- `assets/art` — untouched originals
+- `src/assets/art` — watermark SVGs
+- `src/carddata` — card data in tsx files
 
-**Sources**
 
-| Product                                                      | Cost    | Colors |
-| :----------------------------------------------------------: | :-----: | :----: |
-| [Astrobrights "Bright"](https://walmart.com/ip/x/44796991)   | $0.54ea | Lunar Blue, Solar Yellow, Terra Green, Cosmic Orange, Fireball Fuschia |
-| [Astrobrights "Spectrum"](https://amazon.com/dp/B01GUUARV0/) | $0.55ea | All |
+## Terminology
+
+- front vs back (aka cover, aka reverse)
+- double-card:  double-wide
+- two-page card:  card with two pages of text
+- twin card:  Malignant
 
 
 ## Design
@@ -38,14 +31,6 @@
   - Stacking
   - action usage limit
   - weapon type
-
-
-## Terminology
-
-- front vs back (aka cover, aka reverse)
-- double-card:  double-wide
-- two-page card:  card with two pages of text
-- twin card:  Malignant
 
 
 ## App Structure
@@ -69,3 +54,49 @@ Structure:
     - CardDataTable
     - CardPreviewer
 
+## Card Box Model
+
+```
+
+
+
+```
+
+## Paper & Colors
+
+| Hex       | Ord | Name                 | Notes |
+| :-------: | :-: | :------------------: | :---: |
+| #FFD000 |   1 | **Solar Yellow**     | Costly Actions |
+| #FFFFFF |   2 | Stardust White       | Magic Items |
+| #FFAC00 |   3 | Galaxy Gold          | - |
+| #FF8C40 |   4 | **Cosmic Orange**    | Reactions |
+| #F86129 |   5 | Orbit Orange         | - |
+| #FF5E63 |   6 | Rocket Red           | - |
+| #DB3B4A |   7 | Re-Entry Red         | - |
+| #FF567C |   8 | Plasma Pink          | - |
+| #FF80A4 |   9 | Pulsar Pink          | - |
+| #FF3C9C |  10 | **Fireball Fuchsia** | Infusions |
+| #D573AF |  11 | Outrageous Orchid    | ~~Skills~~ |
+| #B9719E |  12 | Planetary Purple     | Skills |
+| #8A6C9E |  13 | Gravity Grape        | - |
+| #867BC6 |  14 | Venus Violet         | Conditions |
+| #3F3831 |  15 | Eclipse Black        | - |
+| #FFFFFF |  16 | Solar White          | Items |
+| #4C6393 |  17 | Blast-Off Blue       | - |
+| #3697AE |  18 | Celestial Blue       | - |
+| #64B9BC |  19 | **Lunar Blue**       | - |
+| #27A89A |  20 | Terrestrial Teal     | Effects |
+| #98DE5A |  21 | Martian Green        | - |
+| #BCE844 |  22 | Vulcan Green         | - |
+| #3C9E56 |  23 | Gamma Green          | - |
+| #BDD832 |  24 | **Terra Green**      | ~~Costly Actions~~ |
+| #FFFA3C |  25 | Lift-Off Lemon       | Free Actions |
+
+_Hex codes sourced from: https://convertingcolors.com/list/neenah.html_
+
+**Sources**
+
+| Product                                                      | Cost    | Colors |
+| :----------------------------------------------------------: | :-----: | :----: |
+| [Astrobrights "Bright"](https://walmart.com/ip/x/44796991)   | $0.54ea | Lunar Blue, Solar Yellow, Terra Green, Cosmic Orange, Fireball Fuschia |
+| [Astrobrights "Spectrum"](https://amazon.com/dp/B01GUUARV0/) | $0.55ea | All |

@@ -3,8 +3,31 @@ import type {SheetData} from "../types/types.ts";
 
 const effects: SheetData[] = [
     {
-        name : "Test",
-        cards: [ "Brace" ],
+        name : "Foo",
+        cards: [
+            "Brace",
+        ],
+    },
+    {
+        name : "PartyItems",
+        cards: [
+            // Ofer
+            "Greatsword",
+            "Longbow",
+            "Longspear",
+            // Nate
+            "Knife",
+            "Knife",
+            "Sling",
+            // Taye
+            "Longbow",
+            "Shortspear",
+            // TJ
+            "?",
+            "?",
+            "?",
+            "?",
+        ],
     },
 ];
 
