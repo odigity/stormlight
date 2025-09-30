@@ -1,0 +1,53 @@
+/* Flexbox container for cards */
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Individual cards */
+.card {
+    padding: 20px;
+    box-shadow: none;
+    width: calc(33.333% - 0px);
+    height: 266px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: black;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: LaskiSans;
+}
+
+/* Wide variants for actions only */
+.card.double-wide {
+    width: calc(66.666% - 0px);
+}
+.card.triple-wide {
+    width: 100%;
+}
+/* Watermark */
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    pointer-events: none;
+}
+.watermark.mirrored {
+    transform: translate(-50%, -50%) scale(-1, 1);
+}
+.watermark.rot90 {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.watermark.rot-90 {
+    transform: translate(-50%, -50%) rotate(-90deg);
+}

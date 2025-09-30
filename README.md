@@ -28,12 +28,19 @@ $ npm run lint
 
 ## TODO
 
-- print lines
 - add support for:
     - Whiteboard element  (Exhausted, Enhanced*, Infusions)
-    - Charge Boxes element  (charged items)
 - how to produce sheet of full-opacity watermarks?
 - NOTE: "end grapple" is a free action, but has action cost 2 to define card width.
   - Should we use a separate "width" option (1 by default, or set to 2 or 3) to define width, or just accept that some 
     "action" costs are not necessarily the same as the actual cost?
 
+### Filters / Search queries
+
+ - Cards with reverse
+ - Cards with type
+ - Cards with cost
+   - action
+   - focus
+   - investiture
+ - Items with charges

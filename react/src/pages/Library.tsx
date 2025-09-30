@@ -1,6 +1,6 @@
 import { allCardsInOrder } from "../carddata";
 import Card from "../components/Card";
-import "../styles/cards.css";
+import "../styles/cards.scss";
 
 export default function Library() {
     return (

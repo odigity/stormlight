@@ -13,6 +13,7 @@ const free_actions: CardData[] = [
             <br/><i>This space intentionally left blank.</i>
         </>,
         source       : "p.304",
+        inset: true,
     },
     {
         name         : "Maintain Enhance",

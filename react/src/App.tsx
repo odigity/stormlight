@@ -1,6 +1,7 @@
-import Library from "./pages/Library";
-import './App.css'
-import Foo from "./pages/Foo.tsx";
+import './App.scss'
+// import Foo from "./pages/Foo.tsx";
+// import Watermarks from "./pages/Watermarks.tsx";
+import Library from "./pages/Library.tsx";
 
 function App() {
   return <Library />;
