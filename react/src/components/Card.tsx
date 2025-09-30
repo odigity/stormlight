@@ -20,9 +20,9 @@ function Card({data}: CardProps) {
             {data.icon ? (
                 <img className={classNames({
                     watermark: true,
-                    mirrored: data.mirrorIcon,
-                    rot90: data.rotRightIcon,
-                    'rot-90': data.rotLeftIcon,
+                    mirrored : data.mirrorIcon,
+                    rot90    : data.rotRightIcon,
+                    'rot-90' : data.rotLeftIcon,
                 })} src={`src/assets/art/${normalizeNameForSvg(data.name)}.svg`} alt="watermark"/>
             ) : null}
 

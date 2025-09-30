@@ -4,184 +4,184 @@ import {ItemType} from "../types/itemType.ts";
 
 const skills: CardData[] = [
     {
-        name          : "Agility",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Agility.svg",
-        rules         : <>
+        name         : "Agility",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Agility.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.60",
+        source: "p.60",
     },
     {
-        name          : "Athletics",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Athletics.svg",
-        rules         : <>
+        name         : "Athletics",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Athletics.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.60",
+        source: "p.60",
     },
     {
-        name          : "Crafting",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Crafting.svg",
-        rules         : <>
+        name         : "Crafting",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Crafting.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.61",
+        source: "p.61",
     },
     {
-        name          : "Deception",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Deception.svg",
-        rules         : <>
+        name         : "Deception",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Deception.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.61",
+        source: "p.61",
     },
     {
-        name          : "Deduction",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Deduction.svg",
-        rules         : <>
+        name         : "Deduction",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Deduction.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.61",
+        source: "p.61",
     },
     {
-        name          : "Discipline",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Discipline.svg",
-        rules         : <>
+        name         : "Discipline",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Discipline.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.61",
+        source: "p.61",
     },
     {
-        name          : "Heavy Weaponry",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Heavy Weaponry.svg",
-        rules         : <>
+        name         : "Heavy Weaponry",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Heavy Weaponry.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.62",
+        source: "p.62",
     },
     {
-        name          : "Insight",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Insight.svg",
-        rules         : <>
+        name         : "Insight",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Insight.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.62",
+        source: "p.62",
     },
     {
-        name          : "Intimidation",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Intimidation.svg",
-        rules         : <>
+        name         : "Intimidation",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Intimidation.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.62",
+        source: "p.62",
     },
     {
-        name          : "Leadership",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Leadership.svg",
-        rules         : <>
+        name         : "Leadership",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Leadership.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.62",
+        source: "p.62",
     },
     {
-        name          : "Light Weaponry",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Light Weaponry.svg",
-        rules         : <>
+        name         : "Light Weaponry",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Light Weaponry.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.63",
+        source: "p.63",
     },
     {
-        name          : "Lore",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Lore.svg",
-        rules         : <>
+        name         : "Lore",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Lore.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.63",
+        source: "p.63",
     },
     {
-        name          : "Medicine",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Medicine.svg",
-        rules         : <>
+        name         : "Medicine",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Medicine.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.63",
+        source: "p.63",
     },
     {
-        name          : "Perception",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Perception.svg",
-        rules         : <>
+        name         : "Perception",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Perception.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.64",
+        source: "p.64",
     },
     {
-        name          : "Persuasion",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Persuasion.svg",
-        rules         : <>
+        name         : "Persuasion",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Persuasion.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.64",
+        source: "p.64",
     },
     {
-        name          : "Stealth",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Stealth.svg",
-        rules         : <>
+        name         : "Stealth",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Stealth.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.64",
+        source: "p.64",
     },
     {
-        name          : "Survival",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Survival.svg",
-        rules         : <>
+        name         : "Survival",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Survival.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.65",
+        source: "p.65",
     },
     {
-        name          : "Thievery",
-        type          : ItemType.SKILL,
-        rulesCentered : false,
-        icon          : "Thievery.svg",
-        rules         : <>
+        name         : "Thievery",
+        type         : ItemType.SKILL,
+        rulesCentered: false,
+        icon         : "Thievery.svg",
+        rules        : <>
             ?
         </>,
-        source        : "p.66",
+        source: "p.66",
     },
 ];
 

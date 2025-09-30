@@ -12,7 +12,7 @@ const free_actions: CardData[] = [
         rules        : <>
             <br/><i>This space intentionally left blank.</i>
         </>,
-        source       : "p.304",
+        source: "p.304",
     },
     {
         name         : "Maintain Enhance",
@@ -24,7 +24,7 @@ const free_actions: CardData[] = [
         rules        : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
-        source       : "p.125",
+        source: "p.125",
     },
     {
         name         : "Regenerate",
@@ -48,7 +48,7 @@ const free_actions: CardData[] = [
         rules        : <>
             Movement reduced by 5' until next turn.
         </>,
-        source       : "p.294",
+        source: "p.294",
     },
 ];
 
