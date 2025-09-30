@@ -4,7 +4,7 @@ import {allCards, allCardsByType} from "../carddata";
 import Card from "../components/Card";
 import {useState} from "react";
 import _ from "lodash";
-import type {ItemType} from "../types/itemType.ts";
+import type {CardType} from "../types/types.ts";
 
 
 //TODO: Fucking enums
@@ -22,7 +22,7 @@ const types = [
 ];
 
 export default function LivePreview() {
-    const [typeFilter, setTypeFilter] = useState<null | ItemType>(null);
+    const [typeFilter, setTypeFilter] = useState<null | CardType>(null);
 
     const cards = _(allCards)
         .sortBy('name')
@@ -39,7 +39,7 @@ export default function LivePreview() {
         if(type==="All") {
             setTypeFilter(null);
         } else {
-            setTypeFilter(type as ItemType)
+            setTypeFilter(type as CardType)
         }
     };
 

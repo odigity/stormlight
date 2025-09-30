@@ -1,22 +1,22 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const costly_actions: CardData[] = [
     {
         name   : "Abrasion",
-        type   : ItemType.COSTLY_ACTION,
+        source: "p.212",
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Abrasion.svg",
         rules  : <>
             ?
         </>,
-        source: "p.212",
         status: "TODO",
     },
     {
         name   : "Add to Infusion",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "?.svg",
         rules  : <>
@@ -27,7 +27,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Adhesion",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Adhesion.svg",
         rules  : <>
@@ -38,7 +38,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Apply Poison",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "?.svg",
         rules  : <>
@@ -49,7 +49,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Brace",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Brace.svg",
         rules  : <>
@@ -61,7 +61,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Breathe Stormlight",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "BreatheStormlight.svg",
         rules  : <>
@@ -73,7 +73,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Cohesion",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "SurgeCohesion.svg",
         rules  : <>
@@ -84,7 +84,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Disengage",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Disengage.svg",
         rules  : <>
@@ -95,7 +95,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Division",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Division.svg",
         rules  : <>
@@ -106,7 +106,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Enhance",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Enhance.svg",
         ip     : 1,
@@ -123,7 +123,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Gain Advantage",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "GainAdvantage.svg",
         rules  : <>
@@ -135,7 +135,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Grapple",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Grapple.svg",
         rules  : <>
@@ -150,7 +150,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Gravitation",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Gravitation.svg",
         rules  : <>
@@ -161,7 +161,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Ignite",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "?.svg",
         rules  : <>
@@ -172,7 +172,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Illumination",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Illumination.svg",
         rules  : <>
@@ -183,7 +183,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Interact",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Interact.svg",
         rules  : <>
@@ -199,7 +199,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Mount / Dismount",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "?.svg",
         rules  : <>
@@ -210,7 +210,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Move",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Move.svg",
         rules  : <>
@@ -222,7 +222,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Progression",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Progression.svg",
         rules  : <>
@@ -233,7 +233,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Ready",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Ready.svg",
         rules  : <>
@@ -245,7 +245,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Recover",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Recover.svg",
         rules  : <>
@@ -257,7 +257,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Reload",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Reload.svg",
         rules  : <>
@@ -268,7 +268,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Shove",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Shove.svg",
         rules  : <>
@@ -280,7 +280,7 @@ const costly_actions: CardData[] = [
     },
     {
         name      : "Strike (Offhand)",
-        type      : ItemType.COSTLY_ACTION,
+        type      : CardType.COSTLY_ACTION,
         actions   : 1,
         icon      : "Strike.svg",
         mirrorIcon: true,
@@ -297,7 +297,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Strike (Primary)",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Strike.svg",
         rules  : <>
@@ -310,7 +310,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Tension",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Tension.svg",
         rules  : <>
@@ -321,7 +321,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Throw Net",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "?.svg",
         rules  : <>
@@ -332,7 +332,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Transformation",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "Transformation.svg",
         rules  : <>
@@ -343,7 +343,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Transportation",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 2,
         icon   : "Transportation.svg",
         rules  : <>
@@ -354,7 +354,7 @@ const costly_actions: CardData[] = [
     },
     {
         name   : "Use a Skill",
-        type   : ItemType.COSTLY_ACTION,
+        type   : CardType.COSTLY_ACTION,
         actions: 1,
         icon   : "UseASkill.svg",
         rules  : <>

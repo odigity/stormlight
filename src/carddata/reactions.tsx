@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const reactions: CardData[] = [
     {
         name   : "Absorb Pain",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "?.svg",
         rules  : <>
@@ -16,7 +16,7 @@ const reactions: CardData[] = [
     },
     {
         name   : "Aid",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "Aid.svg",
         fp     : 1,
@@ -28,7 +28,7 @@ const reactions: CardData[] = [
     },
     {
         name   : "Avoid Danger",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "AvoidDanger.svg",
         rules  : <>
@@ -40,7 +40,7 @@ const reactions: CardData[] = [
     },
     {
         name   : "Dodge",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "Dodge.svg",
         fp     : 1,
@@ -52,7 +52,7 @@ const reactions: CardData[] = [
     },
     {
         name   : "Numb Pain",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "?.svg",
         rules  : <>
@@ -63,7 +63,7 @@ const reactions: CardData[] = [
     },
     {
         name   : "Reactive Strike",
-        type   : ItemType.REACTION,
+        type   : CardType.REACTION,
         actions: -1,
         icon   : "ReactiveStrike.svg",
         fp     : 1,

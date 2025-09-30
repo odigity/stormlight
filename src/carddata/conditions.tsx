@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const conditions: CardData[] = [
     {
         name : "Afflicted",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Afflicted.svg",
         rules: <>
             Take specified damage...
@@ -17,7 +17,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Braced",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "?.svg",
         rules: <>
             TODO
@@ -27,7 +27,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Determined",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Determined.svg",
         rules: <>
             May add <span className="dingbats">o</span> to 1 failed test.
@@ -37,7 +37,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Disoriented",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Disoriented.svg",
         rules: <>
             • Can't use <span className="dingbats">r</span>.
@@ -49,7 +49,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Empowered",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Empowered.svg",
         rules: <>
             Until end of scene:
@@ -61,7 +61,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Enhanced.svg",
         rules: <>
             • Enhanced [Str +1]<br/>
@@ -75,7 +75,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Strength",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedStrength.svg",
         rules: <>
             Doesn't affect Physical Defense or HP.
@@ -86,7 +86,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Speed",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedSpeed.svg",
         rules: <>
             Doesn't affect Physical Defense.
@@ -97,7 +97,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Intellect",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedIntellect.svg",
         rules: <>
             Doesn't affect Cognitive Defense.
@@ -108,7 +108,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Willpower",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedWillpower.svg",
         rules: <>
             Doesn't affect Cognitive Defense or FP.
@@ -119,7 +119,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Awareness",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedAwareness.svg",
         rules: <>
             Doesn't affect Spiritual Defense or IP.
@@ -130,7 +130,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Enhanced Presence",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "EnhancedPresence.svg",
         rules: <>
             Doesn't affect Spiritual Defense or IP.
@@ -141,7 +141,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Exhausted",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Exhausted.svg",
         rules: <>
             Apply penalty to all tests. (Stacks)
@@ -154,7 +154,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Focused",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Focused.svg",
         rules: <>
             FP costs reduced by 1.
@@ -164,7 +164,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Immobilized",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Immobilized.svg",
         rules: <>
             • Movement becomes 0'.
@@ -175,7 +175,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Prone",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Prone.svg",
         rules: <>
             • Slowed
@@ -189,7 +189,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Restrained",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Restrained.svg",
         rules: <>
             • movement = 0'
@@ -200,7 +200,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Slowed",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Slowed.svg",
         rules: <>
             Half movement, rounded up.
@@ -210,7 +210,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Stunned",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Stunned.svg",
         rules: <>
             • lose all ↻
@@ -221,7 +221,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Surprised",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Surprised.svg",
         rules: <>
             <p>
@@ -239,7 +239,7 @@ const conditions: CardData[] = [
     },
     {
         name : "Unconscious",
-        type : ItemType.CONDITION,
+        type : CardType.CONDITION,
         icon : "Unconscious.svg",
         rules: <>
             Can only:

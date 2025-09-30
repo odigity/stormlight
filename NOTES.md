@@ -1,8 +1,11 @@
 ## Files
 
-- `assets/art` — untouched originals
-- `src/assets/art` — watermark SVGs
-- `src/carddata` — card data in tsx files
+- `assets/`         — sourced from the web
+- `assets/art/`     — original SVGs
+- `src/assets/art/` — customized SVGs
+- `src/carddata`    — card data in tsx files
+- `src/types/itemType.ts` — ?
+- `src/types/types.ts` — ?
 
 
 ## Terminology
@@ -10,7 +13,7 @@
 - front vs back (aka cover, aka reverse)
 - double-card:  double-wide
 - two-page card:  card with two pages of text
-- twin card:  Malignant
+- twin card:  two related (parent/child?) cards put together
 
 
 ## Design

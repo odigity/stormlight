@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const items: CardData[] = [
     {
         name         : "Axe",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Axe.svg",
         rules        : <>
@@ -17,7 +17,7 @@ const items: CardData[] = [
     },
     {
         name         : "Crossbow",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Crossbow.svg",
         rules        : <>
@@ -29,7 +29,7 @@ const items: CardData[] = [
     },
     {
         name         : "Grandbow",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Grandbow.svg",
         rules        : <>
@@ -41,7 +41,7 @@ const items: CardData[] = [
     },
     {
         name         : "Greatsword",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Greatsword.svg",
         rules        : <>
@@ -53,7 +53,7 @@ const items: CardData[] = [
     },
     {
         name         : "Hammer",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Hammer.svg",
         rules        : <>
@@ -65,7 +65,7 @@ const items: CardData[] = [
     },
     {
         name         : "Improvised Weapon",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "ImprovisedWeapon.svg",
         rules        : <>
@@ -77,7 +77,7 @@ const items: CardData[] = [
     },
     {
         name         : "Javelin",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Javelin.svg",
         rules        : <>
@@ -89,7 +89,7 @@ const items: CardData[] = [
     },
     {
         name         : "Knife",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Knife.svg",
         rules        : <>
@@ -102,7 +102,7 @@ const items: CardData[] = [
     },
     {
         name         : "Longbow",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Longbow.svg",
         rules        : <>
@@ -114,7 +114,7 @@ const items: CardData[] = [
     },
     {
         name         : "Longspear",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Longspear.svg",
         rules        : <>
@@ -126,7 +126,7 @@ const items: CardData[] = [
     },
     {
         name         : "Longsword",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Longsword.svg",
         rules        : <>
@@ -138,7 +138,7 @@ const items: CardData[] = [
     },
     {
         name         : "Mace",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Mace.svg",
         rules        : <>
@@ -150,7 +150,7 @@ const items: CardData[] = [
     },
     {
         name         : "Poleaxe",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Poleaxe.svg",
         rules        : <>
@@ -162,7 +162,7 @@ const items: CardData[] = [
     },
     {
         name         : "Rapier",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Rapier.svg",
         rules        : <>
@@ -174,7 +174,7 @@ const items: CardData[] = [
     },
     {
         name         : "Shield",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Shield.svg",
         rules        : <>
@@ -186,7 +186,7 @@ const items: CardData[] = [
     },
     {
         name         : "Shortbow",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Shortbow.svg",
         rules        : <>
@@ -198,7 +198,7 @@ const items: CardData[] = [
     },
     {
         name         : "Shortspear",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Shortspear.svg",
         rules        : <>
@@ -211,7 +211,7 @@ const items: CardData[] = [
     },
     {
         name         : "Sidesword",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Sidesword.svg",
         rules        : <>
@@ -223,7 +223,7 @@ const items: CardData[] = [
     },
     {
         name         : "Sling",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Sling.svg",
         rules        : <>
@@ -235,7 +235,7 @@ const items: CardData[] = [
     },
     {
         name         : "Staff",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Staff.svg",
         rules        : <>
@@ -247,7 +247,7 @@ const items: CardData[] = [
     },
     {
         name         : "Unarmed Attack",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "UnarmedAttack.svg",
         rules        : <>
@@ -278,7 +278,7 @@ const items: CardData[] = [
     },
     {
         name         : "Warhammer",
-        type         : ItemType.ITEM,
+        type         : CardType.ITEM,
         rulesCentered: true,
         icon         : "Warhammer.svg",
         rules        : <>

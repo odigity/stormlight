@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const effects: CardData[] = [
     {
         name : "?",
-        type : ItemType.EFFECT,
+        type : CardType.EFFECT,
         icon : "?.svg",
         rules: <>
             ?

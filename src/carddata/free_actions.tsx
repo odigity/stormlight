@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const free_actions: CardData[] = [
     {
         name         : "End Grapple",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 2,
         rulesCentered: true,
         icon         : "EndGrapple.svg",
@@ -18,7 +18,7 @@ const free_actions: CardData[] = [
     },
     {
         name         : "Maintain Enhance",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 0,
         icon         : "MaintainEnhance.svg",
         ip           : 1,
@@ -30,7 +30,7 @@ const free_actions: CardData[] = [
     },
     {
         name         : "Quickdraw",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 0,
         icon         : "Quickdraw.svg",
         rules        : <>
@@ -42,7 +42,7 @@ const free_actions: CardData[] = [
     },
     {
         name         : "Regenerate",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 0,
         icon         : "Regenerate.svg",
         ip           : 1,
@@ -55,7 +55,7 @@ const free_actions: CardData[] = [
     },
     {
         name         : "Sense Emotions",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 0,
         icon         : "SenseEmotions.svg",
         rules        : <>
@@ -66,7 +66,7 @@ const free_actions: CardData[] = [
     },
     {
         name         : "Stand Up",
-        type         : ItemType.FREE_ACTION,
+        type         : CardType.FREE_ACTION,
         actions      : 0,
         icon         : "StandUp.svg",
         rules        : <>

@@ -1,7 +1,7 @@
 import type {SheetData} from "../types/types.ts";
 
 
-const effects: SheetData[] = [
+const sheets: SheetData[] = [
     {
         name : "Foo",
         cards: [
@@ -32,4 +32,4 @@ const effects: SheetData[] = [
 ];
 
 
-export default effects;
+export default sheets;

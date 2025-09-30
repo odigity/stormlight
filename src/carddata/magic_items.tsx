@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const magic_items: CardData[] = [
     {
         name : "Alerter",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -16,7 +16,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Attractor",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -27,7 +27,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Clock Fabrial",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -38,7 +38,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Drainer",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -49,7 +49,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Emotion Bracelet",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -61,7 +61,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Half-Shard",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO<br/>
@@ -73,7 +73,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Heatrial",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -84,7 +84,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Painrial (amplifying)",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -95,7 +95,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Painrial (hybrid)",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -107,7 +107,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Painrial (numbing)",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -119,7 +119,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Repeller",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -130,7 +130,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Shardblade",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "Shardblade.svg",
         rules: <>
             TODO<br/>
@@ -142,7 +142,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Shardblade (Radiant)",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "ShardbladeRadiant",
         rules: <>
             TODO<br/>
@@ -154,7 +154,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Shardplate",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "Shardplate.svg",
         rules: <>
             TODO
@@ -164,7 +164,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Shardplate (Radiant)",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "ShardplateRadiant",
         rules: <>
             TODO
@@ -174,7 +174,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Soulcaster",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -185,7 +185,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Spanreed",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO
@@ -196,7 +196,7 @@ const magic_items: CardData[] = [
     },
     {
         name : "Suppressor",
-        type : ItemType.MAGIC_ITEM,
+        type : CardType.MAGIC_ITEM,
         icon : "?.svg",
         rules: <>
             TODO

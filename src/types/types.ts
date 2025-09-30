@@ -1,29 +1,55 @@
 import type {ReactNode} from "react";
-import {ItemType} from "./itemType.ts";
+
+
+export enum CardType {
+    CONDITION       = "Condition",
+    COSTLY_ACTION   = "CostlyAction",
+    EFFECT          = "Effect",
+    FREE_ACTION     = "FreeAction",
+    INFUSION        = "Infusion",
+    ITEM            = "Item",
+    MAGIC_ITEM      = "MagicItem",
+    REACTION        = "Reaction",
+    SKILL           = "Skill",
+}
+
 
 export interface CardData {
-    name            : string;
-    type            : ItemType;
-    actions?        : number;     // 1 default; 2=double-wide, 3=triple-wide for actions; -1=reaction (single-wide)
-    ip?             : number;     // investiture cost
-    fp?             : number;     // focus cost
-    ch?             : number;     // charge cost
-    rules?          : ReactNode;  // JSX preferred
-    charges?        : number;
-    icon?           : string;     // resolved at import time in data files
-    rulesCentered?  : boolean;    // center entire rules block when true
-    note?           : string;
-    source          : string;
-    mirrorIcon?     : boolean;
-    rotRightIcon?   : boolean;
-    rotLeftIcon?    : boolean;
-    inset?          : boolean;
-    reverseCard?    : string;     // should match "name" property of target card
-    parentCard?     : string;     // should match "name" property of target card
 
-    // METADATA ONLY
+    name            : string;
+    source          : string;
+
+    // Card Specs
+    type?           : CardType;     // determines paper color  (populated by index.ts)
+    actions?        : number;       // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Costly Action)
+    inset?          : boolean;      // determines border color
+
+    // Cost Bubbles
+    ip?             : number;       // investiture
+    fp?             : number;       // focus
+    ch?             : number;       // item charge
+
+    // Art
+    art?            : string;
+    mirrorArt?      : boolean;
+    rotRightArt?    : boolean;
+    rotLeftArt?     : boolean;
+
+    // Rules Content
+    rulesCentered?  : boolean;
+    rules?          : ReactNode;    // JSX preferred
+    charges?        : number;       // -> whiteboard checkboxes
+    note?           : string;       // Examples:  "Stacking", "Once per scene", "Light Weapon"
+
+    // Relationships
+    reverseCard?    : string;       // should match "name" property of target card
+    //parentCard?     : string;      // should match "name" property of target card
+
+    // Metadata
     status          : 'TODO' | 'PROOF' | 'DONE';
+
 }
+
 
 export interface SheetData {
     name  : string;

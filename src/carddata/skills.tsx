@@ -1,11 +1,11 @@
 import type {CardData} from "../types/types.ts";
-import {ItemType} from "../types/itemType.ts";
+import {CardType} from "../types/types.ts";
 
 
 const skills: CardData[] = [
     {
         name : "Agility",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Agility.svg",
         rules: <>
             ?
@@ -15,7 +15,7 @@ const skills: CardData[] = [
     },
     {
         name : "Athletics",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Athletics.svg",
         rules: <>
             ?
@@ -25,7 +25,7 @@ const skills: CardData[] = [
     },
     {
         name : "Crafting",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Crafting.svg",
         rules: <>
             ?
@@ -35,7 +35,7 @@ const skills: CardData[] = [
     },
     {
         name : "Deception",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Deception.svg",
         rules: <>
             ?
@@ -45,7 +45,7 @@ const skills: CardData[] = [
     },
     {
         name : "Deduction",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Deduction.svg",
         rules: <>
             ?
@@ -55,7 +55,7 @@ const skills: CardData[] = [
     },
     {
         name : "Discipline",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Discipline.svg",
         rules: <>
             ?
@@ -65,7 +65,7 @@ const skills: CardData[] = [
     },
     {
         name : "Heavy Weaponry",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Heavy Weaponry.svg",
         rules: <>
             ?
@@ -75,7 +75,7 @@ const skills: CardData[] = [
     },
     {
         name : "Insight",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Insight.svg",
         rules: <>
             ?
@@ -85,7 +85,7 @@ const skills: CardData[] = [
     },
     {
         name : "Intimidation",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Intimidation.svg",
         rules: <>
             ?
@@ -95,7 +95,7 @@ const skills: CardData[] = [
     },
     {
         name : "Leadership",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Leadership.svg",
         rules: <>
             ?
@@ -105,7 +105,7 @@ const skills: CardData[] = [
     },
     {
         name : "Light Weaponry",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Light Weaponry.svg",
         rules: <>
             ?
@@ -115,7 +115,7 @@ const skills: CardData[] = [
     },
     {
         name : "Lore",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Lore.svg",
         rules: <>
             ?
@@ -125,7 +125,7 @@ const skills: CardData[] = [
     },
     {
         name : "Medicine",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Medicine.svg",
         rules: <>
             ?
@@ -135,7 +135,7 @@ const skills: CardData[] = [
     },
     {
         name : "Perception",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Perception.svg",
         rules: <>
             ?
@@ -145,7 +145,7 @@ const skills: CardData[] = [
     },
     {
         name : "Persuasion",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Persuasion.svg",
         rules: <>
             ?
@@ -155,7 +155,7 @@ const skills: CardData[] = [
     },
     {
         name : "Stealth",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Stealth.svg",
         rules: <>
             ?
@@ -165,7 +165,7 @@ const skills: CardData[] = [
     },
     {
         name : "Survival",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Survival.svg",
         rules: <>
             ?
@@ -175,7 +175,7 @@ const skills: CardData[] = [
     },
     {
         name : "Thievery",
-        type : ItemType.SKILL,
+        type : CardType.SKILL,
         icon : "Thievery.svg",
         rules: <>
             ?
