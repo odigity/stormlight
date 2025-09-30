@@ -10,7 +10,7 @@ import skills         from "./skills.tsx";
 
 export { conditions, costly_actions, effects, free_actions, items, magic_items, reactions, skills };
 
-export const allCardsInOrder = [
+export const allCardsByType = [
     { id: "conditions",     title: "Conditions",     cards: conditions     },
     { id: "costly-actions", title: "Costly Actions", cards: costly_actions },
     { id: "free-actions",   title: "Free Actions",   cards: free_actions   },
@@ -19,4 +19,15 @@ export const allCardsInOrder = [
     { id: "magic-items",    title: "Magic Items",    cards: magic_items    },
     { id: "reactions",      title: "Reactions",      cards: reactions      },
     { id: "skills",         title: "Skills",         cards: skills         },
+];
+
+export const allCards = [
+    ...conditions,
+    ...costly_actions,
+    ...free_actions,
+    ...infusions,
+    ...items,
+    ...magic_items,
+    ...reactions,
+    ...skills
 ];

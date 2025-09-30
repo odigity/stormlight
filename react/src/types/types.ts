@@ -20,4 +20,7 @@ export interface CardData {
     inset?          : boolean;
     reverseCard?    : string;     // should match "name" property of target card
     parentCard?     : string;     // should match "name" property of target card
+
+    // METADATA ONLY
+    status?: 'TODO' | 'PROOF' | 'DONE';
 }

@@ -47,6 +47,7 @@ Lint:
 
 ### Filters / Search queries
 
+ - Cards by name
  - Cards with reverse
  - Cards with type
  - Cards with cost
@@ -54,3 +55,26 @@ Lint:
    - focus
    - investiture
  - Items with charges
+
+
+
+
+
+## Nick's Items
+ 
+ - Sorting
+   - Alphabetical
+   - Type
+     - +alpha
+     - 
+
+### Views
+ 
+ - Dashboard
+ - Library
+   - Swap to Live Preview
+ - Status (Data View)
+   - with filters
+ - Twin Cards
+ - Sheets
+   - Advanced Queries

@@ -1,4 +1,4 @@
-import { allCardsInOrder } from "../carddata";
+import { allCardsByType } from "../carddata";
 import Card from "../components/Card";
 import "../styles/cards.scss";
 
@@ -15,7 +15,7 @@ export default function Library() {
                 </div>
             </div>
 
-            {allCardsInOrder.map(section => (
+            {allCardsByType.map(section => (
                 <div key={section.id}>
                     <h1 id={section.id} className="section-title">{section.title}</h1>
                     <div className="flexbox-container">

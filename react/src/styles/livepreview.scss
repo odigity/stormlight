@@ -1,0 +1,15 @@
+
+.quickfilters {
+  font-size: 24px;
+  line-height: 32px;
+  text-underline: black;
+
+  a {
+    margin-right: 6px;
+
+    &::after {
+      content: " |"
+    }
+  }
+}
+

@@ -1,6 +1,6 @@
 import type {CardData} from "../types/types.ts";
-import "../styles/cards.scss";
-import _ from "lodash";
+// import "../styles/cards.scss";
+import * as _ from "lodash";
 import {classNames, getCardWidthByActionCost} from "../utils/utils.ts";
 
 interface CardProps {
