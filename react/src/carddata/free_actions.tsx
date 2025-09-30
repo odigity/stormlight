@@ -12,38 +12,38 @@ const free_actions: CardData[] = [
         rules        : <>
             <br/><i>This space intentionally left blank.</i>
         </>,
-        source       : "p.304",
-        inset: true,
+        source: "p.304",
+        inset : true,
     },
     {
-        name         : "Maintain Enhance",
-        type         : ItemType.FREE_ACTION,
-        actions      : 0,
-        icon         : "MaintainEnhance.svg",
-        ip           : 1,
-        rules        : <>
+        name   : "Maintain Enhance",
+        type   : ItemType.FREE_ACTION,
+        actions: 0,
+        icon   : "MaintainEnhance.svg",
+        ip     : 1,
+        rules  : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
         source: "p.125",
     },
     {
-        name         : "Regenerate",
-        type         : ItemType.FREE_ACTION,
-        actions      : 0,
-        icon         : "Regenerate.svg",
-        ip           : 1,
-        rules        : <>
+        name   : "Regenerate",
+        type   : ItemType.FREE_ACTION,
+        actions: 0,
+        icon   : "Regenerate.svg",
+        ip     : 1,
+        rules  : <>
             <p>HP += 1d6 + tier.</p>
             <p>Can use even when Unconscious or prevented from using free_actions.</p>
         </>,
         source: "p.125",
     },
     {
-        name         : "Stand Up",
-        type         : ItemType.FREE_ACTION,
-        actions      : 0,
-        icon         : "StandUp.svg",
-        rules        : <>
+        name   : "Stand Up",
+        type   : ItemType.FREE_ACTION,
+        actions: 0,
+        icon   : "StandUp.svg",
+        rules  : <>
             Movement reduced by 5' until next turn.
         </>,
         source: "p.294",

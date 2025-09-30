@@ -4,10 +4,10 @@ import {ItemType} from "../types/itemType.ts";
 
 const effects: CardData[] = [
     {
-        name         : "?",
-        type         : ItemType.EFFECT,
-        icon         : "?.svg",
-        rules        : <>
+        name : "?",
+        type : ItemType.EFFECT,
+        icon : "?.svg",
+        rules: <>
             ?
         </>,
         source: "p.?",

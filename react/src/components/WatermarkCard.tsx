@@ -18,9 +18,9 @@ export default function WatermarkCard(props: WatermarkCardProps){
         <div className={"card "+widthClass}>
             <img className={classNames({
                 watermark: true,
-                mirrored: mirrorIcon,
-                rot90: rotRightIcon,
-                'rot-90': rotLeftIcon,
+                mirrored : mirrorIcon,
+                rot90    : rotRightIcon,
+                'rot-90' : rotLeftIcon,
             })} src={`src/assets/art/${icon}`} alt={icon}/>
         </div>
     )

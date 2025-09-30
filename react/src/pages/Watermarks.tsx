@@ -3,7 +3,7 @@ import WatermarkCard from "../components/WatermarkCard.tsx";
 const items = [
     {
         actions: 2,
-        icon: "Restrained.svg"
+        icon   : "Restrained.svg"
     }, {
         icon: "Slowed.svg"
     }, {
