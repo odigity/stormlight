@@ -16,7 +16,7 @@ export interface CardData {
 
     // Card Specs
     type?      : CardType;      // determines paper color  (populated by index.ts)
-    actions?   : number;        // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Costly Action)
+    actions?   : number;        // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Action)
     magic?     : boolean;
 
     // Header  (Cost Bubbles)

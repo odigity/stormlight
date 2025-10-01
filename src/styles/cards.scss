@@ -48,12 +48,12 @@
     border-color: #ddd;
   }
 
-  &.condition {
-    background-color: $color-condition
+  &.action {
+    background-color: $color-action;
   }
 
-  &.costlyaction {
-    background-color: $color-action;
+  &.condition {
+    background-color: $color-condition
   }
 
   &.effect {

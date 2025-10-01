@@ -5,7 +5,7 @@ import type {SheetData} from "../types/types.ts";
 const sheets: SheetData[] = [
     {
         name  : "Foo",
-        type  : CardType.COSTLY_ACTION,
+        type  : CardType.ACTION,
         cards : [
             "Brace",
         ],

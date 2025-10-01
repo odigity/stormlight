@@ -1,7 +1,7 @@
 import type {CardData} from "../types/types.ts";
 
 
-const costly_actions: CardData[] = [
+const actions: CardData[] = [
     {
         name    : "Abrasion",
         status  : "TODO",
@@ -446,4 +446,4 @@ const costly_actions: CardData[] = [
 ];
 
 
-export default costly_actions;
+export default actions;

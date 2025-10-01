@@ -2,16 +2,16 @@ $CelestialBlue    : #3697AE;    // Magic Items
 $FireballFuchsia  : #FF3C9C;    // Infusions 
 $GalaxyGold       : #FFAC00;    // Free Actions
 $LunarBlue        : #64B9BC;    // Items
-$OrbitOrange      : #F86129;    // Costly Actions
+$OrbitOrange      : #F86129;    // Actions
 $OutrageousOrchid : #D573AF;    // Conditions
 $RocketRed        : #FF5E63;    // Reactions
 $TerrestrialTeal  : #27A89A;    // Effects
 
 $color-action     : $OrbitOrange;
-$color-freeaction : $GalaxyGold;
-$color-reaction   : $RocketRed;
 $color-condition  : $OutrageousOrchid;
 $color-effect     : $TerrestrialTeal;
+$color-freeaction : $GalaxyGold;
 $color-infusion   : $FireballFuchsia;
 $color-item       : $LunarBlue;
 $color-magicitem  : $CelestialBlue;
+$color-reaction   : $RocketRed;
