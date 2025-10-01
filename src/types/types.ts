@@ -16,6 +16,7 @@ export interface CardData {
     // Card Specs
     type?      : CardType;      // determines paper color  (populated by index.ts)
     actions?   : number;        // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Costly Action)
+    magic?     : boolean;
 
     // Header  (Cost Bubbles)
     ip?        : number;        // investiture
@@ -31,6 +32,7 @@ export interface CardData {
     keyProps?  : string;        // "Stacking", "Once per scene", "Light Weapon"
     charges?   : number;        // -> whiteboard checkboxes
     rules?     : ReactNode;     // keep on bottom for visibility (and it breaks the eslint aligner)
+    rules2?    : ReactNode;     // for page 2 of two-page cards
 
 }
 

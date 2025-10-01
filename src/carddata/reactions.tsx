@@ -7,6 +7,7 @@ const reactions: CardData[] = [
         status  : "TODO",
         source  : "p.273",
         actions : -1,
+        magic   : true,
         art     : "?.svg",
         rules   : <>
             TODO
@@ -50,6 +51,7 @@ const reactions: CardData[] = [
         status  : "TODO",
         source  : "p.263",
         actions : -1,
+        magic   : true,
         art     : "?.svg",
         rules   : <>
             TODO

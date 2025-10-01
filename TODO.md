@@ -43,6 +43,7 @@ Lint:
  - Bold card names in data view if it has an icon
  - "Ready" action hack
  - components for CardTypes (especially Infusions and Items - or Weapons specifically?)
+ - corner adornment for stormlight-related cards ("magic" boolean)
 
 #### Views
  

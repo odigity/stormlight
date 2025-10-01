@@ -10,14 +10,17 @@
 
 ### Decisions
 
-- cards are mostly for combat  (scene-specific information)
-- what goes where and why?
 - the 5 communicated elements
     - type                ->  paper color
         - action cost     ->  paper size
     - FP/IP/Ch cost       ->  corner bubble
     - Stormlight-related  ->  gold corners
     - Standard vs Custom  ->  icon
+gold -> "radiant set" 4 stormlight + 2 surge cards + radiant shardblade/shardplate-related cards
+
+
+- cards are mostly for combat  (scene-specific information)
+- what goes where and why?
 - when to have a reverse
 - rules wordings
 - items can have charge boxes
