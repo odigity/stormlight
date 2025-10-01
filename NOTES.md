@@ -59,25 +59,26 @@ NavBar component at top of each page.
 #### Card Box Model
 
 ```
-Sleeve Width (~2.5")
-┌───────────────────────────────┐
-│ Bordered Width (2 3/8")       │
-│ ┌───────────────────────────┐ │
-│ │ Unbordered Width (?")     │ │
-│ │ ┌───────────────────────┐ │ │
-│ │X│ Content Width         │X│ │ 
-│ │X│ ┌───────────────────┐ │X│ │ 
+Sleeve     Width  =  ~2.5"
+Bordered   Width  =  2 3/8"
+Unbordered Width  =  ?"
+Margin Thickness  =  ?"
+Border Thickness  =  ?"
+Sleeve Thickness  =  1/16"
+
+┌─Sleeve Width──────────────────┐
+│ ┌─Bordered Width────────────┐ │
+│ │ ┌─Unbordered Width──────┐ │ │
+│ │X│ ┌─Content Width─────┐ │X│ │ 
 │ │X│ │ Header            │ │X│ │ 
 │ │X│ │-------------------│ │X│ │ 
 │ │X│ │ Body (rules)      │ │X│ │ 
 │ │X│ │                   │ │X│ │ 
 │ │X│ │ Footer            │ │X│ │ 
 │ │X│ └───────────────────┘ │X│ │ 
-│ │X│                       │X│ │  Margin Thickness (?")
 │ │X└───────────────────────┘X│ │
-│ │XXXXXXXXXXXXXXXXXXXXXXXXXXX│ │  Border Thickness (?")
+│ │XXXXXXXXXXXXXXXXXXXXXXXXXXX│ │
 │ └───────────────────────────┘ │
-│                               │  Sleeve Thickeness (1/16")
 └───────────────────────────────┘
 ```
 
