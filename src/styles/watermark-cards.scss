@@ -42,12 +42,3 @@
     object-fit: contain;
     pointer-events: none;
 }
-.watermark.mirrored {
-    transform: translate(-50%, -50%) scale(-1, 1);
-}
-.watermark.rot90 {
-    transform: translate(-50%, -50%) rotate(90deg);
-}
-.watermark.rot-90 {
-    transform: translate(-50%, -50%) rotate(-90deg);
-}

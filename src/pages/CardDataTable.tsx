@@ -52,11 +52,11 @@ interface CardRowProps {
 }
 function CardRow(props: CardRowProps) {
     const {data: card} = props
+    const artFileName = card.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
+    const artFilePath = `src/assets/art/${artFileName}`
     return (
         <TableRow>
-            <TableCell className="art">
-                <img src={`src/assets/art/${card.art}`} alt={card.art}/>
-            </TableCell>
+            <TableCell className="art"><img src={artFilePath} alt={artFileName}/></TableCell>
             <TableCell>{card.name}</TableCell>
             <TableCell>{card.status}</TableCell>
             <TableCell>{card.type}</TableCell>

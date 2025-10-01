@@ -6,8 +6,6 @@ const items: CardData[] = [
         name     : "Axe",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Axe.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>20'/60'<br/><i>Offhand</i>
@@ -17,8 +15,6 @@ const items: CardData[] = [
         name     : "Crossbow",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Crossbow.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i>
@@ -28,8 +24,6 @@ const items: CardData[] = [
         name     : "Grandbow",
         status   : "PROOF",
         source   : "p.248",
-        art      : "Grandbow.svg",
-        centered : true,
         keyProps : "Special Weapon",
         rules    : <>
             <b>Heavy Weaponry<br/>2d6 keen</b><br/>200'/800', Cumbersome [5], 2🖐️<br/><i>Pierce</i>
@@ -39,8 +33,6 @@ const items: CardData[] = [
         name     : "Greatsword",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Greatsword.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d10 keen</b><br/>2🖐️<br/><i>Deadly</i>
@@ -50,8 +42,6 @@ const items: CardData[] = [
         name     : "Hammer",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Hammer.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d10 impact</b><br/>2🖐️<br/><i>Momentum</i>
@@ -61,8 +51,6 @@ const items: CardData[] = [
         name     : "Improvised Weapon",
         status   : "PROOF",
         source   : "p.248",
-        art      : "ImprovisedWeapon.svg",
-        centered : true,
         keyProps : "Special Weapon",
         rules    : <>
             <b>Skill: same as similar<br/>Dmg: same as similar</b><br/>Fragile
@@ -72,8 +60,6 @@ const items: CardData[] = [
         name     : "Javelin",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Javelin.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>30'/120'<br/><i>Indirect</i>
@@ -83,9 +69,6 @@ const items: CardData[] = [
         name      : "Knife",
         status    : "PROOF",
         source    : "p.246",
-        art       : "Knife.svg",
-        mirrorArt : true,
-        centered  : true,
         keyProps  : "Light Weaponry",
         rules     : <>
             <b>1d4 keen</b><br/>Discreet<br/><i>Offhand, 20'/60'</i>
@@ -95,8 +78,6 @@ const items: CardData[] = [
         name     : "Longbow",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Longbow.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>150'/600', 2🖐️<br/><i>Indirect</i>
@@ -106,8 +87,6 @@ const items: CardData[] = [
         name     : "Longspear",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Longspear.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d8 keen</b><br/>2🖐️<br/><i>Defensive</i>
@@ -117,8 +96,6 @@ const items: CardData[] = [
         name     : "Longsword",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Longsword.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d8 keen</b><br/>Quickdraw, 2🖐️<br/><i>not 2🖐️</i>
@@ -128,8 +105,6 @@ const items: CardData[] = [
         name     : "Mace",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Mace.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 impact</b><br/><i>Momentum</i>
@@ -139,8 +114,6 @@ const items: CardData[] = [
         name     : "Poleaxe",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Poleaxe.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d10 keen</b><br/>2🖐️<br/><i>+5'</i>
@@ -150,8 +123,6 @@ const items: CardData[] = [
         name     : "Rapier",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Rapier.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>Quickdraw<br/><i>Defensive</i>
@@ -161,8 +132,6 @@ const items: CardData[] = [
         name     : "Shield",
         status   : "PROOF",
         source   : "p.247",
-        art      : "Shield.svg",
-        centered : true,
         keyProps : "Heavy Weaponry",
         rules    : <>
             <b>1d4 impact</b><br/>Defensive<br/><i>Offhand</i>
@@ -172,8 +141,6 @@ const items: CardData[] = [
         name     : "Shortbow",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Shortbow.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>80'/320', 2🖐️<br/><i>Quickdraw</i>
@@ -183,9 +150,6 @@ const items: CardData[] = [
         name      : "Shortspear",
         status    : "PROOF",
         source    : "p.246",
-        art       : "Shortspear.svg",
-        mirrorArt : true,
-        centered  : true,
         keyProps  : "Light Weaponry",
         rules     : <>
             <b>1d8 keen</b><br/>2🖐️<br/><i>not 2🖐️</i>
@@ -195,8 +159,6 @@ const items: CardData[] = [
         name     : "Sidesword",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Sidesword.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 keen</b><br/>Quickdraw<br/><i>Offhand</i>
@@ -206,8 +168,6 @@ const items: CardData[] = [
         name     : "Sling",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Sling.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d4 impact</b><br/>Discrete<br/><i>Indirect</i>
@@ -217,8 +177,6 @@ const items: CardData[] = [
         name     : "Staff",
         status   : "PROOF",
         source   : "p.246",
-        art      : "Staff.svg",
-        centered : true,
         keyProps : "Light Weaponry",
         rules    : <>
             <b>1d6 impact</b><br/>Discreet, 2🖐️<br/><i>Defensive</i>
@@ -228,8 +186,6 @@ const items: CardData[] = [
         name     : "Unarmed Attack",
         status   : "PROOF",
         source   : "p.248",
-        art      : "UnarmedAttack.svg",
-        centered : true,
         keyProps : "Special Weapon",
         rules    : <>
             <p>Athletics</p>
@@ -258,8 +214,6 @@ const items: CardData[] = [
         name     : "Warhammer",
         status   : "TODO",
         source   : "p.248",
-        art      : "Warhammer.svg",
-        centered : true,
         keyProps : "Special Weapon",
         rules    : <>
             <b>Heavy Weaponry<br/>2d10 impact</b><br/>Cumbersome [5], 2🖐️<br/><i>Expert: *</i>

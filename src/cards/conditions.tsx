@@ -6,7 +6,6 @@ const conditions: CardData[] = [
         name   : "Afflicted",
         status : "PROOF",
         source : "p.293",
-        art    : "Afflicted.svg",
         rules  : <>
             Take specified damage...
             <br/>• <b>combat:</b> ...at end of turn.
@@ -17,7 +16,6 @@ const conditions: CardData[] = [
         name   : "Determined",
         status : "PROOF",
         source : "p.293",
-        art    : "Determined.svg",
         rules  : <>
             May add <span className="dingbats">o</span> to 1 failed test.
         </>,
@@ -26,7 +24,6 @@ const conditions: CardData[] = [
         name   : "Disoriented",
         status : "PROOF",
         source : "p.293",
-        art    : "Disoriented.svg",
         rules  : <>
             • Can't use <span className="dingbats">r</span>.
             <br/>• Senses are obscured.
@@ -37,7 +34,6 @@ const conditions: CardData[] = [
         name   : "Empowered",
         status : "PROOF",
         source : "p.293",
-        art    : "Empowered.svg",
         rules  : <>
             Until end of scene:
             <br/>• All tests gain an Advantage.
@@ -48,7 +44,6 @@ const conditions: CardData[] = [
         name     : "Enhanced",
         status   : "TODO",
         source   : "p.294",
-        art      : "Enhanced.svg",
         keyProps : "Stacking",
         rules    : <>
             TODO: ADD WHITEBOARD!!!
@@ -59,7 +54,6 @@ const conditions: CardData[] = [
         name     : "Enhanced (Physical)",
         status   : "TODO",
         source   : "p.294",
-        art      : "EnhancedPhysical.svg",
         keyProps : "Stacking",
         rules    : <>
             TODO: ADD WHITEBOARD!!!
@@ -73,7 +67,6 @@ const conditions: CardData[] = [
         name     : "Exhausted",
         status   : "TODO",
         source   : "p.294",
-        art      : "Exhausted.svg",
         keyProps : "Stacking",
         rules    : <>
             TODO: ADD WHITEBOARD!!!
@@ -86,7 +79,6 @@ const conditions: CardData[] = [
         name   : "Focused",
         status : "PROOF",
         source : "p.294",
-        art    : "Focused.svg",
         rules  : <>
             FP costs reduced by 1.
         </>,
@@ -95,7 +87,6 @@ const conditions: CardData[] = [
         name   : "Immobilized",
         status : "PROOF",
         source : "p.294",
-        art    : "Immobilized.svg",
         rules  : <>
             • Movement becomes 0'.
             <br/>• can't move or be moved
@@ -106,7 +97,6 @@ const conditions: CardData[] = [
         status   : "PROOF",
         source   : "p.294",
         flipCard : "Stand Up",
-        art      : "Prone.svg",
         rules    : <>
             • Slowed
             <br/>• adv ➡ melee against you
@@ -118,7 +108,6 @@ const conditions: CardData[] = [
         name   : "Restrained",
         status : "PROOF",
         source : "p.294",
-        art    : "Restrained.svg",
         rules  : <>
             • movement = 0'
             <br/>• disadv ➡ tests other than to escape
@@ -128,7 +117,6 @@ const conditions: CardData[] = [
         name   : "Slowed",
         status : "PROOF",
         source : "p.295",
-        art    : "Slowed.svg",
         rules  : <>
             Half movement, rounded up.
         </>,
@@ -137,7 +125,6 @@ const conditions: CardData[] = [
         name   : "Stunned",
         status : "PROOF",
         source : "p.295",
-        art    : "Stunned.svg",
         rules  : <>
             • lose all ↻
             <br/>• next turn: gain -2 ▶ and -1 ↻
@@ -147,7 +134,6 @@ const conditions: CardData[] = [
         name   : "Surprised",
         status : "PROOF",
         source : "p.295",
-        art    : "Surprised.svg",
         rules  : <>
             <p>
                 • lose all ↻
@@ -164,7 +150,6 @@ const conditions: CardData[] = [
         name   : "Unconscious",
         status : "PROOF",
         source : "p.295",
-        art    : "Unconscious.svg",
         rules  : <>
             Can only:
             <br/>• Breathe Stormlight
