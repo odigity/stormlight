@@ -23,10 +23,10 @@ Lint:
 #### QueryBar
 
  - Cards with cost (currently supports boolean check, but not value check)
-   - action
    - focus
    - investiture
  - Items with charges (currently supports boolean check, but not value check)
+ - Card name multi-select
 
 
 ## Nick's Items

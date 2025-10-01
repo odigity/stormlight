@@ -20,13 +20,13 @@ function Card({data}: CardProps) {
             <div className={classNames({
                 card                      : true,
                 inset                     : data.inset,
-                [data.type?.toLowerCase()] : true
+                [`${data.type?.toLowerCase()}`] : true
             })}>
                 {data.art ? (
                     <img className={classNames({
                         watermark : true,
                         mirrored  : data.mirrorArt,
-                    })} src={`src/assets/art/${normalizeNameForSvg(data.name)}.svg`} alt="watermark"/>
+                    })} src={`src/assets/art/${data.art}`} alt="watermark"/>
                 ) : null}
 
                 <div className="cardhead">
@@ -60,10 +60,6 @@ function Card({data}: CardProps) {
             </div>
         </div>
     );
-}
-
-function normalizeNameForSvg(name){
-    return name.split(" ").join("");
 }
 
 export default Card;

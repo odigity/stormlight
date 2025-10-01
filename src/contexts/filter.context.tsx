@@ -3,6 +3,7 @@ import type {ReactNode} from 'react'
 import type {CardData} from "../types/types.ts";
 import _ from "lodash";
 import {onlyText} from 'react-children-utilities';
+import type {CardType} from "../types/cardType.ts";
 
 
 export const propertyFilters = [
@@ -23,10 +24,15 @@ export const actionFilters = [
     "3",
     "*", // cost includes *
 ];
+export const statusFilters = [
+    "TODO",
+    "PROOF",
+    "DONE",
+];
 
 type FilterState = {
-    type: string;
-    status: string;
+    type: CardType[];
+    status: string[];
     actions: 'Any' | 'None' | "*" | string; // use string version of action cost
     properties: string[];// one of the propertyFilters
     nameQuery: string;
@@ -35,7 +41,7 @@ type FilterState = {
 };
 
 type Action =
-    | { type: "setType"; payload: string }
+    | { type: "setType"; payload: string[] }
     | { type: "setStatus"; payload: string }
     | { type: "setActions"; payload: string }
     | { type: "setProperties"; payload: string[] }
@@ -45,8 +51,8 @@ type Action =
     | { type: "reset" };
 
 const initialState: FilterState = {
-    type: "All",
-    status: "All",
+    type: [],
+    status: [],
     actions: "Any",
     properties: [],
     nameQuery: "",
@@ -108,10 +114,10 @@ export function applyFiltersToCards(cards: CardData[], filters: FilterState): Ca
 }
 
 export function cardPassesFilters(card: CardData, filters: FilterState): boolean {
-    if (filters.type !== 'All' && card.type !== filters.type) {
+    if (filters.type.length && card.type && !filters.type.includes(card.type)) {
         return false
     }
-    if (filters.status !== 'All' && card.status !== filters.status) {
+    if (filters.status.length && card.status && !filters.status.includes(card.status)) {
         return false;
     }
     if (filters.nameQuery && card.name !== filters.nameQuery) {
@@ -176,5 +182,3 @@ function cardHasText(card: CardData, text: string): boolean {
 
     return false;
 }
-
-

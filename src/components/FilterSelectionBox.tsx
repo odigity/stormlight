@@ -30,16 +30,20 @@ export default function FilterSelectionBox() {
     const filters = useFilterState();
 
     const handleTypeFilterSelect = (e) => {
-        dispatch({
-            type: 'setType',
-            payload: e.target.value,
-        });
+        if(e.target.value) {
+            dispatch({
+                type: 'setType',
+                payload: e.target.value,
+            });
+        }
     };
     const handleStatusFilterSelect = (e) => {
-        dispatch({
-            type: 'setStatus',
-            payload: e.target.value,
-        })
+        if(e.target.value) {
+            dispatch({
+                type: 'setStatus',
+                payload: e.target.value,
+            })
+        }
     };
 
     const handlePropFilterSelect = (e) => {
@@ -143,16 +147,21 @@ export default function FilterSelectionBox() {
                         <FormControl fullWidth>
                             <InputLabel>Type:</InputLabel>
                             <Select
+                                label="Type"
                                 labelId="type-select-label"
                                 id="type-select"
+                                multiple
+                                input={<OutlinedInput label="Types" />}
+                                renderValue={(selected) => selected.join(', ')}
                                 value={filters.type}
-                                label="Type"
                                 onChange={handleTypeFilterSelect}
                             >
-                                <MenuItem value="All">All</MenuItem>
                                 {
                                     _.map(values.types, (type) => {
-                                        return <MenuItem value={type} key={type}>{type}</MenuItem>
+                                        return <MenuItem value={type} key={type}>
+                                            <Checkbox checked={filters.type.includes(type)}/>
+                                            <ListItemText primary={type}/>
+                                        </MenuItem>
                                     })
                                 }
                             </Select>
@@ -166,16 +175,22 @@ export default function FilterSelectionBox() {
                         <FormControl fullWidth>
                             <InputLabel>Status:</InputLabel>
                             <Select
+                                label="Status"
                                 labelId="status-select-label"
                                 id="status-select"
+                                multiple
+                                input={<OutlinedInput label="Status" />}
+                                renderValue={(selected) => selected.join(', ')}
                                 value={filters.status}
-                                label="Status"
                                 onChange={handleStatusFilterSelect}
                             >
-                                <MenuItem value="All">All</MenuItem>
                                 {
                                     _.map(values.statuses, (status) => {
-                                        return <MenuItem value={status} key={status}>{status}</MenuItem>
+                                        // return <MenuItem value={status} key={status}>{status}</MenuItem>
+                                        return <MenuItem value={status} key={status}>
+                                            <Checkbox checked={filters.status.includes(status)}/>
+                                            <ListItemText primary={status}/>
+                                        </MenuItem>
                                     })
                                 }
                             </Select>
