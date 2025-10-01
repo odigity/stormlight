@@ -4,7 +4,7 @@ import {allCards, allCardsByType} from "../carddata";
 import Card from "../components/Card";
 import {useState} from "react";
 import _ from "lodash";
-import type {CardType} from "../types/types.ts";
+import type {CardType} from "../types/cardType.ts";
 
 
 //TODO: Fucking enums

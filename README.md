@@ -30,3 +30,24 @@ Margins:
 0.88    Right
 0.50  Bottom
 ```
+
+#### Cosmere Characters
+
+```
+<span class=".dingbats">cors01238*</span>
+<span class=".opp" />
+```
+
+| Char | Class | Description   |
+| :--: | :---: | :-----------: |
+| c    | comp  | Complication  |
+| o    | opp   | Opportunity   |
+| r    | react | Reaction      |
+| s    | storm | Stormlight    |
+| 0    | act0  | Free Action   |
+| 1    | act1  | Action        |
+| 2    | act2  | Double Action |
+| 3    | act3  | Triple Action |
+| 8    | inf   | Always On     |
+| *    | star  | Special       |
+

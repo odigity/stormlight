@@ -1,17 +1,5 @@
 import type {ReactNode} from "react";
-
-
-export enum CardType {
-    CONDITION       = "Condition",
-    COSTLY_ACTION   = "CostlyAction",
-    EFFECT          = "Effect",
-    FREE_ACTION     = "FreeAction",
-    INFUSION        = "Infusion",
-    ITEM            = "Item",
-    MAGIC_ITEM      = "MagicItem",
-    REACTION        = "Reaction",
-    SKILL           = "Skill",
-}
+import type {CardType} from "./cardType.ts";
 
 
 export interface CardData {

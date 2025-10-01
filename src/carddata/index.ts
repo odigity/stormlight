@@ -8,7 +8,7 @@ import magic_items    from "./magic_items.tsx";
 import reactions      from "./reactions.tsx";
 import skills         from "./skills.tsx";
 import _ from "lodash";
-import {CardType} from "../types/types.ts";
+import {CardType} from "../types/cardType.ts";
 
 export { conditions, costly_actions, effects, free_actions, items, magic_items, reactions, skills };
 

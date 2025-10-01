@@ -54,3 +54,13 @@ Lint:
  - Twin Cards
  - Sheets
    - Advanced Queries
+
+
+## INBOX
+
+Questions:
+  - front vs back (smaller)?  still makes sense?
+      - if so, indicate front vs back on table
+  - how to deal with:
+        p.270 Quick Activation - 1/scene 1 FP -> reduce activation cost (▶▶ -> ▶ -> ▷)
+

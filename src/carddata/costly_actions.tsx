@@ -17,7 +17,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.210",
         actions : 1,
-        art     : "?.svg",
+        art     : "AddToInfusion.svg",
         rules   : <>
             TODO
         </>,
@@ -37,7 +37,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.259",
         actions : 1,
-        art     : "?.svg",
+        art     : "ApplyPoison.svg",
         rules   : <>
             TODO
         </>,
@@ -150,7 +150,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.258",
         actions : 1,
-        art     : "?.svg",
+        art     : "Ignite.svg",
         rules   : <>
             TODO
         </>,
@@ -185,7 +185,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.313",
         actions : 1,
-        art     : "?.svg",
+        art     : "MountDismount.svg",
         rules   : <>
             TODO
         </>,
@@ -297,7 +297,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.259",
         actions : 1,
-        art     : "?.svg",
+        art     : "ThrowNet.svg",
         rules   : <>
             TODO
         </>,

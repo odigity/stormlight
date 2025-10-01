@@ -121,3 +121,18 @@ _Hex codes sourced from: https://convertingcolors.com/list/neenah.html_
 | :----------------------------------------------------------: | :-----: | :----: |
 | [Astrobrights "Bright"](https://walmart.com/ip/x/44796991)   | $0.54ea | Lunar Blue, Solar Yellow, Terra Green, Cosmic Orange, Fireball Fuschia |
 | [Astrobrights "Spectrum"](https://amazon.com/dp/B01GUUARV0/) | $0.55ea | All |
+
+### Tools & Equipment
+
+
+B0C24K6W7C    3x3x2    $9.99 / 6 = $1.67    *
+
+B086ML5K6L    6x3x2   $13.99 / 8 = $1.75    *
+B01D06SK6G    6x3x2   $14.99 / 6 = $2.50
+
+B07PJ78H1L    9x3x2   $14.99 / 8 = $1.87
+B01BKODXMG    9x3x2   $16.99 / 6 = $2.83
+
+B07PJ7VS92   12x3x2   $15.99 / 8 = $2.00
+B01D06SMUU   12x3x2   $18.99 / 6 = $3.17
+

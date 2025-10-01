@@ -14,15 +14,6 @@ const conditions: CardData[] = [
         </>,
     },
     {
-        name   : "Braced",
-        status : "PROOF",
-        source : "p.303",
-        art    : "?.svg",
-        rules  : <>
-            TODO
-        </>,
-    },
-    {
         name   : "Determined",
         status : "PROOF",
         source : "p.293",
@@ -57,17 +48,17 @@ const conditions: CardData[] = [
         name   : "Enhanced",
         status : "TODO",
         source : "p.294",
-        art    : "?.svg",
+        art    : "Enhanced.svg",
         keyProps : "Stacking",
         rules  : <>
             Doesn't affect Defenses or HP / FP / IP.
         </>,
     },
     {
-        name     : "Enhanced Physical",
+        name     : "Enhanced (Physical)",
         status   : "PROOF",
         source   : "p.294",
-        art      : "Enhanced.svg",
+        art      : "EnhancedPhysical.svg",
         keyProps : "Stacking",
         rules    : <>
             • Enhanced [Str +1]<br/>
