@@ -233,7 +233,7 @@ const items: CardData[] = [
         keyProps : "Special Weapon",
         rules    : <>
             <p>Athletics</p>
-            <div className="rules-table" style={{ fontSize : ".7rem" }}>
+            <div className="rules-table" style={{ fontSize: ".7rem" }}>
                 <div className="rules-header">
                     <div className="rules-cell">Str</div>
                     <div className="rules-cell">0-2</div>

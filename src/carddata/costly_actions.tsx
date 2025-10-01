@@ -177,7 +177,7 @@ const costly_actions: CardData[] = [
             Simple & Complex Illusions: mute/inanimate obj = 1 IP / 10m; else 1 IP / rd
             Disguising Yourself: free - but must _have_ IP; end as free (see reverse)
         </>,
-        rules2 : <>
+        rules2: <>
             Deceiving Chars: simple objs / diguise self = convincing; more complex might need Illum test vs Cognitive of passive observer
                 if scrutinizing, Illum test vs Perception
             Can control complex illusions wi/bond range.  Out of range: only last simple/mindless task
@@ -285,7 +285,7 @@ const costly_actions: CardData[] = [
         mirrorArt : true,
         rules     : <>
             <div>
-                <div className="italic" style={{marginBottom : '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+                <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
             </div>
             <b>Tip:</b>
             <br/>Offhand trait = 1 FP discount.
@@ -343,7 +343,7 @@ const costly_actions: CardData[] = [
             if causes opponent to make test, DC = Transformation test
             also...  2 IP: 1 Transportation effect w/10' range
 
-            <div className="rules-table" style={{ fontSize : ".7rem" }}>
+            <div className="rules-table" style={{ fontSize: ".7rem" }}>
                 <div className="rules-header">
                     <div className="rules-cell"></div>
                     <div className="rules-cell">Solids</div>
@@ -410,7 +410,7 @@ const costly_actions: CardData[] = [
             </div>
             * Flame requires Flamecasting talent
         </>,
-        rules2 : <>
+        rules2: <>
             ?
         </>,
     },
@@ -429,7 +429,7 @@ const costly_actions: CardData[] = [
             • **Sense Investiture** _(in objects and people)_<br/>
             Might involve Transportation test.
         </>,
-        rules2 : <>
+        rules2: <>
             ?
         </>,
     },

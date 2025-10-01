@@ -5,9 +5,9 @@ const items = [
         actions : 2,
         art     : "Restrained.svg"
     }, {
-        art : "Slowed.svg"
+        art: "Slowed.svg"
     }, {
-        art : "Stunned.svg"
+        art: "Stunned.svg"
     }
 ]
 
