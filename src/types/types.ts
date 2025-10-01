@@ -10,8 +10,8 @@ export interface CardData {
     status     : 'TODO' | 'PROOF' | 'DONE';
 
     // Relationships
-    flipCard?  : string;        // card.name; reverse side
-    fromCard?  : string;        // card.name; parent  (like Braced -> Brace)
+    flipCard?  : string;        // card.name; reverse side; declared by parent card  (ex: Brace -> Braced)
+    fromCard?  : string;        // card.name; parental relationship; declared by child card  (ex: Task Illusions -> Illumination)
     inset?     : boolean;       // determines border color
 
     // Card Specs
@@ -39,18 +39,22 @@ export interface CardData {
 
 
 export interface SheetData {
+
     name  : string;
     type  : CardType;           // determines paper color
     cards : string[];
+
 }
 
 
 export const gold_set: string[] = [
+
     // Stormlight Actions
     "Breathe Stormlight",
     "Enhance",
     "Maintain Enhance",
     "Regenerate",
+
     // Surges
     "Abrasion",
     "Adhesion",
@@ -62,9 +66,11 @@ export const gold_set: string[] = [
     "Tension",
     "Transformation",
     "Transportation",
+
     // Radiant Shardblade/Shardplate
     "Shardblade (Radiant)",
     "Shape Shardblade",
     "Shardplate (Radiant)",
     "Command Armor",
+
 ];

@@ -36,11 +36,26 @@ Communicated Elements
 
 #### Files & Folders
 
-- `assets/`         — sourced from the web
-- `assets/art/`     — original SVGs
-- `src/assets/art/` — customized SVGs
-- `src/carddata`    — card data in tsx files
-- `src/types/types.ts` — ?
+- `archive/`                — stuff sourced from the web
+- `archive/originals/`      — originals for all art/ and chrome/ files
+
+- `src/App.tsx`             — App component (root)
+- `src/App.scss`            — app-wide styles (component styles go in styles/*.scss)
+- `src/main.tsx`            — loads and renders App component
+
+- `src/assets/`             — fonts & media
+- `src/assets/art/`         — processed SVGs for watermarks / covers (uppercase = Card Name, lowercase = shared art)
+- `src/assets/chrome/`      — icons, whiteboards, decorative corners
+- `src/assets/fonts/`       — especially Cosmere Dingbats
+
+- `src/carddata/`           — card data in tsx files (instances of CardData)
+
+- `src/styles/*.scss`       — component styles (app-wide styles go in App.scss)
+
+- `src/types/cardType.ts`   — enum of card types
+- `src/types/types.ts`      — CardData, SheetData, gold_set
+
+
 
 ### Logical
 
