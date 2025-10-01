@@ -1,6 +1,6 @@
 import "../styles/cards.scss";
 import "../styles/livepreview.scss"
-import {allCards} from "../carddata";
+import {allCards} from "../cards";
 import Card from "../components/Card";
 import _ from "lodash";
 import {useFilterState, cardPassesFilters} from "../contexts/filter.context.tsx";

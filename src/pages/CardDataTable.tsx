@@ -1,6 +1,6 @@
 import '../styles/carddatatable.scss'
 import type {CardData} from "../types/types.ts";
-import {allCards} from "../carddata";
+import {allCards} from "../cards";
 import _ from "lodash";
 import {Box, Grid, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 import {cardPassesFilters, useFilterState} from "../contexts/filter.context.tsx";

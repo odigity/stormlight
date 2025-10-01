@@ -48,14 +48,15 @@ Communicated Elements
 - `src/assets/chrome/`      — icons, whiteboards, decorative corners
 - `src/assets/fonts/`       — especially Cosmere Dingbats
 
-- `src/carddata/`           — card data in tsx files (instances of CardData)
-
-- `src/styles/*.scss`       — component styles (app-wide styles go in App.scss)
-
 - `src/types/cardType.ts`   — enum of card types
 - `src/types/types.ts`      — CardData, SheetData, gold_set
 
+- `src/cards/`              — card data in tsx files (instances of CardData)
+- `src/sheets/`             — sheet data in tsx files (instances of SheetData)
 
+- `src/pages/`              — pages
+- `src/components/`         — components
+- `src/styles/*.scss`       — component styles (app-wide styles go in App.scss)
 
 ### Logical
 
