@@ -34,7 +34,7 @@ function App() {
                 </AppBar>
             </Box>
             <Box sx={{
-                marginTop: 2,
+                marginTop : 2,
             }}>
                 <FilterProvider>
                     <Box className="filter-wrapper">

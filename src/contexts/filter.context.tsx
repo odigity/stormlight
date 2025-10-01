@@ -51,31 +51,31 @@ type Action =
     | { type: "reset" };
 
 const initialState: FilterState = {
-    type: [],
-    status: [],
-    actions: "Any",
-    properties: [],
-    nameQuery: "",
-    textQuery: "",
-    artQuery: "Any",
+    type       : [],
+    status     : [],
+    actions    : "Any",
+    properties : [],
+    nameQuery  : "",
+    textQuery  : "",
+    artQuery   : "Any",
 };
 
 function reducer(state: FilterState, action: Action): FilterState {
   switch (action.type) {
     case "setType":
-      return { ...state, type: action.payload };
+      return { ...state, type : action.payload };
     case "setStatus":
-      return { ...state, status: action.payload };
+      return { ...state, status : action.payload };
     case "setActions":
-      return { ...state, actions: action.payload };
+      return { ...state, actions : action.payload };
     case "setProperties":
-      return { ...state, properties: action.payload };
+      return { ...state, properties : action.payload };
     case "setNameQuery":
-      return { ...state, nameQuery: action.payload };
+      return { ...state, nameQuery : action.payload };
     case "setTextQuery":
-      return { ...state, textQuery: action.payload };
+      return { ...state, textQuery : action.payload };
     case "setArtQuery":
-      return { ...state, artQuery: action.payload };
+      return { ...state, artQuery : action.payload };
     case "reset":
       return initialState;
     default:

@@ -15,16 +15,16 @@ const free_actions: CardData[] = [
         </>,
     },
     {
-        name    : "Maintain Enhance",
-        status  : "PROOF",
-        source  : "p.125",
-        flipCard: "Enhance",
-        inset   : true,
-        actions : 0,
-        magic   : true,
-        ip      : 1,
-        art     : "MaintainEnhance.svg",
-        rules   : <>
+        name     : "Maintain Enhance",
+        status   : "PROOF",
+        source   : "p.125",
+        flipCard : "Enhance",
+        inset    : true,
+        actions  : 0,
+        magic    : true,
+        ip       : 1,
+        art      : "MaintainEnhance.svg",
+        rules    : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
     },
@@ -65,14 +65,14 @@ const free_actions: CardData[] = [
         </>,
     },
     {
-        name    : "Stand Up",
-        status  : "PROOF",
-        source  : "p.294",
-        actions : 0,
-        art     : "StandUp.svg",
-        flipCard: "Prone",
-        inset   : true,
-        rules   : <>
+        name     : "Stand Up",
+        status   : "PROOF",
+        source   : "p.294",
+        actions  : 0,
+        art      : "StandUp.svg",
+        flipCard : "Prone",
+        inset    : true,
+        rules    : <>
             Movement reduced by 5' until next turn.
         </>,
     },

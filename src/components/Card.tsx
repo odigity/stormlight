@@ -18,8 +18,8 @@ function Card({data}: CardProps) {
     return (
         <div className={`cardwrapper ${widthClass}`}>
             <div className={classNames({
-                card                      : true,
-                inset                     : data.inset,
+                card                            : true,
+                inset                           : data.inset,
                 [`${data.type?.toLowerCase()}`] : true
             })}>
                 {data.art ? (
