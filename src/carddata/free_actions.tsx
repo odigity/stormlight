@@ -18,6 +18,8 @@ const free_actions: CardData[] = [
         name    : "Maintain Enhance",
         status  : "PROOF",
         source  : "p.125",
+        flipCard: "Enhance",
+        inset   : true,
         actions : 0,
         magic   : true,
         ip      : 1,
@@ -31,7 +33,7 @@ const free_actions: CardData[] = [
         status  : "TODO",
         source  : "p.245",
         actions : 0,
-        art     : "Quickdraw.svg",
+        // art     : "Quickdraw.svg",
         rules   : <>
             TODO<br/>
             (include text: "counts as Interact action")
@@ -56,7 +58,7 @@ const free_actions: CardData[] = [
         source  : "p.263",
         actions : 0,
         magic   : true,
-        art     : "SenseEmotions.svg",
+        // art     : "SenseEmotions.svg",
         rules   : <>
             TODO
         </>,
@@ -67,6 +69,8 @@ const free_actions: CardData[] = [
         source  : "p.294",
         actions : 0,
         art     : "StandUp.svg",
+        flipCard: "Prone",
+        inset   : true,
         rules   : <>
             Movement reduced by 5' until next turn.
         </>,

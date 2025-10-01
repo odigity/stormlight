@@ -159,3 +159,11 @@ body {
     content: "8"
   }
 }
+
+
+
+@media print {
+  .appbar-wrapper, .filter-wrapper {
+    display: none !important;
+  }
+}

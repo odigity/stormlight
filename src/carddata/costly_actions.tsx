@@ -74,7 +74,7 @@ const costly_actions: CardData[] = [
         source  : "p.217",
         actions : 1,
         magic   : true,
-        art     : "SurgeCohesion.svg",
+        art     : "Cohesion.svg",
         rules   : <>
             ?
         </>,
@@ -109,6 +109,7 @@ const costly_actions: CardData[] = [
         magic   : true,
         art         : "Enhance.svg",
         ip          : 1,
+        fp          : 1,
         rules       : <>
             Until end of next turn:<br/>
             • Enhanced [Str +1]<br/>

@@ -125,43 +125,6 @@
     right: 20px;
   }
 
-  /* Cost circles */
-  .costs {
-    position: absolute;
-    top: 3px;
-    right: 0;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-  }
-
-  .cost {
-    font-family: "Times New Roman", sans-serif;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    font-weight: bold;
-    box-sizing: border-box;
-  }
-
-  .focus {
-    border: 2px solid #333;
-  }
-
-  .investiture {
-    background-color: #333 !important;
-    color: white !important;
-  }
-
-  .charge {
-    border-radius: 0;
-    background-color: #333 !important;
-    color: white !important;
-  }
 
   /* Charge boxes container: flex layout with wrapping and gap.
      Support both legacy .charges and current .charge-boxes class names. */
@@ -233,6 +196,45 @@
     padding-bottom: 4px;
   }
 
+
+
+  /* Cost circles */
+  .costs {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .cost {
+    font-family: "Times New Roman", sans-serif;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  .focus {
+    border: 2px solid #333;
+  }
+
+  .investiture {
+    background-color: #333 !important;
+    color: white !important;
+  }
+
+  .charge {
+    border-radius: 0;
+    background-color: #333 !important;
+    color: white !important;
+  }
 
   @media print {
 

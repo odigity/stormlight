@@ -32,4 +32,38 @@
       object-fit: contain;
     }
   }
+
+  .cost {
+    font-family: Times, sans-serif;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  .focus {
+    border: 2px solid #333;
+  }
+
+  .investiture {
+    background-color: #333 !important;
+    color: white !important;
+  }
+
+  .charge {
+    border-radius: 0;
+    background-color: #333 !important;
+    color: white !important;
+  }
+  .charges {
+    border-radius: 0;
+    border: 2px solid #333;
+    //background-color: #333 !important;
+    //color: white !important;
+  }
 }
+

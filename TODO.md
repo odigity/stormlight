@@ -22,31 +22,23 @@ Lint:
 
 #### QueryBar
 
- - Cards by name
- - Cards with reverse
- - Cards with type
- - Cards with cost
+ - Cards with cost (currently supports boolean check, but not value check)
    - action
    - focus
    - investiture
- - Items with charges
- - text search (vs card name)
+ - Items with charges (currently supports boolean check, but not value check)
 
 
 ## Nick's Items
  
- - add "type" field to cards in src/carddata/index.ts
- - Sorting
-   - Alphabetical
-   - Type
-     - +alpha
- - Bold card names in data view if it has an icon
  - "Ready" action hack
  - components for CardTypes (especially Infusions and Items - or Weapons specifically?)
  - Handle non-numeric for ip/fp/ch (specifically *)
  - corner adornment for stormlight-related cards ("magic" boolean)
  - add whiteboards to template for skills & weapons to record modifiers
  - add checkboxes to template for charged items
+ - IP/FP cost circles style fix (number alignment)
+ - Fix data view column width
 
 #### Views
  

@@ -131,7 +131,7 @@ const magic_items: CardData[] = [
         name     : "Shardblade (Radiant)",
         status   : "TODO",
         source   : "p.248",
-        art      : "ShardbladeRadiant",
+        art      : "ShardbladeRadiant.svg",
         keyProps : "Special Weapon",
         rules    : <>
             TODO<br/>
@@ -151,7 +151,7 @@ const magic_items: CardData[] = [
         name   : "Shardplate (Radiant)",
         status : "TODO",
         source : "p.254",
-        art    : "ShardplateRadiant",
+        art    : "ShardplateRadiant.svg",
         rules  : <>
             TODO
         </>,

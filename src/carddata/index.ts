@@ -19,6 +19,7 @@ export const allCardsByType = [
     { id : "items",          title : "Items",          cards : items          },
     { id : "magic-items",    title : "Magic Items",    cards : magic_items    },
     { id : "reactions",      title : "Reactions",      cards : reactions      },
+    { id : "effects",      title : "Effects",      cards : effects      },
 ];
 
 export const allCards = [
@@ -29,4 +30,5 @@ export const allCards = [
     ..._.map(items, (c) => ({...c, type : CardType.ITEM})),
     ..._.map(magic_items, (c) => ({...c, type : CardType.MAGIC_ITEM, magic : true})),
     ..._.map(reactions, (c) => ({...c, type : CardType.REACTION})),
+    ..._.map(effects, (c) => ({...c, type : CardType.EFFECT})),
 ];

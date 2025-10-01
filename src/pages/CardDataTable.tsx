@@ -1,75 +1,49 @@
 import '../styles/carddatatable.scss'
 import type {CardData} from "../types/types.ts";
 import {allCards} from "../carddata";
-import {useState} from "react";
 import _ from "lodash";
+import {Box, Grid, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
+import {cardPassesFilters, useFilterState} from "../contexts/filter.context.tsx";
 
 
-interface CardDataTableProps {
-    data: CardData[]
-}
-
-// export default function CardDataTable(props: CardDataTableProps) {
 export default function CardDataTable() {
-    // const {data: cards} = props;
-    const cards = allCards;
-
-    const [filter, setFilter] = useState<null | string>(null);
-
-    const handleFilterChange = (filter: string) => () => {
-        if (filter === 'all'){
-            return setFilter(null)
-        } else {
-            return setFilter(filter)
-        }
-    }
+    const filters = useFilterState();
+    const cards = _(allCards)
+        .sortBy('name')
+        .filter((card) => {
+            return cardPassesFilters(card, filters)
+        })
+        .value();
 
     return (
-        <div className="datatable-container">
-            <div className="filters">
-                <div className="filter" onClick={handleFilterChange('all')}>All</div>
-                <div className="filter" onClick={handleFilterChange('TODO')}>Todo</div>
-                <div className="filter" onClick={handleFilterChange('PROOF')}>Proof</div>
-                <div className="filter" onClick={handleFilterChange('DONE')}>Done</div>
-                <div className="filter" onClick={handleFilterChange('art')}>Art</div>
-            </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Art</th>
-                        <th>Name</th>
-                        <th>Status</th>
-                        <th>Type</th>
-                        <th>Actions</th>
-                        <th>Source</th>
-                        <th>Back?</th>
-                        <th>IP/FP</th>
-                        <th>CH/Charges</th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                    {
-                        _.filter(cards,
-                            (c) => {
-                            if(!filter) {
-                                return true;
-                            }
-                            if (filter === 'art') {
-                                return !c.art || c.art.includes("?");
-                            }
-                            return c.status === filter
+        <Box className="datatable-container">
+            <TableContainer>
+                <Table>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Art</TableCell>
+                            <TableCell>Name</TableCell>
+                            <TableCell>Status</TableCell>
+                            <TableCell>Type</TableCell>
+                            <TableCell>Actions</TableCell>
+                            <TableCell>Source</TableCell>
+                            <TableCell>Flip?</TableCell>
+                            <TableCell>IP/FP/CH</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {
+                            cards.map((card, ind) => {
+                                return (
+                                    <CardRow data={card} key={ind} even={ind % 2 === 0}/>
+                                )
                             })
-                            .map((card, ind) => {
-                            return (
-                                <CardRow data={card} key={ind} even={ind%2===0}/>
-                            )
-                        })
-                    }
-                </tbody>
-            </table>
-        </div>
-    )
+                        }
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </Box>
+    );
 }
 
 interface CardRowProps {
@@ -79,40 +53,68 @@ interface CardRowProps {
 function CardRow(props: CardRowProps) {
     const {data: card} = props
     return (
-        <tr className={props.even? 'even' : 'odd'}>
-        {/*     Art
-                Name
-                Status
-                Type
-                Actions
-                Source
-                Back?
-                IP/FP
-                CH/Charges
-                */}
-            <td className="art"><img src={`src/assets/art/${card.art}`} alt={card.art}/></td>
-            <td>{card.name}</td>
-            <td>{card.status}</td>
-            <td>{card.type}</td>
-            <td className="dingbats">{getActCharFromActions(card.actions)}</td>
-            <td>{card.source}</td>
-            <td>{card.flipCard || "N/A"}</td>
-            <td>{card.ip || "N/A"} / {card.fp || "N/A"}</td>
-            <td>{card.charges? `${card.ch} / ${card.charges}` : "N/A"}</td>
-        </tr>
-    )
+        <TableRow>
+            <TableCell className="art">
+                <img src={`src/assets/art/${card.art}`} alt={card.art}/>
+            </TableCell>
+            <TableCell>{card.name}</TableCell>
+            <TableCell>{card.status}</TableCell>
+            <TableCell>{card.type}</TableCell>
+            <TableCell className="dingbats">{getActCharFromActions(card.actions)}</TableCell>
+            <TableCell>{card.source}</TableCell>
+            <TableCell>{card.flipCard || ''}</TableCell>
+            <TableCell>
+                <Grid container>
+                    {
+                        card.fp && <Grid size={6}>
+                        <Box className="focus cost">
+                            {card.fp}
+                        </Box>
+                      </Grid>
+                    }
+                    {
+                        card.ip && <Grid size={6}>
+                        <Box className="investiture cost">
+                            {card.ip}
+                        </Box>
+                      </Grid>
+                    }
+                    {
+                        card.ch && <Grid size={6}>
+                        <Box className="charge cost">
+                            {card.ch}
+                        </Box>
+                      </Grid>
+                    }
+                    {
+                        card.charges && <Grid size={6}>
+                        <Box className="charges cost">
+                            {card.charges}
+                        </Box>
+                      </Grid>
+                    }
+                </Grid>
+            </TableCell>
+        </TableRow>
+    );
 }
 
 function getActCharFromActions(actions) {
     switch (actions) {
-        case -1: {
+        case "-1":
+        case -1:
             return 'r'
-        }
-        case (0 || 1 || 2 || 3): {
+        case "0":
+        case 0:
+        case "1":
+        case 1:
+        case "2":
+        case 2:
+        case "3":
+        case 3:
             return actions
-        }
         default: {
-            return "N/A"
+            return ""
         }
     }
 }
