@@ -21,8 +21,14 @@ export default defineConfig([
     },
     rules: {
       'key-spacing': ["error", {
-        align: 'colon',
-        beforeColon: true,
+        align: {
+            beforeColon: true,
+            afterColon: true,
+        },
+        singleLine: {
+            beforeColon: false,
+            afterColon: true,
+        },
       }]
     }
   },

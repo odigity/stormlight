@@ -101,16 +101,16 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name        : "Enhance",
-        status      : "PROOF",
-        source      : "p.124",
+        name     : "Enhance",
+        status   : "PROOF",
+        source   : "p.124",
         flipCard : "Maintain Enhance",
-        actions     : 1,
-        magic   : true,
-        art         : "Enhance.svg",
-        ip          : 1,
-        fp          : 1,
-        rules       : <>
+        actions  : 1,
+        magic    : true,
+        art      : "Enhance.svg",
+        ip       : 1,
+        fp       : 1,
+        rules    : <>
             Until end of next turn:<br/>
             • Enhanced [Str +1]<br/>
             • Enhanced [Spd +1]<br/>
@@ -130,13 +130,13 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name        : "Grapple",
-        status      : "PROOF",
-        source      : "p.304",
+        name     : "Grapple",
+        status   : "PROOF",
+        source   : "p.304",
         flipCard : "End Grapple",
-        actions     : 2,
-        art         : "Grapple.svg",
-        rules       : <>
+        actions  : 2,
+        art      : "Grapple.svg",
+        rules    : <>
             <i>Athletics vs Physical:</i> Restrained until...
             <br/>• you become Unconcscious
             <br/>• they exit your reach somehow
@@ -177,7 +177,7 @@ const costly_actions: CardData[] = [
             Simple & Complex Illusions: mute/inanimate obj = 1 IP / 10m; else 1 IP / rd
             Disguising Yourself: free - but must _have_ IP; end as free (see reverse)
         </>,
-        rules2  : <>
+        rules2: <>
             Deceiving Chars: simple objs / diguise self = convincing; more complex might need Illum test vs Cognitive of passive observer
                 if scrutinizing, Illum test vs Perception
             Can control complex illusions wi/bond range.  Out of range: only last simple/mindless task
@@ -185,14 +185,14 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name        : "Interact",
-        status      : "PROOF",
-        source      : "p.303",
+        name     : "Interact",
+        status   : "PROOF",
+        source   : "p.303",
         flipCard : "Quickdraw",
-        actions     : 1,
-        art         : "Interact.svg",
-        keyProps        : "Reusable",
-        rules       : <>
+        actions  : 1,
+        art      : "Interact.svg",
+        keyProps : "Reusable",
+        rules    : <>
             • draw / sheath weapon
             <br/>• open / close door
             <br/>• pick up / fetch item
@@ -210,13 +210,13 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name    : "Move",
-        status  : "PROOF",
-        source  : "p.303",
-        actions : 1,
-        art     : "Move.svg",
-        keyProps    : "Reusable.svg",
-        rules   : <>
+        name     : "Move",
+        status   : "PROOF",
+        source   : "p.303",
+        actions  : 1,
+        art      : "Move.svg",
+        keyProps : "Reusable.svg",
+        rules    : <>
             Slowed if crawling, climbing, swimming, or stealthy.
         </>,
     },
@@ -244,13 +244,13 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name    : "Recover",
-        status  : "PROOF",
-        source  : "p.304",
-        actions : 2,
-        art     : "Recover.svg",
-        keyProps    : "Once per scene",
-        rules   : <>
+        name     : "Recover",
+        status   : "PROOF",
+        source   : "p.304",
+        actions  : 2,
+        art      : "Recover.svg",
+        keyProps : "Once per scene",
+        rules    : <>
             Recovery die ➡ HP and/or FP.
         </>,
     },
@@ -276,16 +276,16 @@ const costly_actions: CardData[] = [
         </>,
     },
     {
-        name       : "Strike (Offhand)",
-        status     : "PROOF",
-        source     : "p.303",
-        actions    : 1,
-        fp         : 2,
-        art        : "Strike.svg",
+        name      : "Strike (Offhand)",
+        status    : "PROOF",
+        source    : "p.303",
+        actions   : 1,
+        fp        : 2,
+        art       : "Strike.svg",
         mirrorArt : true,
-        rules      : <>
+        rules     : <>
             <div>
-                <div className="italic" style={{marginBottom : '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
+                <div className="italic" style={{marginBottom: '10px'}}>Unarmed Attack or Weapon<br/>vs<br/>Physical</div>
             </div>
             <b>Tip:</b>
             <br/>Offhand trait = 1 FP discount.
@@ -343,7 +343,7 @@ const costly_actions: CardData[] = [
             if causes opponent to make test, DC = Transformation test
             also...  2 IP: 1 Transportation effect w/10' range
 
-            <div className="rules-table" style={{ fontSize : ".7rem" }}>
+            <div className="rules-table" style={{ fontSize: ".7rem" }}>
                 <div className="rules-header">
                     <div className="rules-cell"></div>
                     <div className="rules-cell">Solids</div>
@@ -410,7 +410,7 @@ const costly_actions: CardData[] = [
             </div>
             * Flame requires Flamecasting talent
         </>,
-        rules2  : <>
+        rules2: <>
             ?
         </>,
     },
@@ -429,7 +429,7 @@ const costly_actions: CardData[] = [
             • **Sense Investiture** _(in objects and people)_<br/>
             Might involve Transportation test.
         </>,
-        rules2  : <>
+        rules2: <>
             ?
         </>,
     },

@@ -45,12 +45,12 @@ const conditions: CardData[] = [
         </>,
     },
     {
-        name   : "Enhanced",
-        status : "TODO",
-        source : "p.294",
-        art    : "Enhanced.svg",
+        name     : "Enhanced",
+        status   : "TODO",
+        source   : "p.294",
+        art      : "Enhanced.svg",
         keyProps : "Stacking",
-        rules  : <>
+        rules    : <>
             TODO: ADD WHITEBOARD!!!
             Doesn't affect Defenses or HP / FP / IP.
         </>,
@@ -102,12 +102,12 @@ const conditions: CardData[] = [
         </>,
     },
     {
-        name        : "Prone",
-        status      : "PROOF",
-        source      : "p.294",
+        name     : "Prone",
+        status   : "PROOF",
+        source   : "p.294",
         flipCard : "Stand Up",
-        art         : "Prone.svg",
-        rules       : <>
+        art      : "Prone.svg",
+        rules    : <>
             • Slowed
             <br/>• adv ➡ melee against you
             <br/>• can Brace wo/cover

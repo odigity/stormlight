@@ -20,9 +20,9 @@ import {allCards} from "../carddata";
 import {propertyFilters, useFilterDispatch, useFilterState} from "../contexts/filter.context.tsx";
 
 const values = {
-    names: _.sortBy(_.uniq(_.map(allCards, 'name'))),
-    statuses: ['TODO', 'PROOF', 'DONE'],
-    types: _.sortBy(_.uniq(_.map(allCards, 'type'))),
+    names    : _.sortBy(_.uniq(_.map(allCards, 'name'))),
+    statuses : ['TODO', 'PROOF', 'DONE'],
+    types    : _.sortBy(_.uniq(_.map(allCards, 'type'))),
 };
 
 export default function FilterSelectionBox() {
@@ -32,16 +32,16 @@ export default function FilterSelectionBox() {
     const handleTypeFilterSelect = (e) => {
         if(e.target.value) {
             dispatch({
-                type: 'setType',
-                payload: e.target.value,
+                type    : 'setType',
+                payload : e.target.value,
             });
         }
     };
     const handleStatusFilterSelect = (e) => {
         if(e.target.value) {
             dispatch({
-                type: 'setStatus',
-                payload: e.target.value,
+                type    : 'setStatus',
+                payload : e.target.value,
             })
         }
     };
@@ -49,37 +49,37 @@ export default function FilterSelectionBox() {
     const handlePropFilterSelect = (e) => {
         const {target: {value}} = e;
         dispatch({
-            type: 'setProperties',
-            payload: typeof value === 'string' ? value.split(',') : value
+            type    : 'setProperties',
+            payload : typeof value === 'string' ? value.split(',') : value
         })
     };
 
     const handleNameSelect = (e, newVal) => {
         dispatch({
-            type: 'setNameQuery',
-            payload: newVal,
+            type    : 'setNameQuery',
+            payload : newVal,
         });
     };
 
     const handleTextChange = (e) => {
         dispatch({
-            type: 'setTextQuery',
-            payload: e.target.value,
+            type    : 'setTextQuery',
+            payload : e.target.value,
         });
     };
 
     const handleArtQuerySelect = (e) => {
         dispatch({
-            type:'setArtQuery',
-            payload: e.target.value,
+            type    : 'setArtQuery',
+            payload : e.target.value,
         })
     }
 
     const handleActionSelect = (e, newVal) => {
         if (newVal) {
             dispatch({
-                type: 'setActions',
-                payload: newVal
+                type    : 'setActions',
+                payload : newVal
             });
         }
     };
@@ -88,9 +88,9 @@ export default function FilterSelectionBox() {
         <Paper
             elevation={4}
             sx={{
-                marginTop: 2,
-                marginBottom: 2,
-                padding: 2,
+                marginTop    : 2,
+                marginBottom : 2,
+                padding      : 2,
             }}>
 
             <Typography variant="h4">

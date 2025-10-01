@@ -2,7 +2,7 @@ import '../styles/carddatatable.scss'
 import type {CardData} from "../types/types.ts";
 import {allCards} from "../carddata";
 import _ from "lodash";
-import {Box, Grid, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
+import {Box, Grid, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 import {cardPassesFilters, useFilterState} from "../contexts/filter.context.tsx";
 
 
@@ -16,9 +16,9 @@ export default function CardDataTable() {
         .value();
 
     return (
-        <Box className="datatable-container">
+        <Paper className="datatable-container">
             <TableContainer>
-                <Table>
+                <Table stickyHeader sx={{maxHeight: "600px"}}>
                     <TableHead>
                         <TableRow>
                             <TableCell>Art</TableCell>
@@ -42,7 +42,7 @@ export default function CardDataTable() {
                     </TableBody>
                 </Table>
             </TableContainer>
-        </Box>
+        </Paper>
     );
 }
 
@@ -99,7 +99,7 @@ function CardRow(props: CardRowProps) {
     );
 }
 
-function getActCharFromActions(actions) {
+function getActCharFromActions(actions: string | number | undefined) {
     switch (actions) {
         case "-1":
         case -1:

@@ -37,12 +37,9 @@ Lint:
  - corner adornment for stormlight-related cards ("magic" boolean)
  - add whiteboards to template for skills & weapons to record modifiers
  - add checkboxes to template for charged items
-<<<<<<< Updated upstream
  - IP/FP cost circles style fix (number alignment)
  - Fix data view column width
-=======
- - add lightened corners for gold set (same lightness as used for "inset" cards to indicate borders are to be cut off)
->>>>>>> Stashed changes
+ - Partial borders for radiant cards
 
 #### Views
  

@@ -51,13 +51,13 @@ type Action =
     | { type: "reset" };
 
 const initialState: FilterState = {
-    type: [],
-    status: [],
-    actions: "Any",
-    properties: [],
-    nameQuery: "",
-    textQuery: "",
-    artQuery: "Any",
+    type       : [],
+    status     : [],
+    actions    : "Any",
+    properties : [],
+    nameQuery  : "",
+    textQuery  : "",
+    artQuery   : "Any",
 };
 
 function reducer(state: FilterState, action: Action): FilterState {
