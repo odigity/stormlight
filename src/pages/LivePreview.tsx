@@ -102,15 +102,6 @@ export default function LivePreview() {
                     </Grid>
                 </Grid>
             </Paper>
-            {/*<div className="quickfilters">*/}
-            {/*    {*/}
-            {/*        types.map((type) => {*/}
-            {/*            return <>*/}
-            {/*                <a href="#" onClick={handleFilterChange(type)}>{type}</a>*/}
-            {/*            </>*/}
-            {/*        })*/}
-            {/*    }*/}
-            {/*</div>*/}
 
             <div className="flexbox-container">
                 {
