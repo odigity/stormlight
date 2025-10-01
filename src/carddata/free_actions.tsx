@@ -36,6 +36,7 @@ const free_actions: CardData[] = [
         // art     : "Quickdraw.svg",
         rules   : <>
             TODO<br/>
+            for weapons with Quickdraw trait
             (include text: "counts as Interact action")
         </>,
     },

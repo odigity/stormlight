@@ -34,8 +34,8 @@ Margins:
 #### Cosmere Characters
 
 ```
-<span class=".dingbats">cors01238*</span>
-<span class=".opp" />
+<span class="dingbats">cors01238*</span>
+<span class="opp" />
 ```
 
 | Char | Class | Description   |

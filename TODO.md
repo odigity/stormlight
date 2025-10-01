@@ -37,8 +37,12 @@ Lint:
  - corner adornment for stormlight-related cards ("magic" boolean)
  - add whiteboards to template for skills & weapons to record modifiers
  - add checkboxes to template for charged items
+<<<<<<< Updated upstream
  - IP/FP cost circles style fix (number alignment)
  - Fix data view column width
+=======
+ - add lightened corners for gold set (same lightness as used for "inset" cards to indicate borders are to be cut off)
+>>>>>>> Stashed changes
 
 #### Views
  
@@ -59,4 +63,10 @@ Questions:
       - if so, indicate front vs back on table
   - how to deal with:
         p.270 Quick Activation - 1/scene 1 FP -> reduce activation cost (▶▶ -> ▶ -> ▷)
+
+
+## Wacky
+
+Click on page number (source field) to open the locally-stored handbook PDF (if not already open) and jump to that page.
+https://grok.com/share/bGVnYWN5_e9aa717c-28c6-4b20-afae-93b960cccc10
 
