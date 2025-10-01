@@ -86,7 +86,7 @@ function CardRow(props: CardRowProps) {
         }
       >
         <TableCell className="art">
-          <img src={`src/assets/art/${artFilePath}`} alt={artFilePath}/>
+          <img src={artFilePath} alt={artFileName}/>
         </TableCell>
       </Tooltip>
       <TableCell>{card.name}</TableCell>
