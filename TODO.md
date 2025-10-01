@@ -39,6 +39,7 @@ Lint:
  - add checkboxes to template for charged items
  - IP/FP cost circles style fix (number alignment)
  - Fix data view column width
+ - Partial borders for radiant cards
 
 #### Views
  
