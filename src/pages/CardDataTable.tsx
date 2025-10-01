@@ -1,6 +1,6 @@
 import '../styles/carddatatable.scss'
 import type {CardData} from "../types/types.ts";
-import {allCards} from "../carddata";
+import {allCards} from "../cards";
 import _ from "lodash";
 import {
   Box,
@@ -12,7 +12,7 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Tooltip, tooltipClasses, type TooltipProps,
+  Tooltip,
   Typography
 } from "@mui/material";
 import {cardPassesFilters, useFilterState} from "../contexts/filter.context.tsx";
@@ -65,6 +65,8 @@ interface CardRowProps {
 }
 function CardRow(props: CardRowProps) {
     const {data: card} = props
+    const artFileName = card.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
+    const artFilePath = `src/assets/art/${artFileName}`
   return (
     <TableRow>
       <Tooltip
@@ -84,7 +86,7 @@ function CardRow(props: CardRowProps) {
         }
       >
         <TableCell className="art">
-          <img src={`src/assets/art/${card.art}`} alt={card.art}/>
+          <img src={`src/assets/art/${artFilePath}`} alt={artFilePath}/>
         </TableCell>
       </Tooltip>
       <TableCell>{card.name}</TableCell>

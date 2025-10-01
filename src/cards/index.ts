@@ -1,0 +1,34 @@
+import _            from "lodash";
+import actions      from "./actions.tsx";
+import conditions   from "./conditions.tsx";
+import effects      from "./effects.tsx";
+import free_actions from "./free_actions.tsx";
+import infusions    from "./infusions.tsx";
+import items        from "./items.tsx";
+import magic_items  from "./magic_items.tsx";
+import reactions    from "./reactions.tsx";
+import {CardType}   from "../types/cardType.ts";
+
+export { conditions, actions, effects, free_actions, items, magic_items, reactions };
+
+export const allCardsByType = [
+    { id: "actions",      title: "Actions",      cards: actions      },
+    { id: "conditions",   title: "Conditions",   cards: conditions   },
+    { id: "effects",      title: "Effects",      cards: effects      },
+    { id: "free-actions", title: "Free Actions", cards: free_actions },
+    { id: "infusions",    title: "Infusions",    cards: infusions    },
+    { id: "items",        title: "Items",        cards: items        },
+    { id: "magic-items",  title: "Magic Items",  cards: magic_items  },
+    { id: "reactions",    title: "Reactions",    cards: reactions    },
+];
+
+export const allCards = [
+    ..._.map( actions,      (c) => ({ ...c, type: CardType.ACTION                   })),
+    ..._.map( conditions,   (c) => ({ ...c, type: CardType.CONDITION                })),
+    ..._.map( free_actions, (c) => ({ ...c, type: CardType.FREE_ACTION              })),
+    ..._.map( infusions,    (c) => ({ ...c, type: CardType.INFUSION,   magic: true  })),
+    ..._.map( items,        (c) => ({ ...c, type: CardType.ITEM                     })),
+    ..._.map( magic_items,  (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
+    ..._.map( reactions,    (c) => ({ ...c, type: CardType.REACTION                 })),
+    ..._.map( effects,      (c) => ({ ...c, type: CardType.EFFECT                   })),
+];

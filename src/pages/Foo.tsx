@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import {allCards} from "../carddata";
+import {allCards} from "../cards";
 import Card from "../components/Card.tsx";
 import '../styles/cards.scss';
 

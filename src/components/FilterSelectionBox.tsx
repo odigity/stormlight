@@ -16,7 +16,7 @@ import {
     ToggleButton
 } from "@mui/material";
 import _ from "lodash";
-import {allCards} from "../carddata";
+import {allCards} from "../cards";
 import {propertyFilters, useFilterDispatch, useFilterState} from "../contexts/filter.context.tsx";
 
 const values = {

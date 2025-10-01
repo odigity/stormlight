@@ -1,4 +1,4 @@
-import { allCardsByType } from "../carddata";
+import { allCardsByType } from "../cards";
 import Card from "../components/Card";
 import "../styles/cards.scss";
 
