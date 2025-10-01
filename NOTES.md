@@ -10,14 +10,17 @@
 
 ### Decisions
 
-- cards are mostly for combat  (scene-specific information)
-- what goes where and why?
 - the 5 communicated elements
     - type                ->  paper color
         - action cost     ->  paper size
     - FP/IP/Ch cost       ->  corner bubble
     - Stormlight-related  ->  gold corners
     - Standard vs Custom  ->  icon
+gold -> "radiant set" 4 stormlight + 2 surge cards + radiant shardblade/shardplate-related cards
+
+
+- cards are mostly for combat  (scene-specific information)
+- what goes where and why?
 - when to have a reverse
 - rules wordings
 - items can have charge boxes
@@ -100,7 +103,7 @@ Sleeve Thickness  =  1/16"
 | #FF3C9C |  10 | **Fireball Fuchsia** | Infusions |
 | #D573AF |  11 | Outrageous Orchid    | Conditions |
 | #B9719E |  12 | Planetary Purple     | - |
-| #8A6C9E |  13 | Gravity Grape        | Skills |
+| #8A6C9E |  13 | Gravity Grape        | ~~Skills~~ |
 | #867BC6 |  14 | Venus Violet         | - |
 | #3F3831 |  15 | Eclipse Black        | - |
 | #FFFFFF |  16 | Solar White          | - |

@@ -7,5 +7,4 @@ export enum CardType {
     ITEM            = "Item",
     MAGIC_ITEM      = "MagicItem",
     REACTION        = "Reaction",
-    SKILL           = "Skill",
 }

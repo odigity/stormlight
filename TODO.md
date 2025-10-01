@@ -44,6 +44,9 @@ Lint:
  - "Ready" action hack
  - components for CardTypes (especially Infusions and Items - or Weapons specifically?)
  - Handle non-numeric for ip/fp/ch (specifically *)
+ - corner adornment for stormlight-related cards ("magic" boolean)
+ - add whiteboards to template for skills & weapons to record modifiers
+ - add checkboxes to template for charged items
 
 #### Views
  

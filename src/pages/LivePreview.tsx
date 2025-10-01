@@ -19,7 +19,6 @@ const types = [
     "Item",
     "MagicItem",
     "Reaction",
-    "Skill",
 ];
 
 export default function LivePreview() {

@@ -7,6 +7,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.212",
         actions : 1,
+        magic   : true,
         art     : "Abrasion.svg",
         rules   : <>
             ?
@@ -17,6 +18,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.210",
         actions : 1,
+        magic   : true,
         art     : "AddToInfusion.svg",
         rules   : <>
             TODO
@@ -27,6 +29,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.215",
         actions : 1,
+        magic   : true,
         art     : "Adhesion.svg",
         rules   : <>
             ?
@@ -58,6 +61,7 @@ const costly_actions: CardData[] = [
         status  : "PROOF",
         source  : "p.124",
         actions : 2,
+        magic   : true,
         art     : "BreatheStormlight.svg",
         rules   : <>
             <p>Refill IP from spheres within 5'.<br/><i>(1 IP / infused mark or broam)</i></p>
@@ -69,6 +73,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.217",
         actions : 1,
+        magic   : true,
         art     : "SurgeCohesion.svg",
         rules   : <>
             ?
@@ -89,6 +94,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.220",
         actions : 2,
+        magic   : true,
         art     : "Division.svg",
         rules   : <>
             ?
@@ -100,6 +106,7 @@ const costly_actions: CardData[] = [
         source      : "p.124",
         flipCard : "Maintain Enhance",
         actions     : 1,
+        magic   : true,
         art         : "Enhance.svg",
         ip          : 1,
         rules       : <>
@@ -140,6 +147,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.223",
         actions : 1,
+        magic   : true,
         art     : "Gravitation.svg",
         rules   : <>
             ?
@@ -160,6 +168,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.226",
         actions : 1,
+        magic   : true,
         art     : "Illumination.svg",
         rules   : <>
             ?
@@ -206,6 +215,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.229",
         actions : 2,
+        magic   : true,
         art     : "Progression.svg",
         rules   : <>
             ?
@@ -287,6 +297,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.231",
         actions : 1,
+        magic   : true,
         art     : "Tension.svg",
         rules   : <>
             ?
@@ -307,6 +318,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.234",
         actions : 1,
+        magic   : true,
         art     : "Transformation.svg",
         rules   : <>
             ?
@@ -317,6 +329,7 @@ const costly_actions: CardData[] = [
         status  : "TODO",
         source  : "p.237",
         actions : 2,
+        magic   : true,
         art     : "Transportation.svg",
         rules   : <>
             ?

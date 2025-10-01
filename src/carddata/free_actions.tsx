@@ -19,6 +19,7 @@ const free_actions: CardData[] = [
         status  : "PROOF",
         source  : "p.125",
         actions : 0,
+        magic   : true,
         ip      : 1,
         art     : "MaintainEnhance.svg",
         rules   : <>
@@ -41,6 +42,7 @@ const free_actions: CardData[] = [
         status  : "PROOF",
         source  : "p.125",
         actions : 0,
+        magic   : true,
         ip      : 1,
         art     : "Regenerate.svg",
         rules   : <>
@@ -53,6 +55,7 @@ const free_actions: CardData[] = [
         status  : "TODO",
         source  : "p.263",
         actions : 0,
+        magic   : true,
         art     : "SenseEmotions.svg",
         rules   : <>
             TODO
