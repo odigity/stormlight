@@ -51,16 +51,18 @@ const conditions: CardData[] = [
         art    : "Enhanced.svg",
         keyProps : "Stacking",
         rules  : <>
+            TODO: ADD WHITEBOARD!!!
             Doesn't affect Defenses or HP / FP / IP.
         </>,
     },
     {
         name     : "Enhanced (Physical)",
-        status   : "PROOF",
+        status   : "TODO",
         source   : "p.294",
         art      : "EnhancedPhysical.svg",
         keyProps : "Stacking",
         rules    : <>
+            TODO: ADD WHITEBOARD!!!
             • Enhanced [Str +1]<br/>
             • Enhanced [Spd +1]<br/>
             <br/>
@@ -69,11 +71,12 @@ const conditions: CardData[] = [
     },
     {
         name     : "Exhausted",
-        status   : "PROOF",
+        status   : "TODO",
         source   : "p.294",
         art      : "Exhausted.svg",
         keyProps : "Stacking",
         rules    : <>
+            TODO: ADD WHITEBOARD!!!
             Apply penalty to all tests. (Stacks)
             <br/>• stacks
             <br/>• long rest reduces penalty by 1
