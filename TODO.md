@@ -61,3 +61,9 @@ Questions:
   - how to deal with:
         p.270 Quick Activation - 1/scene 1 FP -> reduce activation cost (▶▶ -> ▶ -> ▷)
 
+
+## Wacky
+
+Click on page number (source field) to open the locally-stored handbook PDF (if not already open) and jump to that page.
+https://grok.com/share/bGVnYWN5_e9aa717c-28c6-4b20-afae-93b960cccc10
+

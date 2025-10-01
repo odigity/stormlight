@@ -10,14 +10,14 @@
 
 ### Decisions
 
-- the 5 communicated elements
-    - type                ->  paper color
-        - action cost     ->  paper size
-    - FP/IP/Ch cost       ->  corner bubble
-    - Stormlight-related  ->  gold corners
-    - Standard vs Custom  ->  icon
-gold -> "radiant set" 4 stormlight + 2 surge cards + radiant shardblade/shardplate-related cards
+Communicated Elements
+- type  ->  paper color
+- action cost  ->  paper size
+- FP/IP/Ch cost  ->  header bubbles
+- Stormlight-related  ->  decorated corners
+  - gold highlights -> "radiant set": 4 stormlight + 2 surge + radiant shardblade/shardplate-related
 
+- presence of art depends entirely on whether anyone's motivated to provide it
 
 - cards are mostly for combat  (scene-specific information)
 - what goes where and why?
