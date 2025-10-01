@@ -20,7 +20,7 @@ function Card({data}: CardProps) {
             <div className={classNames({
                 card                      : true,
                 inset                     : data.inset,
-                [data.type.toLowerCase()] : true
+                [data.type?.toLowerCase()] : true
             })}>
                 {data.art ? (
                     <img className={classNames({

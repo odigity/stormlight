@@ -62,18 +62,6 @@ export default function LivePreview() {
                     })
                 }
             </div>
-
-
-            {/*{allCardsByType.map(section => (*/}
-            {/*    <div key={section.id}>*/}
-            {/*        <h1 id={section.id} className="section-title">{section.title}</h1>*/}
-            {/*        <div className="flexbox-container">*/}
-            {/*            {section.cards.map((card, idx) => (*/}
-            {/*                <Card key={`${section.id}-${idx}-${card.name}`} data={card}/>*/}
-            {/*            ))}*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*))}*/}
         </div>
     );
 }

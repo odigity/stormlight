@@ -1,11 +1,29 @@
 import './App.scss'
-// import Watermarks from "./pages/Watermarks.tsx";
-// import Library from "./pages/Library.tsx";
 import LivePreview from "./pages/LivePreview.tsx";
-import Foo from "./pages/Foo.tsx";
+import CardDataTable from "./pages/CardDataTable.tsx";
+import {useState} from "react";
+
 
 function App() {
-  return <LivePreview />;
+
+    const [page, setPage] = useState<'data' | 'livepreview'>('livepreview');
+
+    const handlePageChange = (page) => () => {
+        setPage(page)
+    };
+    return <div>
+        <div className="navbar">
+            <a href="#" onClick={handlePageChange('data')}>Data</a>
+            &nbsp;|&nbsp;
+            <a href="#" onClick={handlePageChange('livepreview')}>Live Preview</a>
+        </div>
+        {
+            page === "data" && <CardDataTable />
+        }
+        {
+            page === "livepreview" && <LivePreview/>
+        }
+    </div>
 }
 
 export default App;

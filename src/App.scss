@@ -97,3 +97,65 @@ body {
 .library-topnav a + a {
     margin-left: 8px;
 }
+
+.opp, .comp, .react, .act0, .act1, .act2, .act3, .star, .inf {
+  display: inline;
+  font-family: "CosmereDingbats";
+}
+
+
+.opp {
+  &::after {
+    content: "o"
+  }
+}
+.comp {
+  &::after {
+    content: "c"
+  }
+}
+.react {
+  &::after {
+    content: "r"
+  }
+}
+.star {
+  &::after {
+    content: "*"
+  }
+}
+.storm {
+  &::after {
+    content: "s"
+  }
+}
+
+.act0 {
+  &::after {
+    content: "0"
+  }
+}
+
+.act1 {
+  &::after {
+    content: "1"
+  }
+}
+
+.act2 {
+  &::after {
+    content: "2"
+  }
+}
+
+.act3 {
+  &::after {
+    content: "3"
+  }
+}
+
+.inf {
+  &::after {
+    content: "8"
+  }
+}

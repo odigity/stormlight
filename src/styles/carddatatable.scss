@@ -1,0 +1,35 @@
+.datatable-container {
+
+  .filter {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 32px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  tr {
+
+    &.even {
+      background-color: #DDD;
+    }
+
+    &.odd {
+      background-color: #EEE;
+    }
+  }
+
+  text-align: left;
+  .art {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+
+    img {
+
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+  }
+}
