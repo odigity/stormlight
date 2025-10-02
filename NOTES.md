@@ -111,7 +111,7 @@ Sleeve Thickness  =  1/16"
 | #FFFFFF |   2 | Stardust White       | - |
 | #FFAC00 |   3 | Galaxy Gold          | Free Actions |
 | #FF8C40 |   4 | **Cosmic Orange**    | - |
-| #F86129 |   5 | Orbit Orange         | Costly Actions |
+| #F86129 |   5 | Orbit Orange         | Actions |
 | #FF5E63 |   6 | Rocket Red           | Reactions |
 | #DB3B4A |   7 | Re-Entry Red         | - |
 | #FF567C |   8 | Plasma Pink          | - |
