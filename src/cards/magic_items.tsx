@@ -6,7 +6,6 @@ const magic_items: CardData[] = [
         name    : "Alerter",
         status  : "TODO",
         source  : "p.262",
-        art     : "?.svg",
         charges : 5,
         rules   : <>
             TODO
@@ -16,7 +15,6 @@ const magic_items: CardData[] = [
         name    : "Attractor",
         status  : "TODO",
         source  : "p.262",
-        art     : "?.svg",
         charges : 5,
         rules   : <>
             TODO
@@ -26,7 +24,6 @@ const magic_items: CardData[] = [
         name    : "Clock Fabrial",
         status  : "TODO",
         source  : "p.262",
-        art     : "?.svg",
         charges : 3,
         rules   : <>
             TODO
@@ -36,7 +33,6 @@ const magic_items: CardData[] = [
         name    : "Drainer",
         status  : "TODO",
         source  : "p.262",
-        art     : "?.svg",
         charges : 2,
         rules   : <>
             TODO
@@ -47,7 +43,6 @@ const magic_items: CardData[] = [
         status   : "TODO",
         source   : "p.263",
         flipCard : "Sense Emotions",
-        art      : "?.svg",
         charges  : 3,
         rules    : <>
             TODO
@@ -57,7 +52,6 @@ const magic_items: CardData[] = [
         name     : "Half-Shard",
         status   : "TODO",
         source   : "p.248",
-        art      : "?.svg",
         keyProps : "Special Weapon",
         rules    : <>
             TODO<br/>
@@ -68,7 +62,6 @@ const magic_items: CardData[] = [
         name    : "Heatrial",
         status  : "TODO",
         source  : "p.263",
-        art     : "?.svg",
         charges : 5,
         rules   : <>
             TODO
@@ -78,7 +71,6 @@ const magic_items: CardData[] = [
         name    : "Painrial (amplifying)",
         status  : "TODO",
         source  : "p.263",
-        art     : "?.svg",
         charges : 3,
         rules   : <>
             TODO
@@ -89,7 +81,6 @@ const magic_items: CardData[] = [
         status   : "TODO",
         source   : "p.273",
         flipCard : "Absorb Pain",
-        art      : "?.svg",
         charges  : 3,
         rules    : <>
             TODO
@@ -100,7 +91,6 @@ const magic_items: CardData[] = [
         status   : "TODO",
         source   : "p.263",
         flipCard : "Numb Pain",
-        art      : "?.svg",
         charges  : 3,
         rules    : <>
             TODO
@@ -110,7 +100,6 @@ const magic_items: CardData[] = [
         name    : "Repeller",
         status  : "TODO",
         source  : "p.263",
-        art     : "?.svg",
         charges : 5,
         rules   : <>
             TODO
@@ -120,7 +109,6 @@ const magic_items: CardData[] = [
         name     : "Shardblade",
         status   : "TODO",
         source   : "p.248",
-        art      : "Shardblade.svg",
         keyProps : "Special Weapon",
         rules    : <>
             TODO<br/>
@@ -131,7 +119,6 @@ const magic_items: CardData[] = [
         name     : "Shardblade (Radiant)",
         status   : "TODO",
         source   : "p.248",
-        art      : "ShardbladeRadiant.svg",
         keyProps : "Special Weapon",
         rules    : <>
             TODO<br/>
@@ -142,7 +129,6 @@ const magic_items: CardData[] = [
         name   : "Shardplate",
         status : "TODO",
         source : "p.254",
-        art    : "Shardplate.svg",
         rules  : <>
             TODO
         </>,
@@ -151,7 +137,6 @@ const magic_items: CardData[] = [
         name   : "Shardplate (Radiant)",
         status : "TODO",
         source : "p.254",
-        art    : "ShardplateRadiant.svg",
         rules  : <>
             TODO
         </>,
@@ -160,7 +145,6 @@ const magic_items: CardData[] = [
         name    : "Soulcaster",
         status  : "TODO",
         source  : "p.264",
-        art     : "?.svg",
         charges : 5,
         rules   : <>
             TODO
@@ -170,7 +154,6 @@ const magic_items: CardData[] = [
         name    : "Spanreed",
         status  : "TODO",
         source  : "p.264",
-        art     : "?.svg",
         charges : 3,
         rules   : <>
             TODO
@@ -180,7 +163,6 @@ const magic_items: CardData[] = [
         name    : "Suppressor",
         status  : "TODO",
         source  : "p.264",
-        art     : "?.svg",
         charges : 2,
         rules   : <>
             TODO

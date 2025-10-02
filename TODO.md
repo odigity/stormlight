@@ -40,6 +40,7 @@ Lint:
  - IP/FP cost circles style fix (number alignment)
  - Fix data view column width
  - Partial borders for radiant cards
+ - if no "rules" field, display "intentionally blank" rules block (ex: End Grapple)
 
 #### Views
  

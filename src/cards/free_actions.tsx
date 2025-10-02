@@ -8,23 +8,19 @@ const free_actions: CardData[] = [
         source   : "p.304",
         inset    : true,
         actions  : 2,
-        art      : "EndGrapple.svg",
-        centered : true,
         rules    : <>
             <br/><i>This space intentionally left blank.</i>
         </>,
     },
     {
-        name    : "Maintain Enhance",
-        status  : "PROOF",
-        source  : "p.125",
-        flipCard: "Enhance",
-        inset   : true,
-        actions : 0,
-        magic   : true,
-        ip      : 1,
-        art     : "MaintainEnhance.svg",
-        rules   : <>
+        name     : "Maintain Enhance",
+        status   : "PROOF",
+        source   : "p.125",
+        inset    : true,
+        actions  : 0,
+        magic    : true,
+        ip       : 1,
+        rules    : <>
             Maintain existing Enhance effect until end of next turn.
         </>,
     },
@@ -33,7 +29,6 @@ const free_actions: CardData[] = [
         status  : "TODO",
         source  : "p.245",
         actions : 0,
-        // art     : "Quickdraw.svg",
         rules   : <>
             TODO<br/>
             for weapons with Quickdraw trait
@@ -47,7 +42,6 @@ const free_actions: CardData[] = [
         actions : 0,
         magic   : true,
         ip      : 1,
-        art     : "Regenerate.svg",
         rules   : <>
             <p>HP += 1d6 + tier.</p>
             <p>Can use even when Unconscious or prevented from using free_actions.</p>
@@ -59,20 +53,17 @@ const free_actions: CardData[] = [
         source  : "p.263",
         actions : 0,
         magic   : true,
-        // art     : "SenseEmotions.svg",
         rules   : <>
             TODO
         </>,
     },
     {
-        name    : "Stand Up",
-        status  : "PROOF",
-        source  : "p.294",
-        actions : 0,
-        art     : "StandUp.svg",
-        flipCard: "Prone",
-        inset   : true,
-        rules   : <>
+        name     : "Stand Up",
+        status   : "PROOF",
+        source   : "p.294",
+        actions  : 0,
+        inset    : true,
+        rules    : <>
             Movement reduced by 5' until next turn.
         </>,
     },

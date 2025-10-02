@@ -8,7 +8,6 @@ const reactions: CardData[] = [
         source  : "p.273",
         actions : -1,
         magic   : true,
-        art     : "?.svg",
         rules   : <>
             TODO
         </>,
@@ -19,7 +18,6 @@ const reactions: CardData[] = [
         source  : "p.305",
         actions : -1,
         fp      : 1,
-        art     : "Aid.svg",
         rules   : <>
             Grant an ally an Advantage on their current test.
         </>,
@@ -29,7 +27,6 @@ const reactions: CardData[] = [
         status  : "PROOF",
         source  : "p.305",
         actions : -1,
-        art     : "AvoidDanger.svg",
         rules   : <>
             <i>Agility vs DC15 or enemy's instigating test:</i><br/>
             Avoid harm (within reason).
@@ -41,7 +38,6 @@ const reactions: CardData[] = [
         source  : "p.305",
         actions : -1,
         fp      : 1,
-        art     : "Dodge.svg",
         rules   : <>
             Add a Disadvantage to attacker's test.
         </>,
@@ -52,7 +48,6 @@ const reactions: CardData[] = [
         source  : "p.263",
         actions : -1,
         magic   : true,
-        art     : "?.svg",
         rules   : <>
             TODO
         </>,
@@ -63,7 +58,6 @@ const reactions: CardData[] = [
         source  : "p.305",
         actions : -1,
         fp      : 1,
-        art     : "ReactiveStrike.svg",
         rules   : <>
             When enemy voluntarily exits reach:<br/>
             <i>Melee vs Physical</i>

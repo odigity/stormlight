@@ -15,19 +15,19 @@ function Card({data}: CardProps) {
     const ch = _.toNumber(data.ch) || '';
     const charges = _.toNumber(data.charges) || 0;
 
+    const artFileName = data.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
+    const artFilePath = `src/assets/art/${artFileName}`
+
     return (
         <div className={`cardwrapper ${widthClass}`}>
             <div className={classNames({
-                card                      : true,
-                inset                     : data.inset,
+                card                            : true,
+                inset                           : data.inset,
                 [`${data.type?.toLowerCase()}`] : true
             })}>
-                {data.art ? (
-                    <img className={classNames({
-                        watermark : true,
-                        mirrored  : data.mirrorArt,
-                    })} src={`src/assets/art/${data.art}`} alt="watermark"/>
-                ) : null}
+                <img className={classNames({
+                    watermark : true,
+                })} src={artFilePath} alt={artFileName}/>
 
                 <div className="cardhead">
                     <div className="name">{data.name}</div>
@@ -41,11 +41,7 @@ function Card({data}: CardProps) {
                 </div>
 
                 <div className="cardBody">
-                    {data.centered ? (
-                        <div className="rules-centered">{data.rules}</div>
-                    ) : (
-                        <div className="rules">{data.rules}</div>
-                    )}
+                    <div className="rules">{data.rules}</div>
                 </div>
 
                 {charges > 0 &&
