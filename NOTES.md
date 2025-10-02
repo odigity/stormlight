@@ -109,24 +109,24 @@ Sleeve Thickness  =  1/16"
 | :-------: | :-: | :------------------: | :---: |
 | #FFD000 |   1 | **Solar Yellow**     | - |
 | #FFFFFF |   2 | Stardust White       | - |
-| #FFAC00 |   3 | Galaxy Gold          | Free Actions |
+| #FFAC00 |   3 | Galaxy Gold          | Free Actions | 6 + 12
 | #FF8C40 |   4 | **Cosmic Orange**    | - |
-| #F86129 |   5 | Orbit Orange         | Costly Actions |
-| #FF5E63 |   6 | Rocket Red           | Reactions |
-| #DB3B4A |   7 | Re-Entry Red         | - |
+| #F86129 |   5 | Orbit Orange         | Actions | 6 + 12
+| #FF5E63 |   6 | Rocket Red           | - |
+| #DB3B4A |   7 | Re-Entry Red         | Reactions | 6 + 12
 | #FF567C |   8 | Plasma Pink          | - |
 | #FF80A4 |   9 | Pulsar Pink          | - |
-| #FF3C9C |  10 | **Fireball Fuchsia** | Infusions |
-| #D573AF |  11 | Outrageous Orchid    | Conditions |
+| #FF3C9C |  10 | **Fireball Fuchsia** | Infusions | 6 + 12 + 20
+| #D573AF |  11 | Outrageous Orchid    | Conditions | 6
 | #B9719E |  12 | Planetary Purple     | - |
-| #8A6C9E |  13 | Gravity Grape        | ~~Skills~~ |
+| #8A6C9E |  13 | Gravity Grape        | - |
 | #867BC6 |  14 | Venus Violet         | - |
 | #3F3831 |  15 | Eclipse Black        | - |
 | #FFFFFF |  16 | Solar White          | - |
 | #4C6393 |  17 | Blast-Off Blue       | - |
-| #3697AE |  18 | Celestial Blue       | Magic Items |
-| #64B9BC |  19 | **Lunar Blue**       | Items |
-| #27A89A |  20 | Terrestrial Teal     | Effects |
+| #3697AE |  18 | Celestial Blue       | Magic Items | 6 + 12
+| #64B9BC |  19 | **Lunar Blue**       | Items | 6 + 12 + 20
+| #27A89A |  20 | Terrestrial Teal     | Effects | 6
 | #98DE5A |  21 | Martian Green        | - |
 | #BCE844 |  22 | Vulcan Green         | - |
 | #3C9E56 |  23 | Gamma Green          | - |

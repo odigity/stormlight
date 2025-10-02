@@ -43,7 +43,7 @@ const actions: CardData[] = [
     },
     {
         name     : "Brace",
-        status   : "PROOF",
+        status   : "DONE",
         source   : "p.303",
         flipCard : "Braced",
         actions  : 1,

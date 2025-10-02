@@ -30,6 +30,8 @@ export interface CardData {
     rules?    : ReactNode;      // keep on bottom for visibility (and it breaks the eslint aligner)
     rules2?   : ReactNode;      // for page 2 of two-page cards
 
+  // code-only props
+  hasArt?        : boolean,
 }
 
 

@@ -51,3 +51,8 @@ Margins:
 | 8    | inf   | Always On     |
 | *    | star  | Special       |
 
+## Project
+
+- Ofer Nave
+- Nick Renford (React app)
+

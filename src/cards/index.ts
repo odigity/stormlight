@@ -8,6 +8,7 @@ import items        from "./items.tsx";
 import magic_items  from "./magic_items.tsx";
 import reactions    from "./reactions.tsx";
 import {CardType}   from "../types/cardType.ts";
+import artFileNames from "./artNames.json";
 
 export { conditions, actions, effects, free_actions, items, magic_items, reactions };
 
@@ -22,7 +23,8 @@ export const allCardsByType = [
     { id: "reactions",    title: "Reactions",    cards: reactions    },
 ];
 
-export const allCards = [
+const normalizeNameForSvg = (name) => name.replace(/[^a-zA-Z0-9]/g, '');
+export const allCards = _.map([
     ..._.map( actions,      (c) => ({ ...c, type: CardType.ACTION                   })),
     ..._.map( conditions,   (c) => ({ ...c, type: CardType.CONDITION                })),
     ..._.map( free_actions, (c) => ({ ...c, type: CardType.FREE_ACTION              })),
@@ -31,4 +33,9 @@ export const allCards = [
     ..._.map( magic_items,  (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
     ..._.map( reactions,    (c) => ({ ...c, type: CardType.REACTION                 })),
     ..._.map( effects,      (c) => ({ ...c, type: CardType.EFFECT                   })),
-];
+], (card) => {
+  return {
+    ...card,
+    hasArt: artFileNames.includes(normalizeNameForSvg(card.name)),
+  }
+})

@@ -127,8 +127,7 @@ export function cardPassesFilters(card: CardData, filters: FilterState): boolean
         return false;
     }
     if(filters.artQuery !== 'Any') {
-        const hasArt = !!card.art && !card.art.includes('?');
-        return (filters.artQuery === "Yes") === hasArt;
+        return (filters.artQuery === "Yes") === card.hasArt;
     }
     if(filters.actions !== 'Any') {
         if(filters.actions === 'None') {

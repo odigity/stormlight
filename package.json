@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev:pre": "npm run getArtFileNames",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "getArtFileNames": "node getArtFileNames.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
