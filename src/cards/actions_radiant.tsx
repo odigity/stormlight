@@ -1,11 +1,14 @@
+import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
 const actions_radiant: CardData[] = [
+
     {
         name    : "Add to Infusion",
         status  : "TODO",
         source  : "p.210",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
@@ -16,6 +19,7 @@ const actions_radiant: CardData[] = [
         name    : "Breathe Stormlight",
         status  : "PROOF",
         source  : "p.124",
+        type     : CardType.ACTION,
         actions : 2,
         magic   : true,
         rules   : <>
@@ -28,6 +32,7 @@ const actions_radiant: CardData[] = [
         status   : "PROOF",
         source   : "p.124",
         flipCard : "Maintain Enhance",
+        type     : CardType.ACTION,
         actions  : 1,
         magic    : true,
         ip       : 1,
@@ -40,6 +45,7 @@ const actions_radiant: CardData[] = [
             <i>To renew, see reverse side.</i>
         </>,
     },
+
 ];
 
 

@@ -30,17 +30,17 @@ export const allCardsByType = [
 const normalizeNameForSvg = (name) => name.replace(/[^a-zA-Z0-9]/g, '');
 export const allCards = _.map([
     ..._.map( actions,          (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( actions_combat,   (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( actions_items,    (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( actions_radiant,  (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( actions_surges,   (c) => ({ ...c, type: CardType.ACTION                   })),
     ..._.map( conditions,       (c) => ({ ...c, type: CardType.CONDITION                })),
+    ..._.map( effects,          (c) => ({ ...c, type: CardType.EFFECT                   })),
     ..._.map( free_actions,     (c) => ({ ...c, type: CardType.FREE_ACTION              })),
     ..._.map( infusions,        (c) => ({ ...c, type: CardType.INFUSION,   magic: true  })),
     ..._.map( items,            (c) => ({ ...c, type: CardType.ITEM                     })),
     ..._.map( magic_items,      (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
     ..._.map( reactions,        (c) => ({ ...c, type: CardType.REACTION                 })),
-    ..._.map( effects,          (c) => ({ ...c, type: CardType.EFFECT                   })),
+    ..._.map( actions_combat,   (c) => ({ ...c })),
+    ..._.map( actions_items,    (c) => ({ ...c })),
+    ..._.map( actions_radiant,  (c) => ({ ...c })),
+    ..._.map( actions_surges,   (c) => ({ ...c })),
 ], (card) => {
   return {
     ...card,

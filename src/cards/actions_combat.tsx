@@ -1,12 +1,15 @@
+import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
 const actions_combat: CardData[] = [
+
     {
         name     : "Brace",
         status   : "DONE",
         source   : "p.303",
         flipCard : "Braced",
+        type     : CardType.ACTION,
         actions  : 1,
         rules    : <>
             Hide behind cover within 5'. Grants a Disadvantage on attacks against you until you attack or move.
@@ -16,6 +19,7 @@ const actions_combat: CardData[] = [
         name    : "Disengage",
         status  : "PROOF",
         source  : "p.303",
+        type     : CardType.ACTION,
         actions : 1,
         rules   : <>
             Move 5' without provoking a Reactive Strike.
@@ -25,6 +29,7 @@ const actions_combat: CardData[] = [
         name    : "Gain Advantage",
         status  : "PROOF",
         source  : "p.303",
+        type     : CardType.ACTION,
         actions : 1,
         rules   : <>
             <i>Any skill vs enemy's corresponding defense:</i>
@@ -36,6 +41,7 @@ const actions_combat: CardData[] = [
         status   : "PROOF",
         source   : "p.304",
         flipCard : "End Grapple",
+        type     : CardType.ACTION,
         actions  : 2,
         rules    : <>
             <i>Athletics vs Physical:</i> Restrained until...
@@ -49,6 +55,7 @@ const actions_combat: CardData[] = [
         status   : "PROOF",
         source   : "p.303",
         flipCard : "Quickdraw",
+        type     : CardType.ACTION,
         actions  : 1,
         keyProps : "Reusable",
         rules    : <>
@@ -62,6 +69,7 @@ const actions_combat: CardData[] = [
         name     : "Move",
         status   : "PROOF",
         source   : "p.303",
+        type     : CardType.ACTION,
         actions  : 1,
         keyProps : "Reusable.svg",
         rules    : <>
@@ -72,6 +80,7 @@ const actions_combat: CardData[] = [
         name    : "Ready",
         status  : "PROOF",
         source  : "p.304",
+        type     : CardType.ACTION,
         actions : 1,
         rules   : <>
             Choose trigger and action.
@@ -82,6 +91,7 @@ const actions_combat: CardData[] = [
         name     : "Recover",
         status   : "PROOF",
         source   : "p.304",
+        type     : CardType.ACTION,
         actions  : 2,
         keyProps : "Once per scene",
         rules    : <>
@@ -92,6 +102,7 @@ const actions_combat: CardData[] = [
         name    : "Shove",
         status  : "PROOF",
         source  : "p.304",
+        type     : CardType.ACTION,
         actions : 2,
         rules   : <>
             <p><i>Athletics vs Physical:</i> Push or pull target 5' horizontally.</p>
@@ -102,6 +113,7 @@ const actions_combat: CardData[] = [
         name      : "Strike (Offhand)",
         status    : "PROOF",
         source    : "p.303",
+        type     : CardType.ACTION,
         actions   : 1,
         fp        : 2,
         rules     : <>
@@ -116,6 +128,7 @@ const actions_combat: CardData[] = [
         name    : "Strike (Primary)",
         status  : "PROOF",
         source  : "p.303",
+        type     : CardType.ACTION,
         actions : 1,
         //fp      : "*",
         rules   : <>
@@ -130,11 +143,13 @@ const actions_combat: CardData[] = [
         name    : "Use a Skill",
         status  : "PROOF",
         source  : "p.303",
+        type     : CardType.ACTION,
         actions : 1,
         rules   : <>
             Perform challenging task around battlefield.
         </>,
     },
+
 ];
 
 

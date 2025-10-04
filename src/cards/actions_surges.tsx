@@ -1,31 +1,50 @@
+import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
 const actions_surges: CardData[] = [
+
+    //
+    //  Abrasion
+    //
+
     {
         name    : "Abrasion",
         status  : "TODO",
         source  : "p.212",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
             ?
         </>,
     },
+
+    //
+    //  Adhesion
+    //
+
     {
         name    : "Adhesion",
         status  : "TODO",
         source  : "p.215",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
             ?
         </>,
     },
+
+    //
+    //  Cohesion
+    //
+
     {
         name    : "Cohesion",
         status  : "TODO",
         source  : "p.217",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
@@ -40,30 +59,48 @@ const actions_surges: CardData[] = [
                 Use a Skill on Athletics vs Cohesion to slip out -or- 10m+ to dig them out
         </>,
     },
+
+    //
+    //  Division
+    //
+
     {
         name    : "Division",
         status  : "TODO",
         source  : "p.220",
+        type     : CardType.ACTION,
         actions : 2,
         magic   : true,
         rules   : <>
             ?
         </>,
     },
+
+    //
+    //  Gravitation
+    //
+
     {
         name    : "Gravitation",
         status  : "TODO",
         source  : "p.223",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
             ?
         </>,
     },
+
+    //
+    //  Illumination
+    //
+
     {
         name    : "Illumination",
         status  : "TODO",
         source  : "p.226",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
@@ -79,10 +116,16 @@ const actions_surges: CardData[] = [
             See: End Disguise, Task Illusions, Task Illusion, Maintain Illusions
         </>,
     },
+
+    //
+    //  Progression
+    //
+
     {
         name    : "Progression",
         status  : "TODO",
         source  : "p.229",
+        type     : CardType.ACTION,
         actions : 2,
         magic   : true,
         rules   : <>
@@ -90,10 +133,16 @@ const actions_surges: CardData[] = [
             Regrowth: 1+ IP infuse char: 1 ip/rd: recover HP = Prog modifier + 1d4..12 (ranks 1..5)
         </>,
     },
+
+    //
+    //  Tension
+    //
+
     {
         name    : "Tension",
         status  : "TODO",
         source  : "p.231",
+        type     : CardType.ACTION,
         actions : 1,
         magic   : true,
         rules   : <>
@@ -106,10 +155,16 @@ const actions_surges: CardData[] = [
             if weapon: improvised non-special wo/fragile
         </>,
     },
+
+    //
+    //  Transformation
+    //
+
     {
         name    : "Transformation",
         status  : "TODO",
         source  : "p.234",
+        type     : CardType.ACTION,
         actions : 2,
         magic   : true,
         rules   : <>
@@ -189,10 +244,16 @@ const actions_surges: CardData[] = [
             ?
         </>,
     },
+
+    //
+    //  Transportation
+    //
+
     {
         name    : "Transportation",
         status  : "TODO",
         source  : "p.237",
+        type     : CardType.ACTION,
         actions : 2,
         magic   : true,
         ip      : 1,    // TODO - change to "*"
