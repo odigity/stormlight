@@ -2,26 +2,10 @@ import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
-const actions_items: CardData[] = [
+// Actions stemming from equipment (pages 256-260).
+const equipment: CardData[] = [
 
-    //
-    //  Ammunition
-    //
-
-    {
-        name    : "Reload",
-        status  : "PROOF",
-        source  : "p.245",
-        type     : CardType.ACTION,
-        actions : 1,
-        rules   : <>
-            Reload weapon to full ammunition.
-        </>,
-    },
-
-    //
     //  Flint & Steel
-    //
 
     {
         name    : "Ignite",
@@ -34,9 +18,7 @@ const actions_items: CardData[] = [
         </>,
     },
 
-    //
     //  Poison
-    //
 
     {
         name    : "Apply Poison",
@@ -49,9 +31,7 @@ const actions_items: CardData[] = [
         </>,
     },
 
-    //
     //  Net
-    //
 
     {
         name    : "Throw Net",
@@ -67,4 +47,4 @@ const actions_items: CardData[] = [
 ];
 
 
-export default actions_items;
+export default equipment;

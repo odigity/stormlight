@@ -2,7 +2,23 @@ import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
-const actions_surges: CardData[] = [
+// The 10 surges (pages ) and child cards — including infusion cards.
+const surges: CardData[] = [
+
+    //
+    //  Shared Actions
+    //
+
+    {
+        name    : "Add to Infusion",
+        status  : "TODO",
+        source  : "p.210",
+        type     : CardType.ACTION,
+        actions : 1,
+        rules   : <>
+            TODO
+        </>,
+    },
 
     //
     //  Abrasion
@@ -14,7 +30,16 @@ const actions_surges: CardData[] = [
         source  : "p.212",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
+        rules   : <>
+            ?
+        </>,
+    },
+    {
+        name   : "Skate",
+        status : "TODO",
+        source : "p.212",
+        type   : CardType.FREE_ACTION,
+        actions: -1,
         rules   : <>
             ?
         </>,
@@ -30,10 +55,15 @@ const actions_surges: CardData[] = [
         source  : "p.215",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
         rules   : <>
             ?
         </>,
+    },
+    {
+        name   : "Adhesion Infusion",
+        status : "PROOF",
+        source : "p.215",
+        type   : CardType.INFUSION,
     },
 
     //
@@ -46,7 +76,6 @@ const actions_surges: CardData[] = [
         source  : "p.217",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
         rules   : <>
             1+ IP infuse unattended non-Invested stone object or surface wi/reach
             1 IP/rd - stone is moldable and soft like clay
@@ -59,10 +88,14 @@ const actions_surges: CardData[] = [
                 Use a Skill on Athletics vs Cohesion to slip out -or- 10m+ to dig them out
         </>,
     },
+    {
+        name   : "Cohesion Infusion",
+        status : "PROOF",
+        source : "p.217",
+        type   : CardType.INFUSION,
+    },
 
-    //
     //  Division
-    //
 
     {
         name    : "Division",
@@ -70,7 +103,6 @@ const actions_surges: CardData[] = [
         source  : "p.220",
         type     : CardType.ACTION,
         actions : 2,
-        magic   : true,
         rules   : <>
             ?
         </>,
@@ -86,10 +118,15 @@ const actions_surges: CardData[] = [
         source  : "p.223",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
         rules   : <>
             ?
         </>,
+    },
+    {
+        name   : "Gravitation Infusion",
+        status : "PROOF",
+        source : "p.223",
+        type   : CardType.INFUSION,
     },
 
     //
@@ -102,7 +139,6 @@ const actions_surges: CardData[] = [
         source  : "p.226",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
         rules   : <>
             TODO - fp: * (after supported)
             1+ IP infuse air wi/bond range and surge size
@@ -116,6 +152,52 @@ const actions_surges: CardData[] = [
             See: End Disguise, Task Illusions, Task Illusion, Maintain Illusions
         </>,
     },
+    {
+        name   : "Illumination Infusion",
+        status : "PROOF",
+        source : "p.226",
+        type   : CardType.INFUSION,
+    },
+    {
+        name   : "End Disguise",
+        status : "TODO",
+        source : "p.226",
+        type   : CardType.FREE_ACTION,
+        actions: 0,
+        rules   : <>
+            ?
+        </>,
+    },
+    {
+        name   : "Task Illusion",
+        status : "TODO",
+        source : "p.226",
+        type   : CardType.ACTION,
+        actions: 1,
+        rules   : <>
+            ?
+        </>,
+    },
+    {
+        name   : "Task Illusions",
+        status : "TODO",
+        source : "p.226",
+        type   : CardType.FREE_ACTION,
+        actions: 0,
+        rules   : <>
+            ?
+        </>,
+    },
+    {
+        name   : "Maintain Illusions",
+        status : "TODO",
+        source : "p.226",
+        type   : CardType.FREE_ACTION,
+        actions: 0,
+        rules   : <>
+            ?
+        </>,
+    },
 
     //
     //  Progression
@@ -127,11 +209,16 @@ const actions_surges: CardData[] = [
         source  : "p.229",
         type     : CardType.ACTION,
         actions : 2,
-        magic   : true,
         rules   : <>
             Growth: 1 IP rapidly grow plant/seed up to Surge Size or natural limit
             Regrowth: 1+ IP infuse char: 1 ip/rd: recover HP = Prog modifier + 1d4..12 (ranks 1..5)
         </>,
+    },
+    {
+        name   : "Progression Infusion",
+        status : "PROOF",
+        source : "p.229",
+        type   : CardType.INFUSION,
     },
 
     //
@@ -144,7 +231,6 @@ const actions_surges: CardData[] = [
         source  : "p.231",
         type     : CardType.ACTION,
         actions : 1,
-        magic   : true,
         rules   : <>
             1+ IP infuse non-invested object wi/reach - rigid for 1 IP/rd
             shaping:
@@ -155,10 +241,14 @@ const actions_surges: CardData[] = [
             if weapon: improvised non-special wo/fragile
         </>,
     },
+    {
+        name   : "Tension Infusion",
+        status : "PROOF",
+        source : "p.231",
+        type   : CardType.INFUSION,
+    },
 
-    //
     //  Transformation
-    //
 
     {
         name    : "Transformation",
@@ -166,77 +256,19 @@ const actions_surges: CardData[] = [
         source  : "p.234",
         type     : CardType.ACTION,
         actions : 2,
-        magic   : true,
         rules   : <>
             Soulcast: Transformation test on non-living (at first), non-Invested object or surface wi/reach
             IP = target size (1: Sm, etc)
             if causes opponent to make test, DC = Transformation test
             also...  2 IP: 1 Transportation effect w/10' range
-
             <div className="rules-table" style={{ fontSize: ".7rem" }}>
-                <div className="rules-header">
-                    <div className="rules-cell"></div>
-                    <div className="rules-cell">Solids</div>
-                    <div className="rules-cell">Organics</div>
-                    <div className="rules-cell">Liquids</div>
-                    <div className="rules-cell">Vapors</div>
-                    <div className="rules-cell">Clear Air</div>
-                    <div className="rules-cell">Flame*</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Solids</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">20</div>
-                    <div className="rules-cell">25</div>
-                    <div className="rules-cell">30</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Organics</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">20</div>
-                    <div className="rules-cell">25</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Liquids</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">20</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Vapors</div>
-                    <div className="rules-cell">20</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">15</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Clear Air</div>
-                    <div className="rules-cell">25</div>
-                    <div className="rules-cell">20</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">10</div>
-                </div>
-                <div className="rules-row">
-                    <div className="rules-cell">Flame</div>
-                    <div className="rules-cell">30</div>
-                    <div className="rules-cell">25</div>
-                    <div className="rules-cell">20</div>
-                    <div className="rules-cell">15</div>
-                    <div className="rules-cell">10</div>
-                    <div className="rules-cell">-</div>
-                </div>
+                <div className="rules-header"><div className="rules-cell"></div><div className="rules-cell">Solids</div><div className="rules-cell">Organics</div><div className="rules-cell">Liquids</div><div className="rules-cell">Vapors</div><div className="rules-cell">Clear Air</div><div className="rules-cell">Flame*</div></div>
+                <div className="rules-row"><div className="rules-cell">Solids</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">15</div><div className="rules-cell">20</div><div className="rules-cell">25</div><div className="rules-cell">30</div></div>
+                <div className="rules-row"><div className="rules-cell">Organics</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">15</div><div className="rules-cell">20</div><div className="rules-cell">25</div></div>
+                <div className="rules-row"><div className="rules-cell">Liquids</div><div className="rules-cell">15</div><div className="rules-cell">10</div><div className="rules-cell">15</div><div className="rules-cell">10</div><div className="rules-cell">15</div><div className="rules-cell">20</div></div>
+                <div className="rules-row"><div className="rules-cell">Vapors</div><div className="rules-cell">20</div><div className="rules-cell">15</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">15</div></div>
+                <div className="rules-row"><div className="rules-cell">Clear Air</div><div className="rules-cell">25</div><div className="rules-cell">20</div><div className="rules-cell">15</div><div className="rules-cell">10</div><div className="rules-cell">10</div><div className="rules-cell">10</div></div>
+                <div className="rules-row"><div className="rules-cell">Flame</div><div className="rules-cell">30</div><div className="rules-cell">25</div><div className="rules-cell">20</div><div className="rules-cell">15</div><div className="rules-cell">10</div><div className="rules-cell">-</div></div>
             </div>
             * Flame requires Flamecasting talent
         </>,
@@ -245,9 +277,7 @@ const actions_surges: CardData[] = [
         </>,
     },
 
-    //
     //  Transportation
-    //
 
     {
         name    : "Transportation",
@@ -255,7 +285,6 @@ const actions_surges: CardData[] = [
         source  : "p.237",
         type     : CardType.ACTION,
         actions : 2,
-        magic   : true,
         ip      : 1,    // TODO - change to "*"
         rules   : <>
             One effect (wi/bond range) per IP:<br/>
@@ -271,4 +300,4 @@ const actions_surges: CardData[] = [
 ];
 
 
-export default actions_surges;
+export default surges;

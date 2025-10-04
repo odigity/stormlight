@@ -1,23 +1,21 @@
+import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
-const actions: CardData[] = [
-    {
-        name    : "Enter Vigilant Stance",
-        status  : "TODO",
-        source  : "p.115",
-        actions : 1,
-    },
+const misc: CardData[] = [
+
     {
         name    : "Mount / Dismount",
         status  : "TODO",
         source  : "p.313",
+        type     : CardType.ACTION,
         actions : 1,
         rules   : <>
             TODO
         </>,
     },
+
 ];
 
 
-export default actions;
+export default misc;

@@ -15,9 +15,9 @@ export interface CardData {
     inset?    : boolean;        // determines border color
 
     // Card Specs
-    type?     : CardType;       // determines paper color  (populated by index.ts)
-    actions?  : number;         // determines paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Action)
-    magic?    : boolean;
+    type?     : CardType;       // determines: paper color  (populated by index.ts)
+    actions?  : number;         // determines: paper width  (-1 = Reaction, 0 = Free Action, 1-3 = width of Action)
+    radiant?  : boolean;        // determines: gold corner highlights
 
     // Header  (Cost Bubbles)
     ip?       : number;         // investiture

@@ -2,7 +2,40 @@ import {CardType} from "../types/card_type.ts";
 import type {CardData} from "../types/types.ts";
 
 
-const actions_combat: CardData[] = [
+// The 15 combat actions (pages 303-305, ignoring Banter & Drop) and child cards.
+const combat: CardData[] = [
+
+    //  Aid
+
+    {
+        name    : "Aid",
+        status  : "PROOF",
+        source  : "p.305",
+        type     : CardType.REACTION,
+        actions : -1,
+        fp      : 1,
+        rules   : <>
+            Grant an ally an Advantage on their current test.
+        </>,
+    },
+
+    //  Avoid Danger
+
+    {
+        name    : "Avoid Danger",
+        status  : "PROOF",
+        source  : "p.305",
+        type     : CardType.REACTION,
+        actions : -1,
+        rules   : <>
+            <i>Agility vs DC15 or enemy's instigating test:</i><br/>
+            Avoid harm (within reason).
+        </>,
+    },
+
+    //
+    //  Brace
+    //
 
     {
         name     : "Brace",
@@ -16,6 +49,18 @@ const actions_combat: CardData[] = [
         </>,
     },
     {
+        name     : "Braced",
+        status   : "TODO",
+        source   : "p.303",
+        type     : CardType.EFFECT,
+        rules    : <>
+            TODO
+        </>,
+    },
+
+    //  Disengage
+
+    {
         name    : "Disengage",
         status  : "PROOF",
         source  : "p.303",
@@ -25,6 +70,23 @@ const actions_combat: CardData[] = [
             Move 5' without provoking a Reactive Strike.
         </>,
     },
+
+    //  Dodge
+
+    {
+        name    : "Dodge",
+        status  : "PROOF",
+        source  : "p.305",
+        type     : CardType.REACTION,
+        actions : -1,
+        fp      : 1,
+        rules   : <>
+            Add a Disadvantage to attacker's test.
+        </>,
+    },
+
+    //  Gain Advantage
+
     {
         name    : "Gain Advantage",
         status  : "PROOF",
@@ -36,6 +98,11 @@ const actions_combat: CardData[] = [
             <br/>Gain an Advantage on next test using a different skill vs that enemy.
         </>,
     },
+
+    //
+    //  Grapple
+    //
+
     {
         name     : "Grapple",
         status   : "PROOF",
@@ -51,6 +118,19 @@ const actions_combat: CardData[] = [
         </>,
     },
     {
+        name     : "End Grapple",
+        status   : "PROOF",
+        source   : "p.304",
+        inset    : true,
+        actions  : 2,
+        rules    : <>
+            <br/><i>This space intentionally left blank.</i>
+        </>,
+    },
+
+    //  Interact
+
+    {
         name     : "Interact",
         status   : "PROOF",
         source   : "p.303",
@@ -65,6 +145,9 @@ const actions_combat: CardData[] = [
             <br/>• hand item to ally
         </>,
     },
+
+    //  Move
+
     {
         name     : "Move",
         status   : "PROOF",
@@ -76,6 +159,24 @@ const actions_combat: CardData[] = [
             Slowed if crawling, climbing, swimming, or stealthy.
         </>,
     },
+
+    //  Reactive Strike
+
+    {
+        name    : "Reactive Strike",
+        status  : "PROOF",
+        source  : "p.305",
+        type     : CardType.REACTION,
+        actions : -1,
+        fp      : 1,
+        rules   : <>
+            When enemy voluntarily exits reach:<br/>
+            <i>Melee vs Physical</i>
+        </>,
+    },
+
+    //  Ready
+
     {
         name    : "Ready",
         status  : "PROOF",
@@ -87,6 +188,9 @@ const actions_combat: CardData[] = [
             <br/>Pay the action cost up front.
         </>,
     },
+
+    //  Recover
+
     {
         name     : "Recover",
         status   : "PROOF",
@@ -98,6 +202,9 @@ const actions_combat: CardData[] = [
             Recovery die ➡ HP and/or FP.
         </>,
     },
+
+    //  Shove
+
     {
         name    : "Shove",
         status  : "PROOF",
@@ -109,6 +216,11 @@ const actions_combat: CardData[] = [
             <p>Also breaks Grapple.</p>
         </>,
     },
+
+    //
+    //  Strike
+    //
+
     {
         name      : "Strike (Offhand)",
         status    : "PROOF",
@@ -139,6 +251,9 @@ const actions_combat: CardData[] = [
             <b>Tip:</b> miss ➡ graze for 1 FP<br /><i>(dice dmg only)</i>
         </>,
     },
+
+    // Use a Skill
+
     {
         name    : "Use a Skill",
         status  : "PROOF",
@@ -153,4 +268,4 @@ const actions_combat: CardData[] = [
 ];
 
 
-export default actions_combat;
+export default combat;
