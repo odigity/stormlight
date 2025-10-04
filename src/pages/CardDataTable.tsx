@@ -91,7 +91,6 @@ function CardRow(props: CardRowProps) {
         }
       >
         <TableCell className="art">
-          <img src={artFilePath} alt={artFileName}/>
           {
             card.hasArt && <img src={artFilePath} alt={artFileName}/>
           }
