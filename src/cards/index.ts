@@ -1,16 +1,19 @@
-import _            from "lodash";
-import actions      from "./actions.tsx";
-import conditions   from "./conditions.tsx";
-import effects      from "./effects.tsx";
-import free_actions from "./free_actions.tsx";
-import infusions    from "./infusions.tsx";
-import items        from "./items.tsx";
-import magic_items  from "./magic_items.tsx";
-import reactions    from "./reactions.tsx";
-import {CardType}   from "../types/cardType.ts";
-import artFileNames from "./artNames.json";
+import _ from "lodash";
 
-export { conditions, actions, effects, free_actions, items, magic_items, reactions };
+import combat       from "./combat.tsx";
+import conditions   from "./conditions.tsx";
+import equipment    from "./equipment.tsx";
+import fabrials_spc from "./fabrials_special.tsx";
+import fabrials_std from "./fabrials_standard.tsx";
+import misc         from "./misc.tsx";
+import radiant      from "./radiant.tsx";
+import shards       from "./shards.tsx";
+import surges       from "./surges.tsx";
+import weapons      from "./weapons.tsx";
+import artFileNames from "./art_names.json";
+
+/*
+export { actions, actions_surges, conditions, effects, free_actions, items, magic_items, reactions };
 
 export const allCardsByType = [
     { id: "actions",      title: "Actions",      cards: actions      },
@@ -22,17 +25,20 @@ export const allCardsByType = [
     { id: "magic-items",  title: "Magic Items",  cards: magic_items  },
     { id: "reactions",    title: "Reactions",    cards: reactions    },
 ];
+*/
 
 const normalizeNameForSvg = (name) => name.replace(/[^a-zA-Z0-9]/g, '');
 export const allCards = _.map([
-    ..._.map( actions,      (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( conditions,   (c) => ({ ...c, type: CardType.CONDITION                })),
-    ..._.map( free_actions, (c) => ({ ...c, type: CardType.FREE_ACTION              })),
-    ..._.map( infusions,    (c) => ({ ...c, type: CardType.INFUSION,   magic: true  })),
-    ..._.map( items,        (c) => ({ ...c, type: CardType.ITEM                     })),
-    ..._.map( magic_items,  (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
-    ..._.map( reactions,    (c) => ({ ...c, type: CardType.REACTION                 })),
-    ..._.map( effects,      (c) => ({ ...c, type: CardType.EFFECT                   })),
+    ..._.map( combat,       (c) => ({ ...c })),
+    ..._.map( conditions,   (c) => ({ ...c })),
+    ..._.map( equipment,    (c) => ({ ...c })),
+    ..._.map( fabrials_spc, (c) => ({ ...c })),
+    ..._.map( fabrials_std, (c) => ({ ...c })),
+    ..._.map( misc,         (c) => ({ ...c })),
+    ..._.map( radiant,      (c) => ({ ...c, radiant: true })),
+    ..._.map( shards,       (c) => ({ ...c })),
+    ..._.map( surges,       (c) => ({ ...c })),
+    ..._.map( weapons,      (c) => ({ ...c })),
 ], (card) => {
   return {
     ...card,

@@ -34,9 +34,9 @@ export default function CardDataTable() {
                 <Table stickyHeader>
                     <TableHead>
                         <TableRow>
+                            <TableCell>Status</TableCell>
                             <TableCell>Art</TableCell>
                             <TableCell>Name</TableCell>
-                            <TableCell>Status</TableCell>
                             <TableCell>Type</TableCell>
                             <TableCell>Actions</TableCell>
                             <TableCell>Source</TableCell>
@@ -67,8 +67,13 @@ function CardRow(props: CardRowProps) {
     const {data: card} = props
     const artFileName = card.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
     const artFilePath = `src/assets/art/${artFileName}`
-  return (
+    // HACK -ofer
+    const status = card.status == "DONE" ? "✔" : card.status == "PROOF" ? "Proof" : "TODO";
+    let card_type = card.type == "MagicItem" ? "Magic Item" : card.type == "FreeAction" ? "Free Action" : card.type;
+
+    return (
     <TableRow className={`dataRow ${card.type?.toLowerCase() || ''}`}>
+      <TableCell>{status}</TableCell>
       <Tooltip
         arrow
         placement="bottom"
@@ -86,14 +91,14 @@ function CardRow(props: CardRowProps) {
         }
       >
         <TableCell className="art">
+          <img src={artFilePath} alt={artFileName}/>
           {
-            card.hasArt && <img src={`${artFilePath}`} alt={artFileName}/>
+            card.hasArt && <img src={artFilePath} alt={artFileName}/>
           }
         </TableCell>
       </Tooltip>
-      <TableCell>{card.name}</TableCell>
-      <TableCell>{card.status}</TableCell>
-      <TableCell>{card.type}</TableCell>
+      <TableCell><b>{card.name}</b></TableCell>
+      <TableCell>{card_type}</TableCell>
       <TableCell className="dingbats">{getActCharFromActions(card.actions)}</TableCell>
       <TableCell>{card.source}</TableCell>
       <TableCell>{card.flipCard || ''}</TableCell>
