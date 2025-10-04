@@ -1,19 +1,21 @@
-import _                from "lodash";
-import actions          from "./actions.tsx";
-import actions_combat   from "./actions_combat.tsx";
-import actions_items    from "./actions_items.tsx";
-import actions_radiant  from "./actions_radiant.tsx";
-import actions_surges   from "./actions_surges.tsx";
-import conditions       from "./conditions.tsx";
-import effects          from "./effects.tsx";
-import free_actions     from "./free_actions.tsx";
-import infusions        from "./infusions.tsx";
-import items            from "./items.tsx";
-import magic_items      from "./magic_items.tsx";
-import reactions        from "./reactions.tsx";
-import {CardType}       from "../types/card_type.ts";
-import artFileNames     from "./art_names.json";
+import _ from "lodash";
 
+import topic_combat         from "./topic_combat.tsx";
+import topic_items          from "./topic_items.tsx";
+import topic_radiant        from "./topic_radiant.tsx";
+import topic_surges         from "./topic_surges.tsx";
+import type_actions         from "./type_actions.tsx";
+import type_conditions      from "./type_conditions.tsx";
+import type_effects         from "./type_effects.tsx";
+import type_free_actions    from "./type_free_actions.tsx";
+import type_infusions       from "./type_infusions.tsx";
+import type_items           from "./type_items.tsx";
+import type_magic_items     from "./type_magic_items.tsx";
+import type_reactions       from "./type_reactions.tsx";
+import {CardType}           from "../types/card_type.ts";
+import artFileNames         from "./art_names.json";
+
+/*
 export { actions, actions_surges, conditions, effects, free_actions, items, magic_items, reactions };
 
 export const allCardsByType = [
@@ -26,21 +28,22 @@ export const allCardsByType = [
     { id: "magic-items",  title: "Magic Items",  cards: magic_items  },
     { id: "reactions",    title: "Reactions",    cards: reactions    },
 ];
+*/
 
 const normalizeNameForSvg = (name) => name.replace(/[^a-zA-Z0-9]/g, '');
 export const allCards = _.map([
-    ..._.map( actions,          (c) => ({ ...c, type: CardType.ACTION                   })),
-    ..._.map( conditions,       (c) => ({ ...c, type: CardType.CONDITION                })),
-    ..._.map( effects,          (c) => ({ ...c, type: CardType.EFFECT                   })),
-    ..._.map( free_actions,     (c) => ({ ...c, type: CardType.FREE_ACTION              })),
-    ..._.map( infusions,        (c) => ({ ...c, type: CardType.INFUSION,   magic: true  })),
-    ..._.map( items,            (c) => ({ ...c, type: CardType.ITEM                     })),
-    ..._.map( magic_items,      (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
-    ..._.map( reactions,        (c) => ({ ...c, type: CardType.REACTION                 })),
-    ..._.map( actions_combat,   (c) => ({ ...c })),
-    ..._.map( actions_items,    (c) => ({ ...c })),
-    ..._.map( actions_radiant,  (c) => ({ ...c })),
-    ..._.map( actions_surges,   (c) => ({ ...c })),
+    ..._.map( topic_combat,         (c) => ({ ...c })),
+    ..._.map( topic_items,          (c) => ({ ...c })),
+    ..._.map( topic_radiant,        (c) => ({ ...c })),
+    ..._.map( topic_surges,         (c) => ({ ...c })),
+    ..._.map( type_actions,         (c) => ({ ...c, type: CardType.ACTION                   })),
+    ..._.map( type_conditions,      (c) => ({ ...c, type: CardType.CONDITION                })),
+    ..._.map( type_effects,         (c) => ({ ...c, type: CardType.EFFECT                   })),
+    ..._.map( type_free_actions,    (c) => ({ ...c, type: CardType.FREE_ACTION              })),
+    ..._.map( type_infusions,       (c) => ({ ...c, type: CardType.INFUSION,   magic: true  })),
+    ..._.map( type_items,           (c) => ({ ...c, type: CardType.ITEM                     })),
+    ..._.map( type_magic_items,     (c) => ({ ...c, type: CardType.MAGIC_ITEM, magic: true  })),
+    ..._.map( type_reactions,       (c) => ({ ...c, type: CardType.REACTION                 })),
 ], (card) => {
   return {
     ...card,
