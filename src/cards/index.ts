@@ -11,7 +11,7 @@ import infusions        from "./infusions.tsx";
 import items            from "./items.tsx";
 import magic_items      from "./magic_items.tsx";
 import reactions        from "./reactions.tsx";
-import {CardType}       from "../types/cardType.ts";
+import {CardType}       from "../types/card_type.ts";
 import artFileNames     from "./artNames.json";
 
 export { actions, actions_surges, conditions, effects, free_actions, items, magic_items, reactions };

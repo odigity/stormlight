@@ -1,4 +1,4 @@
-import {CardType} from "../types/cardType.ts";
+import {CardType} from "../types/card_type.ts";
 import type {SheetData} from "../types/types.ts";
 
 

@@ -1,5 +1,5 @@
 import type {ReactNode} from "react";
-import type {CardType} from "./cardType.ts";
+import type {CardType} from "./card_type.ts";
 
 
 export interface CardData {

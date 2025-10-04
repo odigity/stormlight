@@ -3,7 +3,7 @@ import type {ReactNode} from 'react'
 import type {CardData} from "../types/types.ts";
 import _ from "lodash";
 import {onlyText} from 'react-children-utilities';
-import type {CardType} from "../types/cardType.ts";
+import type {CardType} from "../types/card_type.ts";
 
 
 export const propertyFilters = [
