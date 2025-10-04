@@ -68,7 +68,7 @@ function CardRow(props: CardRowProps) {
     const artFileName = card.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
     const artFilePath = `src/assets/art/${artFileName}`
   return (
-    <TableRow>
+    <TableRow className={`dataRow ${card.type?.toLowerCase() || ''}`}>
       <Tooltip
         arrow
         placement="bottom"
@@ -86,7 +86,9 @@ function CardRow(props: CardRowProps) {
         }
       >
         <TableCell className="art">
-          <img src={`src/assets/art/${artFilePath}`} alt={artFilePath}/>
+          {
+            card.hasArt && <img src={`${artFilePath}`} alt={artFileName}/>
+          }
         </TableCell>
       </Tooltip>
       <TableCell>{card.name}</TableCell>

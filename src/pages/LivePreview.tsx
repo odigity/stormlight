@@ -4,6 +4,7 @@ import {allCards} from "../cards";
 import Card from "../components/Card";
 import _ from "lodash";
 import {useFilterState, cardPassesFilters} from "../contexts/filter.context.tsx";
+import {Grid} from "@mui/material";
 
 
 export default function LivePreview() {
@@ -17,13 +18,15 @@ export default function LivePreview() {
         .value();
     return (
         <div className="livepreview-container">
-            <div className="flexbox-container">
+            {/*<div className="flexbox-container">*/}
+          <Grid container>
                 {
                     cards.map((card, ind) => {
                         return <Card data={card} key={ind}/>
                     })
                 }
-            </div>
+          </Grid>
+            {/*</div>*/}
         </div>
     );
 }

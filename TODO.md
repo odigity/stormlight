@@ -61,6 +61,9 @@ Questions:
       - if so, indicate front vs back on table
   - how to deal with:
         p.270 Quick Activation - 1/scene 1 FP -> reduce activation cost (▶▶ -> ▶ -> ▷)
+    - User can deal with this - this is an excessive edge case
+    - ▶▶ -> ▶ : tap card (will take up only one action tray slot)
+    - ▶ -> ▷ : No change necessary, just use the free action row instead of the action tray
 
 
 ## Wacky

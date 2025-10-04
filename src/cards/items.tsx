@@ -1,5 +1,5 @@
 import type {CardData} from "../types/types.ts";
-
+import FrontHandIcon from '@mui/icons-material/FrontHand';
 
 const items: CardData[] = [
     {
@@ -17,7 +17,7 @@ const items: CardData[] = [
         source   : "p.247",
         keyProps : "Heavy Weaponry",
         rules    : <>
-            <b>1d8 keen</b><br/>100'/400', Loaded [1], 2🖐️<br/><i>Deadly</i>
+            <b>1d8 keen</b><br/>100'/400', Loaded [1], 2<FrontHandIcon />️<br/><i>Deadly</i>
         </>,
     },
     {

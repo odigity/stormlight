@@ -8,22 +8,6 @@
     max-width: 100%;
     margin: 0;
 }
-.cardwrapper {
-    width: calc(33.333% - 0px);
-    position: relative;
-    display: flex;
-    height: 266px;
-    margin: 0;
-    box-sizing: border-box;;
-
-  &.double-wide {
-    width: calc(66.666% - 0px);
-  }
-
-  &.triple-wide {
-    width: 100%;
-  }
-}
 /* Individual cards */
 .card {
 
@@ -117,12 +101,20 @@
 
   .source {
     font-size: 0.75rem;
-    color: #999;
+    color: #333;
     text-align: right;
     font-style: italic;
     position: absolute;
     bottom: 10px;
     right: 20px;
+
+    //Readability
+    //height: 20px;
+    //background-color: #0000005c;
+    //background: radial-gradient(rgb(0 0 0 / 27%), transparent);
+    //padding: 0 5px;
+    //border-radius: 50%;
+    //text-shadow: 0 0 2px black;
   }
 
 
@@ -179,7 +171,7 @@
   /* Cost circles */
   .costs {
     position: absolute;
-    top: 3px;
+    top: 0;
     right: 0;
     display: flex;
     gap: 5px;
@@ -214,25 +206,25 @@
     color: white !important;
   }
 
-  @media print {
+}
+@media print {
 
-    .library-topnav {
-      display: none;
-    }
-    .section-title {
-      display: none;
-    }
-    .cardwrapper {
-      border: 1px dashed black;
-    }
-    .card {
-      background-color: white;
+  .library-topnav {
+    display: none;
+  }
+  .section-title {
+    display: none;
+  }
+  .cardwrapper {
+    border: 1px dashed black;
+  }
+  .card {
+    background-color: white;
 
-      .cost {
-        .investiture {
-          background-color: #333 !important;
-          color: white !important;
-        }
+    .cost {
+      .investiture {
+        background-color: #333 !important;
+        color: white !important;
       }
     }
   }
