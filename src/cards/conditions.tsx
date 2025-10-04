@@ -157,6 +157,14 @@ const conditions: CardData[] = [
             <br/>• regain consciousness at end of any turn (HP 0 ➡ 1)
         </>,
     },
+    {
+        name   : "Vigilant Stance",
+        status : "TODO",
+        source : "p.115",
+        rules  : <>
+            -1 FP for Dodge | Reactive Strike
+        </>,
+    },
 ];
 
 

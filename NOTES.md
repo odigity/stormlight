@@ -109,24 +109,24 @@ Sleeve Thickness  =  1/16"
 | :-------: | :-: | :------------------: | :---: |
 | #FFD000 |   1 | **Solar Yellow**     | - |
 | #FFFFFF |   2 | Stardust White       | - |
-| #FFAC00 |   3 | Galaxy Gold          | Free Actions | 6 + 12
+| #FFAC00 |   3 | Galaxy Gold          | Free Actions<br/>6 + 6 + 12 |
 | #FF8C40 |   4 | **Cosmic Orange**    | - |
-| #F86129 |   5 | Orbit Orange         | Actions | 6 + 12
+| #F86129 |   5 | Orbit Orange         | Actions<br/>6 + 6 + 12 |
 | #FF5E63 |   6 | Rocket Red           | - |
-| #DB3B4A |   7 | Re-Entry Red         | Reactions | 6 + 12
+| #DB3B4A |   7 | Re-Entry Red         | Reactions<br/>6 + 6 + 12 |
 | #FF567C |   8 | Plasma Pink          | - |
 | #FF80A4 |   9 | Pulsar Pink          | - |
-| #FF3C9C |  10 | **Fireball Fuchsia** | Infusions | 6 + 12 + 20
-| #D573AF |  11 | Outrageous Orchid    | Conditions | 6
+| #FF3C9C |  10 | **Fireball Fuchsia** | Infusions<br/>6 + 6 + 12 + 20 |
+| #D573AF |  11 | Outrageous Orchid    | Conditions<br/>6 + 6 |
 | #B9719E |  12 | Planetary Purple     | - |
 | #8A6C9E |  13 | Gravity Grape        | - |
 | #867BC6 |  14 | Venus Violet         | - |
 | #3F3831 |  15 | Eclipse Black        | - |
 | #FFFFFF |  16 | Solar White          | - |
 | #4C6393 |  17 | Blast-Off Blue       | - |
-| #3697AE |  18 | Celestial Blue       | Magic Items | 6 + 12
-| #64B9BC |  19 | **Lunar Blue**       | Items | 6 + 12 + 20
-| #27A89A |  20 | Terrestrial Teal     | Effects | 6
+| #3697AE |  18 | Celestial Blue       | Magic Items<br/>6 + 6 + 12 |
+| #64B9BC |  19 | **Lunar Blue**       | Items<br/>6 + 6 + 12 + 20 |
+| #27A89A |  20 | Terrestrial Teal     | Effects<br/>6 + 6 |
 | #98DE5A |  21 | Martian Green        | - |
 | #BCE844 |  22 | Vulcan Green         | - |
 | #3C9E56 |  23 | Gamma Green          | - |
@@ -141,18 +141,4 @@ _Hex codes sourced from: https://convertingcolors.com/list/neenah.html_
 | :----------------------------------------------------------: | :-----: | :----: |
 | [Astrobrights "Bright"](https://walmart.com/ip/x/44796991)   | $0.54ea | Lunar Blue, Solar Yellow, Terra Green, Cosmic Orange, Fireball Fuschia |
 | [Astrobrights "Spectrum"](https://amazon.com/dp/B01GUUARV0/) | $0.55ea | All |
-
-### Tools & Equipment
-
-
-B0C24K6W7C    3x3x2    $9.99 / 6 = $1.67    *
-
-B086ML5K6L    6x3x2   $13.99 / 8 = $1.75    *
-B01D06SK6G    6x3x2   $14.99 / 6 = $2.50
-
-B07PJ78H1L    9x3x2   $14.99 / 8 = $1.87
-B01BKODXMG    9x3x2   $16.99 / 6 = $2.83
-
-B07PJ7VS92   12x3x2   $15.99 / 8 = $2.00
-B01D06SMUU   12x3x2   $18.99 / 6 = $3.17
 
