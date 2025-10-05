@@ -65,6 +65,11 @@ Questions:
     - ▶▶ -> ▶ : tap card (will take up only one action tray slot)
     - ▶ -> ▷ : No change necessary, just use the free action row instead of the action tray
 
+Tests:
+  - test aesthetics of twin card with inset back (Grapple | End Grapple)
+  - test magnetic
+  - test dry erase
+
 
 ## Wacky
 
