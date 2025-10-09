@@ -31,16 +31,29 @@ Lint:
 
 ## Nick's Items
  
- - "Ready" action hack
- - components for CardTypes (especially Infusions and Items - or Weapons specifically?)
- - Handle non-numeric for ip/fp/ch (specifically *)
+### Big Items
+
+ - Templates for different types
+ - Side-by-side view (front/back)
+ - ...
+
+### Medium Items
+ - Whiteboards
  - corner adornment for stormlight-related cards ("magic" boolean)
- - add whiteboards to template for skills & weapons to record modifiers
- - add checkboxes to template for charged items
- - IP/FP cost circles style fix (number alignment)
+
+### Little Items
  - Fix data view column width
+ - Handle non-numeric for ip/fp/ch (specifically *)
  - Partial borders for radiant cards
+ - "Ready" action hack
  - if no "rules" field, display "intentionally blank" rules block (ex: End Grapple)
+
+### Things to think about
+ - Charge boxes?
+
+### Phase 2:
+ - Character Card
+
 
 #### Views
  

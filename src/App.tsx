@@ -5,15 +5,18 @@ import {useState} from "react";
 import {AppBar, Box, Button, createTheme, CssBaseline, Stack, ThemeProvider, Toolbar} from "@mui/material";
 import {FilterProvider} from "./contexts/filter.context.tsx";
 import FilterSelectionBox from "./components/FilterSelectionBox.tsx";
+import Sheets from "./pages/Sheets.tsx";
 
 
 const theme = createTheme({});
 
+type PageName = 'data' | 'livepreview' | 'sheets';
+
 function App() {
 
-    const [page, setPage] = useState<'data' | 'livepreview'>('livepreview');
+    const [page, setPage] = useState<PageName>('livepreview');
 
-    const handlePageChange = (page: 'data' | 'livepreview') => () => {
+    const handlePageChange = (page: PageName) => () => {
         setPage(page)
     };
     return <>
@@ -29,6 +32,9 @@ function App() {
                                 <Button onClick={handlePageChange('livepreview')} color="inherit" variant="outlined">
                                     Live Preview
                                 </Button>
+                                <Button onClick={handlePageChange('sheets')} color="inherit" variant="outlined">
+                                    Sheets
+                                </Button>
                             </Stack>
                         </Toolbar>
                 </AppBar>
@@ -37,14 +43,21 @@ function App() {
                 marginTop: 2,
             }}>
                 <FilterProvider>
-                    <Box className="filter-wrapper">
-                        <FilterSelectionBox />
-                    </Box>
+                  {
+                    (page === 'livepreview' || page === 'data') && (
+                      <Box className="filter-wrapper">
+                          <FilterSelectionBox />
+                      </Box>
+                    )
+                  }
                     {
                         page === "data" && <CardDataTable />
                     }
                     {
                         page === "livepreview" && <LivePreview/>
+                    }
+                    {
+                        page === "sheets" && <Sheets/>
                     }
                 </FilterProvider>
             </Box>

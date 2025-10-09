@@ -3,6 +3,7 @@ import type {CardData} from "../types/types.ts";
 import * as _ from "lodash";
 import {classNames, getCardWidthByActionCost} from "../utils/utils.ts";
 import {Box, Grid, Typography} from "@mui/material";
+import InfusionCard from "./cards/InfusionCard.tsx";
 
 interface CardProps {
     data: CardData;
@@ -22,10 +23,13 @@ function Card({data, size}: CardProps) {
     const artFileName = data.name.replace(/[^a-zA-Z0-9]/g, '') + '.svg';
     const artFilePath = `src/assets/art/${artFileName}`
 
+  // if(data.type === 'Infusion'){
+  //   return <InfusionCard data={data} size={size}/>;
+  // }
+
   return (
     <Grid size={size} className="cardwrapper">
       <Box className={`card ${data.type?.toLowerCase() || ''}`}>
-        <img className='watermark' src={artFilePath} alt={artFileName}/>
         <Box className="cardhead">
           <Typography>{data.name}</Typography>
           {(fp || ip || ch) && (
@@ -36,7 +40,8 @@ function Card({data, size}: CardProps) {
             </div>
           )}
         </Box>
-        <Box className="cardBody">
+        <Box className="cardBody" sx={{position: 'relative'}}>
+          <img className='watermark' src={artFilePath} alt={artFileName}/>
           <Box className="rules">
             {data.rules}
           </Box>

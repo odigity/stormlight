@@ -121,6 +121,7 @@ const combat: CardData[] = [
         name     : "End Grapple",
         status   : "PROOF",
         source   : "p.304",
+        type     : CardType.ACTION,
         inset    : true,
         actions  : 2,
         rules    : <>

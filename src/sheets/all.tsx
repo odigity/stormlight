@@ -18,7 +18,10 @@ const sheets: SheetData[] = [
         cards : [
             // double (8 squares)
             "Breathe Stormlight",
+            "Breathe Stormlight",
+            "Breathe Stormlight",
             "Grapple",
+            "Breathe Stormlight",
             "Recover",
             "Shove",
             // single (20 squares)
